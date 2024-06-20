@@ -1,0 +1,17 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx src/index.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.6",
+    "tsx": "^4.15.6",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "puppeteer": "^22.11.2"
+  }
+}
