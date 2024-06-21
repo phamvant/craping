@@ -38,30 +38,65 @@ const getContent = async (page: Page, link: { title: string; url: string }) => {
   });
 };
 
-parentPort?.on("message", async (categories: Category[]) => {
-  const regex = /id=(\d+)/;
+// parentPort?.on("message", async (categories: Category[]) => {
+//   const regex = /id=(\d+)/;
 
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
+//   const browser = await puppeteer.launch();
+//   const page = await browser.newPage();
 
-  for (const category of categories) {
-    const resultDir = path.join("result", category.category);
+//   for (const category of categories) {
+//     const resultDir = path.join("result", category.category);
+//     if (!fs.existsSync(resultDir)) {
+//       fs.mkdirSync(resultDir, { recursive: true });
+//     }
+
+//     const total = await getTotalPageOfCategory(page, category);
+
+//     for (let pageIdx = 1; pageIdx < total + 1; pageIdx++) {
+//       const links = await getLinks(page, category, pageIdx);
+
+//       for (const link of links) {
+//         try {
+//           const content = await getContent(page, link);
+
+//           const match = link.url.match(regex);
+//           const id = match ? match[1] : null;
+
+//           if (content) {
+//             fs.writeFileSync(
+//               path.join(resultDir, id + ".html"),
+//               content.toString(),
+//             );
+//           }
+//         } catch (e) {}
+//         console.log("Pulling", link.title);
+//       }
+//     }
+//   }
+
+//   parentPort?.postMessage("done");
+// });
+
+parentPort.on(
+  "message",
+  async (data: { start: number; stop: number; category: Category }) => {
+    const regex = /id=(\d+)/;
+
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+    const resultDir = path.join("result", data.category.category);
     if (!fs.existsSync(resultDir)) {
       fs.mkdirSync(resultDir, { recursive: true });
     }
 
-    const total = await getTotalPageOfCategory(page, category);
-
-    for (let pageIdx = 1; pageIdx < total + 1; pageIdx++) {
-      const links = await getLinks(page, category, pageIdx);
-
+    for (let pageIdx = data.start; pageIdx < data.stop + 1; pageIdx++) {
+      const links = await getLinks(page, data.category, pageIdx);
       for (const link of links) {
         try {
+          console.log("Pulling", link.title);
           const content = await getContent(page, link);
-
           const match = link.url.match(regex);
           const id = match ? match[1] : null;
-
           if (content) {
             fs.writeFileSync(
               path.join(resultDir, id + ".html"),
@@ -69,10 +104,7 @@ parentPort?.on("message", async (categories: Category[]) => {
             );
           }
         } catch (e) {}
-        console.log("Pulling", link.title);
       }
     }
-  }
-
-  parentPort?.postMessage("done");
-});
+  },
+);

@@ -19,6 +19,21 @@ const chunkify = (categories: Category[], n: number) => {
   return chunks;
 };
 
+const chunkify2 = (total: number, n: number) => {
+  const chunks: { start: number; stop: number }[] = [];
+  const part = Math.floor(total / n);
+
+  for (let i = 0; i < n; i++) {
+    if (i === n - 1) {
+      chunks.push({ start: i * part + 1, stop: total });
+    } else {
+      chunks.push({ start: i * part + 1, stop: (i + 1) * part });
+    }
+  }
+
+  return chunks;
+};
+
 const getCategories = async (page: Page) => {
   return await page.evaluate((baseURL) => {
     const titleElements = document.querySelector(".sList");
@@ -42,13 +57,30 @@ const main = async (idx: number) => {
   });
 
   const categories = await getCategories(page);
-  const chunks = chunkify(categories, CORE_NUM) as [];
+  // const chunks = chunkify(categories, CORE_NUM) as [];
 
-  chunks.forEach((data: Category[], i: number) => {
+  // chunks.forEach((data: Category[], i: number) => {
+  //   const worker = new Worker(require.resolve(`./worker`), {
+  //     execArgv: ["-r", "ts-node/register/transpile-only"],
+  //   });
+  //   worker.postMessage(data);
+  //   worker.on("message", () => {
+  //     console.log(`Worker ${i} completed`);
+  //   });
+  // });
+
+  const chunks2 = chunkify2(26, 4);
+  chunks2.forEach((data, i) => {
     const worker = new Worker(require.resolve(`./worker`), {
       execArgv: ["-r", "ts-node/register/transpile-only"],
     });
-    worker.postMessage(data);
+    worker.postMessage({
+      ...data,
+      category: {
+        category: "商科面试",
+        url: "https://www.chasedream.com/list.aspx?cid=28",
+      },
+    });
     worker.on("message", () => {
       console.log(`Worker ${i} completed`);
     });
