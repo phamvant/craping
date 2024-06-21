@@ -1,29 +1,60 @@
-import puppeteer from "puppeteer"; // or import puppeteer from 'puppeteer-core';
-import fs from "fs";
+import puppeteer, { Page } from "puppeteer"; // or import puppeteer from 'puppeteer-core';
+import { Worker } from "worker_threads";
 
-const main = async () => {
-  // Launch the browser and open a new blank page
+var BASE_URL = "https://www.chasedream.com";
+const CORE_NUM = 4;
+
+export interface Category {
+  category: string;
+  url: string;
+}
+
+const chunkify = (categories: Category[], n: number) => {
+  const chunks: Category[][] = [[], [], [], []];
+
+  for (let i = 0; i < categories.length; i++) {
+    chunks[i % n].push(categories[i]);
+  }
+
+  return chunks;
+};
+
+const getCategories = async (page: Page) => {
+  return await page.evaluate((baseURL) => {
+    const titleElements = document.querySelector(".sList");
+    const list = titleElements?.querySelectorAll("li");
+    return Array.from(list!).map((li) => {
+      const a = li.querySelector("a");
+      return {
+        category: a!.innerText,
+        url: baseURL + "/" + a!.getAttribute("href"),
+      };
+    });
+  }, BASE_URL);
+};
+
+const main = async (idx: number) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
-  // Navigate the page to a URL.
-  await page.goto("https://www.chasedream.com/show.aspx?id=35378&cid=29", {
+  await page.goto(`${BASE_URL}/list.aspx?cid=${idx}`, {
     waitUntil: "networkidle2",
   });
 
-  const post = await page.evaluate(() => {
-    const content = document.querySelector("#content");
-    const title = document.querySelector(".aTitle");
-    return { title: title?.innerHTML, content: content?.innerHTML };
-  });
+  const categories = await getCategories(page);
+  const chunks = chunkify(categories, CORE_NUM) as [];
 
-  fs.open("test.txt", "w", (err, fd) => {
-    fs.writeFileSync(fd, "title: " + post.title!.toString());
-    fs.writeFileSync(fd, "content: " + post.content!.toString());
-    fs.close(fd);
+  chunks.forEach((data: Category[], i: number) => {
+    const worker = new Worker(require.resolve(`./worker`), {
+      execArgv: ["-r", "ts-node/register/transpile-only"],
+    });
+    worker.postMessage(data);
+    worker.on("message", () => {
+      console.log(`Worker ${i} completed`);
+    });
   });
 
   browser.close();
 };
 
-main();
+main(5);
