@@ -2,7 +2,7 @@ import puppeteer, { Page } from "puppeteer"; // or import puppeteer from 'puppet
 import { Worker } from "worker_threads";
 
 var BASE_URL = "https://www.chasedream.com";
-const CORE_NUM = 4;
+const CORE_NUM = 8;
 
 export interface Category {
   category: string;
