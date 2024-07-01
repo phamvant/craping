@@ -34,7 +34,11 @@ const getContent = async (page: Page, link: { title: string; url: string }) => {
   await page.goto(link.url);
 
   return await page.evaluate(() => {
-    return document.querySelector("#content")?.outerHTML;
+    return (
+      document.querySelector(".aTitle")?.outerHTML +
+      "\n" +
+      document.querySelector("#content")?.outerHTML
+    );
   });
 };
 
@@ -103,7 +107,9 @@ parentPort.on(
               content.toString(),
             );
           }
-        } catch (e) {}
+        } catch (e) {
+          console.log(e);
+        }
       }
     }
   },

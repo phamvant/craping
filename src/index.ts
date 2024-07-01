@@ -2,7 +2,7 @@ import puppeteer, { Page } from "puppeteer"; // or import puppeteer from 'puppet
 import { Worker } from "worker_threads";
 
 var BASE_URL = "https://www.chasedream.com";
-const CORE_NUM = 8;
+const CORE_NUM = 4;
 
 export interface Category {
   category: string;
@@ -40,10 +40,12 @@ const getCategories = async (page: Page) => {
     const list = titleElements?.querySelectorAll("li");
     return Array.from(list!).map((li) => {
       const a = li.querySelector("a");
+      // if (!a!.getAttribute("href").includes("21")) {
       return {
         category: a!.innerText,
         url: baseURL + "/" + a!.getAttribute("href"),
       };
+      // }
     });
   }, BASE_URL);
 };
@@ -56,7 +58,7 @@ const main = async (idx: number) => {
     waitUntil: "networkidle2",
   });
 
-  const categories = await getCategories(page);
+  // const categories = await getCategories(page);
   // const chunks = chunkify(categories, CORE_NUM) as [];
 
   // chunks.forEach((data: Category[], i: number) => {
@@ -77,8 +79,8 @@ const main = async (idx: number) => {
     worker.postMessage({
       ...data,
       category: {
-        category: "商科面试",
-        url: "https://www.chasedream.com/list.aspx?cid=28",
+        category: "MBA面试",
+        url: "https://www.chasedream.com/list.aspx?cid=21",
       },
     });
     worker.on("message", () => {
@@ -89,4 +91,4 @@ const main = async (idx: number) => {
   browser.close();
 };
 
-main(5);
+main(21);
