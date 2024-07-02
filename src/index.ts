@@ -50,7 +50,7 @@ const getCategories = async (page: Page) => {
   }, BASE_URL);
 };
 
-const main = async (idx: number) => {
+const all = async (idx: number) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
@@ -58,18 +58,29 @@ const main = async (idx: number) => {
     waitUntil: "networkidle2",
   });
 
-  // const categories = await getCategories(page);
-  // const chunks = chunkify(categories, CORE_NUM) as [];
+  const categories = await getCategories(page);
+  const chunks = chunkify(categories, CORE_NUM) as [];
 
-  // chunks.forEach((data: Category[], i: number) => {
-  //   const worker = new Worker(require.resolve(`./worker`), {
-  //     execArgv: ["-r", "ts-node/register/transpile-only"],
-  //   });
-  //   worker.postMessage(data);
-  //   worker.on("message", () => {
-  //     console.log(`Worker ${i} completed`);
-  //   });
-  // });
+  chunks.forEach((data: Category[], i: number) => {
+    const worker = new Worker(require.resolve(`./worker`), {
+      execArgv: ["-r", "ts-node/register/transpile-only"],
+    });
+    worker.postMessage(data);
+    worker.on("message", () => {
+      console.log(`Worker ${i} completed`);
+    });
+  });
+
+  browser.close();
+};
+
+const single = async (idx: number) => {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+
+  await page.goto(`${BASE_URL}/list.aspx?cid=${idx}`, {
+    waitUntil: "networkidle2",
+  });
 
   const chunks2 = chunkify2(26, 4);
   chunks2.forEach((data, i) => {
@@ -91,4 +102,4 @@ const main = async (idx: number) => {
   browser.close();
 };
 
-main(21);
+single(25);

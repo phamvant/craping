@@ -1,4 +1,4 @@
-import fs from "fs";
+import fs from "fs/promises";
 import path from "path";
 import puppeteer, { Page } from "puppeteer"; // or import puppeteer from 'puppeteer-core';
 import { parentPort } from "worker_threads";
@@ -42,69 +42,69 @@ const getContent = async (page: Page, link: { title: string; url: string }) => {
   });
 };
 
-// parentPort?.on("message", async (categories: Category[]) => {
-//   const regex = /id=(\d+)/;
+parentPort.on("message", async (data: any) => {
+  if (data.start) {
+    signle(data);
+  } else {
+    all(data);
+  }
+});
 
-//   const browser = await puppeteer.launch();
-//   const page = await browser.newPage();
+const signle = async (data: {
+  start: number;
+  stop: number;
+  category: Category;
+}) => {
+  const regex = /id=(\d+)/;
 
-//   for (const category of categories) {
-//     const resultDir = path.join("result", category.category);
-//     if (!fs.existsSync(resultDir)) {
-//       fs.mkdirSync(resultDir, { recursive: true });
-//     }
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  const resultDir = path.join("result", data.category.category);
+  if (!fs.access(resultDir)) {
+    fs.mkdir(resultDir, { recursive: true });
+  }
 
-//     const total = await getTotalPageOfCategory(page, category);
+  for (let pageIdx = data.start; pageIdx < data.stop + 1; pageIdx++) {
+    const links = await getLinks(page, data.category, pageIdx);
+    for (const link of links) {
+      try {
+        console.log("Pulling", link.title);
+        const content = await getContent(page, link);
+        const match = link.url.match(regex);
+        const id = match ? match[1] : null;
 
-//     for (let pageIdx = 1; pageIdx < total + 1; pageIdx++) {
-//       const links = await getLinks(page, category, pageIdx);
-
-//       for (const link of links) {
-//         try {
-//           const content = await getContent(page, link);
-
-//           const match = link.url.match(regex);
-//           const id = match ? match[1] : null;
-
-//           if (content) {
-//             fs.writeFileSync(
-//               path.join(resultDir, id + ".html"),
-//               content.toString(),
-//             );
-//           }
-//         } catch (e) {}
-//         console.log("Pulling", link.title);
-//       }
-//     }
-//   }
-
-//   parentPort?.postMessage("done");
-// });
-
-parentPort.on(
-  "message",
-  async (data: { start: number; stop: number; category: Category }) => {
-    const regex = /id=(\d+)/;
-
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-    const resultDir = path.join("result", data.category.category);
-    if (!fs.existsSync(resultDir)) {
-      fs.mkdirSync(resultDir, { recursive: true });
+        if (content) {
+          fs.writeFile(path.join(resultDir, id + ".html"), content.toString());
+        }
+      } catch (e) {
+        console.log(e);
+      }
     }
+  }
+};
 
-    for (let pageIdx = data.start; pageIdx < data.stop + 1; pageIdx++) {
-      const links = await getLinks(page, data.category, pageIdx);
+const all = async (categories: Category[]) => {
+  const regex = /id=(\d+)/;
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  for (const category of categories) {
+    const resultDir = path.join("result", category.category);
+    if (!fs.access(resultDir)) {
+      fs.mkdir(resultDir, { recursive: true });
+    }
+    const total = await getTotalPageOfCategory(page, category);
+    for (let pageIdx = 1; pageIdx < total + 1; pageIdx++) {
+      const links = await getLinks(page, category, pageIdx);
       for (const link of links) {
         try {
-          console.log("Pulling", link.title);
+          console.log("Pulling ", link.title);
           const content = await getContent(page, link);
           const match = link.url.match(regex);
           const id = match ? match[1] : null;
           if (content) {
-            fs.writeFileSync(
+            fs.writeFile(
               path.join(resultDir, id + ".html"),
-              content.toString(),
+              content.toString()
             );
           }
         } catch (e) {
@@ -112,5 +112,6 @@ parentPort.on(
         }
       }
     }
-  },
-);
+  }
+  parentPort?.postMessage("done");
+};
