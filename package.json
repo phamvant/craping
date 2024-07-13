@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "npx tsx src/index.ts"
+    "dev": "node src/ai/groq.js"
   },
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "@types/cheerio": "^0.22.35",
@@ -17,6 +18,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "groq-sdk": "^0.5.0",
+    "openai": "^4.52.3",
     "pg": "^8.12.0",
     "puppeteer": "^22.12.1"
   }

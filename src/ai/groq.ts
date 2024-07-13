@@ -1,9 +1,9 @@
-import Groq from "groq-sdk";
-import fsSync from "fs";
-import fs from "fs/promises";
+import { readFile, writeFile } from "fs/promises";
+import OpenAI from "openai";
 
-const groq = new Groq({
-  apiKey: process.env.AI_APIKEY,
+const openai = new OpenAI({
+  baseURL: "http://localhost:1234/v1",
+  apiKey: "lm-studio", // This is the default and can be omitted
 });
 
 export async function callAI(prop) {
@@ -12,37 +12,34 @@ export async function callAI(prop) {
 }
 
 async function getGroqChatCompletion(prop) {
-  return groq.chat.completions.create({
-    messages: [
-      {
-        role: "system",
-        content:
-          "You're helpful AI, I sent your artical as html, you will write summary in markdown in English",
-      },
-      {
-        role: "user",
-        content: prop,
-      },
-    ],
-    model: "llama3-8b-8192",
+  return await openai.chat.completions.create({
+    messages: [{ role: "user", content: prop }],
+    model: "lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF",
   });
 }
 
 const main = async () => {
+  console.log("");
   let i = 0;
-  const file = fsSync.readFileSync("contents.json");
+  const file = await readFile("contents.json");
   const posts = JSON.parse(file.toString())["posts"] as string[];
   let totalTokenPerMinues = 0;
 
   const getData = async () => {
     console.log(posts[i]);
-    const content = (await fs.readFile(`./result/${posts[i]}`)).toString();
+    const content = (await readFile(`./result/${posts[i]}`)).toString();
 
-    const ret = await getGroqChatCompletion(content);
+    const ret = await getGroqChatCompletion(
+      content +
+        `
 
-    fs.writeFile(
+
+        translate to English and convert to markdown`,
+    );
+
+    writeFile(
       `./markdown/${posts[i].toString().split("/")[2].replace("html", "md")}`,
-      ret.choices[0]?.message?.content || "null"
+      ret.choices[0]?.message?.content || "null",
     );
     totalTokenPerMinues += ret.usage.total_tokens;
 
@@ -65,11 +62,6 @@ const main = async () => {
 
     if (!(await getData())) {
       return;
-    }
-
-    if (14400 - totalTokenPerMinues < 7000) {
-      isPending = true;
-      pending = new Date().getMinutes();
     }
   }
 };
