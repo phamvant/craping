@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 import puppeteer, { Page } from "puppeteer"; // or import puppeteer from 'puppeteer-core';
 import { parentPort } from "worker_threads";
-import { Category } from ".";
+import { Category } from "./index.js";
 
 var BASE_URL = "https://www.chasedream.com";
 

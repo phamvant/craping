@@ -82,7 +82,7 @@ const single = async (idx: number) => {
     waitUntil: "networkidle2",
   });
 
-  const chunks2 = chunkify2(26, 4);
+  const chunks2 = chunkify2(38, 4);
   chunks2.forEach((data, i) => {
     const worker = new Worker(require.resolve(`./worker`), {
       execArgv: ["-r", "ts-node/register/transpile-only"],
@@ -90,8 +90,8 @@ const single = async (idx: number) => {
     worker.postMessage({
       ...data,
       category: {
-        category: "MBA面试",
-        url: "https://www.chasedream.com/list.aspx?cid=21",
+        category: "Resume",
+        url: `https://www.chasedream.com/list.aspx?cid=${idx}`,
       },
     });
     worker.on("message", () => {
@@ -102,4 +102,4 @@ const single = async (idx: number) => {
   browser.close();
 };
 
-single(25);
+single(22);
