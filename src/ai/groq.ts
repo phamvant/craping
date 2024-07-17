@@ -1,19 +1,14 @@
 import { readFile, writeFile } from "fs/promises";
-// import OpenAI from "openai";
 
 import { LMStudioClient } from "@lmstudio/sdk";
 
+import { encoding_for_model } from "@dqbd/tiktoken";
 const client = new LMStudioClient();
 
-// const openai = new OpenAI({
-//   baseURL: "http://localhost:1234/v1",
-//   apiKey: "lm-studio", // This is the default and can be omitted
-// });
-
-// export async function callAI(prop) {
-//   const chatCompletion = await getGroqChatCompletion(prop);
-//   return chatCompletion.choices[0]?.message?.content || "";
-// }
+export async function callAI(prop) {
+  const chatCompletion = await getGroqChatCompletion(prop);
+  return chatCompletion.content;
+}
 
 async function getGroqChatCompletion(prop) {
   const modelPath = "bartowski/Starling-LM-7B-beta-GGUF";
@@ -26,33 +21,40 @@ async function getGroqChatCompletion(prop) {
   return prediction;
 }
 
+function numTokensFromString(message: string) {
+  const encoder = encoding_for_model("gpt-3.5-turbo");
+
+  const tokens = encoder.encode(
+    message +
+      `
+
+
+
+  translate to English in markdown
+  `
+  );
+  encoder.free();
+  return tokens.length;
+}
+
 const main = async () => {
   let i = 0;
   const file = await readFile("contents.json");
   const posts = JSON.parse(file.toString())["posts"] as string[];
-  let totalTokenPerMinues = 0;
 
   const getData = async () => {
-    console.log(posts[i]);
     const content = (await readFile(`./result/${posts[i]}`)).toString();
+    if (numTokensFromString(content) > 8000) {
+      i++;
+      return true;
+    }
 
-    const ret = await getGroqChatCompletion(
-      content +
-        `
-
-
-
-      translate to English in markdown.'
-      `,
-    );
-
-    // console.log(ret.content);
+    const ret = await getGroqChatCompletion(content);
 
     writeFile(
       `./markdown/${posts[i].toString().split("/")[2].replace("html", "md")}`,
-      ret.content || "null",
+      ret.content || "null"
     );
-    // totalTokenPerMinues += ret.usage.total_tokens;
 
     if (i < posts.length) {
       i++;
@@ -62,30 +64,11 @@ const main = async () => {
     }
   };
 
-  let isPending = false;
-  let pending;
-
   while (1) {
-    if (isPending) {
-      while (new Date().getMinutes() - pending === 0) {}
-      isPending = false;
-    }
-
     if (!(await getData())) {
-      return;
+      process.exit(0);
     }
   }
 };
 
 main();
-// const main = async () => {
-//   const content = (
-//     await fs.readFile("./result/MBA/MBA面试/000001.html")
-//   ).toString();
-//   const ret = await getGroqChatCompletion(content);
-
-//   console.log(ret.choices[0]?.message?.content || "");
-//   console.log(ret);
-// };
-
-// main();
