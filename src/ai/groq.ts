@@ -1,27 +1,29 @@
 import { readFile, writeFile } from "fs/promises";
-
-import { LMStudioClient } from "@lmstudio/sdk";
-
 import { encoding_for_model } from "@dqbd/tiktoken";
-const client = new LMStudioClient();
+import Groq from "groq-sdk";
 
-export async function callAI(prop) {
-  const chatCompletion = await getGroqChatCompletion(prop);
-  return chatCompletion.content;
-}
+const groq = new Groq({});
+const TOKEN_LIMIT = 30000; // Limit of tokens per minute
 
 async function getGroqChatCompletion(prop) {
-  const modelPath = "bartowski/Starling-LM-7B-beta-GGUF";
-  const llama3 = await client.llm.load(modelPath, {
-    config: { gpuOffload: "max" },
+  const chatCompletion = await groq.chat.completions.create({
+    messages: [
+      {
+        role: "user",
+        content: `
+        ${prop}
+
+        just translate to English without change html format. You don't have to explain anything
+      `,
+      },
+    ],
+    model: "llama3-8b-8192",
   });
 
-  const prediction = llama3.respond([{ role: "user", content: prop }]);
-
-  return prediction;
+  return chatCompletion.choices[0].message.content;
 }
 
-function numTokensFromString(message: string) {
+function numTokensFromString(message) {
   const encoder = encoding_for_model("gpt-3.5-turbo");
 
   const tokens = encoder.encode(
@@ -39,28 +41,44 @@ function numTokensFromString(message: string) {
 
 const main = async () => {
   let i = 0;
+  let tokensUsed = 0;
   const file = await readFile("contents.json");
   const posts = JSON.parse(file.toString())["posts"] as string[];
 
+  const resetTokens = () => {
+    tokensUsed = 0;
+  };
+
+  setInterval(resetTokens, 60000); // Reset the token count every minute
+
   const getData = async () => {
     const content = (await readFile(`./result/${posts[i]}`)).toString();
-    if (numTokensFromString(content) > 8000) {
+    const tokens = numTokensFromString(content);
+
+    if (tokensUsed + tokens > TOKEN_LIMIT) {
+      while (!tokensUsed) {}
+    }
+
+    if (tokens > 8000) {
+      // If the content is too large or we exceed the token limit, skip to the next file
       i++;
       return true;
     }
 
+    tokensUsed += tokens;
+
     const ret = await getGroqChatCompletion(content);
 
-    writeFile(
-      `./markdown/${posts[i].toString().split("/")[2].replace("html", "md")}`,
-      ret.content || "null"
+    await writeFile(
+      `./markdown/${posts[i].toString().split("/")[2].replace("html", "html")}`,
+      ret || "null"
     );
 
     if (i < posts.length) {
       i++;
       return true;
     } else {
-      false;
+      return false;
     }
   };
 
