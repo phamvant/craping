@@ -1,6 +1,7 @@
 import fs from "fs/promises";
 import cheerio from "cheerio";
 import postgres from "./db";
+import { ServerBlockNoteEditor } from "@blocknote/server-util";
 
 const addLeadingZeros = (num) => {
   return String(num).padStart(6, "0");
@@ -36,17 +37,22 @@ const insertToTable = async () => {
       const $ = cheerio.load(html);
 
       const title = $("h1.aTitle").text().trim();
+      const editor = ServerBlockNoteEditor.create();
+      const block = await editor.tryParseHTMLToBlocks(html);
+      const markdown = await editor.blocksToMarkdownLossy(block);
 
       const ret = await postgres.query(
-        `INSERT INTO public.post (title, link, category_id, is_scrap)
+        `INSERT INTO public.post (title, content, is_scrap, category_id, is_published, author_id)
         VALUES
             (
                 $1,
                 $2,
-                (SELECT id FROM category WHERE name = $3),
-                TRUE
+                TRUE,
+                1,
+                TRUE,
+                '108543290814069582461'
             )`,
-        [title, post, category]
+        [title, markdown]
       );
 
       console.log(post);

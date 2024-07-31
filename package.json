@@ -17,6 +17,7 @@
   "dependencies": {
     "@dqbd/tiktoken": "^1.0.15",
     "@lmstudio/sdk": "^0.0.12",
+    "@blocknote/server-util": "^0.15.1",
     "cheerio": "^1.0.0-rc.12",
     "groq-sdk": "^0.5.0",
     "pg": "^8.12.0",

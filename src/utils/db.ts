@@ -5,7 +5,7 @@ const postgresSingleton = () => {
     host: "localhost",
     port: 5432,
     database: "dreamhacker",
-    user: "dreamhacker-admin",
+    user: "phamvant",
     password: "thuan286",
     query_timeout: 2000,
   });

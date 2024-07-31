@@ -34,11 +34,19 @@ const getContent = async (page: Page, link: { title: string; url: string }) => {
   await page.goto(link.url);
 
   return await page.evaluate(() => {
-    return (
-      document.querySelector(".aTitle")?.outerHTML +
-      "\n" +
-      document.querySelector("#content")?.outerHTML
-    );
+    const context = document.querySelector("#bodyTd");
+    const date = context
+      .querySelector("tr")
+      .querySelector("td")
+      .innerText.match(/\d{4}-\d{2}-\d{2}/)[0];
+
+    return {
+      date: date,
+      content:
+        document.querySelector(".aTitle")?.outerHTML +
+        "\n" +
+        document.querySelector("#content")?.outerHTML,
+    };
   });
 };
 
@@ -69,12 +77,16 @@ const signle = async (data: {
     for (const link of links) {
       try {
         console.log("Pulling", link.title);
-        const content = await getContent(page, link);
+        const data = await getContent(page, link);
+
         const match = link.url.match(regex);
         const id = match ? match[1] : null;
 
-        if (content) {
-          fs.writeFile(path.join(resultDir, id + ".html"), content.toString());
+        if (data.content) {
+          fs.writeFile(
+            path.join(resultDir, id + "_" + data.date + ".html"),
+            data.content.toString()
+          );
         }
       } catch (e) {
         console.log(e);

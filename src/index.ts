@@ -90,7 +90,7 @@ const single = async (idx: number) => {
     worker.postMessage({
       ...data,
       category: {
-        category: "Resume",
+        category: "MBA/Resume",
         url: `https://www.chasedream.com/list.aspx?cid=${idx}`,
       },
     });
@@ -101,5 +101,26 @@ const single = async (idx: number) => {
 
   browser.close();
 };
+
+const test = async () => {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+
+  await page.goto("https://www.chasedream.com/show.aspx?id=35415&cid=22");
+
+  const date = await page.evaluate(() => {
+    const context = document.querySelector("#bodyTd");
+    const date = context
+      .querySelector("tr")
+      .querySelector("td")
+      .innerText.match(/\d{4}-\d{2}-\d{2}/)[0];
+
+    return date;
+  });
+
+  console.log(date);
+};
+
+// test();
 
 single(22);
