@@ -40,9 +40,10 @@ const insertToTable = async () => {
       const editor = ServerBlockNoteEditor.create();
       const block = await editor.tryParseHTMLToBlocks(html);
       const markdown = await editor.blocksToMarkdownLossy(block);
+      const date = post.match(/\d{4}-\d{2}-\d{2}/)[0];
 
       const ret = await postgres.query(
-        `INSERT INTO public.post (title, content, is_scrap, category_id, is_published, author_id)
+        `INSERT INTO public.post (title, content, is_scrap, category_id, is_published, author_id, created_at)
         VALUES
             (
                 $1,
@@ -50,9 +51,10 @@ const insertToTable = async () => {
                 TRUE,
                 1,
                 TRUE,
-                '108543290814069582461'
+                '108543290814069582461',
+                $3
             )`,
-        [title, markdown]
+        [title, markdown, date]
       );
 
       console.log(post);
