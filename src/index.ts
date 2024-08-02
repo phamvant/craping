@@ -74,7 +74,7 @@ const all = async (idx: number) => {
   browser.close();
 };
 
-const single = async (idx: number) => {
+const single = async (idx: number, pages: number, category: string) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
@@ -82,7 +82,7 @@ const single = async (idx: number) => {
     waitUntil: "networkidle2",
   });
 
-  const chunks2 = chunkify2(38, 4);
+  const chunks2 = chunkify2(pages, 4);
   chunks2.forEach((data, i) => {
     const worker = new Worker(require.resolve(`./worker`), {
       execArgv: ["-r", "ts-node/register/transpile-only"],
@@ -90,7 +90,7 @@ const single = async (idx: number) => {
     worker.postMessage({
       ...data,
       category: {
-        category: "MBA/Resume",
+        category: category,
         url: `https://www.chasedream.com/list.aspx?cid=${idx}`,
       },
     });
@@ -123,4 +123,4 @@ const test = async () => {
 
 // test();
 
-single(22);
+single(29, 99, "Master/ApplicationStrategy");

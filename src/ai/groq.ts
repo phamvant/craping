@@ -2,7 +2,7 @@ import { readFile, writeFile } from "fs/promises";
 import { encoding_for_model } from "@dqbd/tiktoken";
 import Groq from "groq-sdk";
 
-const groq = new Groq({});
+const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 const TOKEN_LIMIT = 30000; // Limit of tokens per minute
 
 async function getGroqChatCompletion(prop) {
@@ -70,7 +70,7 @@ const main = async () => {
     const ret = await getGroqChatCompletion(content);
 
     await writeFile(
-      `./markdown/${posts[i].toString().split("/")[2].replace("html", "html")}`,
+      `./markdown/${posts[i].toString().split("/")[2]}`,
       ret || "null"
     );
 

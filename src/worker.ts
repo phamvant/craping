@@ -65,6 +65,8 @@ const signle = async (data: {
 }) => {
   const regex = /id=(\d+)/;
 
+  console.log(data.start, data.stop);
+
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   const resultDir = path.join("result", data.category.category);
@@ -72,15 +74,25 @@ const signle = async (data: {
     fs.mkdir(resultDir, { recursive: true });
   }
 
+  const files = await fs.readdir(resultDir);
+
   for (let pageIdx = data.start; pageIdx < data.stop + 1; pageIdx++) {
     const links = await getLinks(page, data.category, pageIdx);
     for (const link of links) {
       try {
-        console.log("Pulling", link.title);
-        const data = await getContent(page, link);
-
         const match = link.url.match(regex);
         const id = match ? match[1] : null;
+
+        const matchingFile = files.filter((file) => file.startsWith(id));
+
+        if (matchingFile.length > 0) {
+          console.log("Skip", link.title);
+          continue;
+        }
+
+        console.log("Pulling", link.title);
+
+        const data = await getContent(page, link);
 
         if (data.content) {
           fs.writeFile(
