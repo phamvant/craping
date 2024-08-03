@@ -1,11 +1,11 @@
-import { readFile, writeFile } from "fs/promises";
+import { readFile, writeFile, readdir } from "fs/promises";
 import { encoding_for_model } from "@dqbd/tiktoken";
 import Groq from "groq-sdk";
 
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 const TOKEN_LIMIT = 30000; // Limit of tokens per minute
 
-async function getGroqChatCompletion(prop) {
+async function getGroqChatCompletion(prop, lang) {
   const chatCompletion = await groq.chat.completions.create({
     messages: [
       {
@@ -13,7 +13,7 @@ async function getGroqChatCompletion(prop) {
         content: `
         ${prop}
 
-        just translate to English without change html format. You don't have to explain anything
+        just translate to ${lang} without change html format. You don't have to explain anything
       `,
       },
     ],
@@ -31,19 +31,18 @@ function numTokensFromString(message) {
       `
 
 
-
-  translate to English in markdown
+    
+      just translate to English without change html format. You don't have to explain anything
   `
   );
   encoder.free();
   return tokens.length;
 }
 
-const main = async () => {
+const main = async (lang: string) => {
   let i = 0;
   let tokensUsed = 0;
-  const file = await readFile("contents.json");
-  const posts = JSON.parse(file.toString())["posts"] as string[];
+  const posts = await readdir(lang === "en" ? "cn" : "en");
 
   const resetTokens = () => {
     tokensUsed = 0;
@@ -52,8 +51,9 @@ const main = async () => {
   setInterval(resetTokens, 60000); // Reset the token count every minute
 
   const getData = async () => {
-    const content = (await readFile(`./result/${posts[i]}`)).toString();
+    const content = (await readFile(`./cn/${posts[i]}`)).toString();
     const tokens = numTokensFromString(content);
+    console.log(posts[i]);
 
     if (tokensUsed + tokens > TOKEN_LIMIT) {
       while (!tokensUsed) {}
@@ -67,12 +67,12 @@ const main = async () => {
 
     tokensUsed += tokens;
 
-    const ret = await getGroqChatCompletion(content);
-
-    await writeFile(
-      `./markdown/${posts[i].toString().split("/")[2]}`,
-      ret || "null"
+    const ret = await getGroqChatCompletion(
+      content,
+      lang === "vn" ? "Vietnamese" : "English"
     );
+
+    await writeFile(`./${lang}/${posts[i]}`, ret || "null");
 
     if (i < posts.length) {
       i++;
@@ -89,4 +89,4 @@ const main = async () => {
   }
 };
 
-main();
+main("vn");

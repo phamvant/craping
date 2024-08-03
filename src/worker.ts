@@ -69,7 +69,7 @@ const signle = async (data: {
 
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  const resultDir = path.join("result", data.category.category);
+  const resultDir = "cn";
   if (!fs.access(resultDir)) {
     fs.mkdir(resultDir, { recursive: true });
   }
@@ -112,7 +112,7 @@ const all = async (categories: Category[]) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   for (const category of categories) {
-    const resultDir = path.join("result", category.category);
+    const resultDir = path.join("cn");
     if (!fs.access(resultDir)) {
       fs.mkdir(resultDir, { recursive: true });
     }

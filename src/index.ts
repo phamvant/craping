@@ -5,7 +5,6 @@ var BASE_URL = "https://www.chasedream.com";
 const CORE_NUM = 4;
 
 export interface Category {
-  category: string;
   url: string;
 }
 
@@ -74,7 +73,7 @@ const all = async (idx: number) => {
   browser.close();
 };
 
-const single = async (idx: number, pages: number, category: string) => {
+const single = async ({ idx, pages }: { idx: number; pages: number }) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
@@ -90,7 +89,6 @@ const single = async (idx: number, pages: number, category: string) => {
     worker.postMessage({
       ...data,
       category: {
-        category: category,
         url: `https://www.chasedream.com/list.aspx?cid=${idx}`,
       },
     });
@@ -121,6 +119,4 @@ const test = async () => {
   console.log(date);
 };
 
-// test();
-
-single(29, 99, "Master/ApplicationStrategy");
+single({ idx: 14, pages: 24 });

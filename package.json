@@ -15,9 +15,10 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@blocknote/server-util": "^0.15.1",
     "@dqbd/tiktoken": "^1.0.15",
     "@lmstudio/sdk": "^0.0.12",
-    "@blocknote/server-util": "^0.15.1",
+    "archiver": "^7.0.1",
     "cheerio": "^1.0.0-rc.12",
     "groq-sdk": "^0.5.0",
     "pg": "^8.12.0",
