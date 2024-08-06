@@ -31,6 +31,7 @@ const getLinks = async (page: Page, category: Category, pageIdx: number) => {
 };
 
 const getContent = async (page: Page, link: { title: string; url: string }) => {
+  console.log("Pulling", link.title);
   await page.goto(link.url);
 
   return await page.evaluate(() => {
@@ -89,8 +90,6 @@ const signle = async (data: {
           console.log("Skip", link.title);
           continue;
         }
-
-        console.log("Pulling", link.title);
 
         const data = await getContent(page, link);
 
