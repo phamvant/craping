@@ -39,7 +39,6 @@ const getCategories = async (page: Page) => {
     const list = titleElements?.querySelectorAll("li");
     return Array.from(list!).map((li) => {
       const a = li.querySelector("a");
-      // if (!a!.getAttribute("href").includes("21")) {
       return {
         category: a!.innerText,
         url: baseURL + "/" + a!.getAttribute("href"),

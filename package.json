@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "npx tsx src/index.ts"
   },
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "@types/cheerio": "^0.22.35",
