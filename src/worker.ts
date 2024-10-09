@@ -96,7 +96,7 @@ const signle = async (data: {
         if (data.content) {
           fs.writeFile(
             path.join(resultDir, id + "_" + data.date + ".html"),
-            data.content.toString()
+            data.content.toString(),
           );
         }
       } catch (e) {
@@ -127,7 +127,7 @@ const all = async (categories: Category[]) => {
           if (content) {
             fs.writeFile(
               path.join(resultDir, id + ".html"),
-              content.toString()
+              content.toString(),
             );
           }
         } catch (e) {

@@ -31,9 +31,9 @@ function numTokensFromString(message) {
       `
 
 
-    
+
       just translate to English without change html format. You don't have to explain anything
-  `
+  `,
   );
   encoder.free();
   return tokens.length;
@@ -69,7 +69,7 @@ const main = async (lang: string) => {
 
     const ret = await getGroqChatCompletion(
       content,
-      lang === "vn" ? "Vietnamese" : "English"
+      lang === "vn" ? "Vietnamese" : "English",
     );
 
     await writeFile(`./${lang}/${posts[i]}`, ret || "null");

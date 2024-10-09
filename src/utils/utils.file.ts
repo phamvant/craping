@@ -5,7 +5,7 @@ import { ServerBlockNoteEditor } from "@blocknote/server-util";
 import path from "path";
 
 const mapping = [
-  [28, 25],
+  // [28, 25],
   // [14, 11],
   // [15, 12],
   // [16, 13],
@@ -20,6 +20,7 @@ const mapping = [
   // [25, 22],
   // [29, 26],
   // [51, 34],
+  [66, 36],
 ];
 
 const insertToTable = async () => {
@@ -64,7 +65,7 @@ const insertToTable = async () => {
           `INSERT INTO "post" (category_id, is_published, author_id, created_at)
         VALUES ($1, TRUE, '108543290814069582461', $2)
         RETURNING id`,
-          [mapto, date]
+          [mapto, date],
         );
 
         let insertedId;
@@ -85,13 +86,13 @@ const insertToTable = async () => {
           const post_univeral_cn = await postgres.query(
             `INSERT INTO "post_universal" (post_id, title, content, lang)
             VALUES ($1, $2, $3, 'cn')`,
-            [insertedId, title_cn, markdown_cn]
+            [insertedId, title_cn, markdown_cn],
           );
         } else {
           const post_univeral_cn = await postgres.query(
             `INSERT INTO "post_universal" (post_id, lang)
             VALUES ($1, 'cn')`,
-            [insertedId]
+            [insertedId],
           );
         }
 
@@ -104,13 +105,13 @@ const insertToTable = async () => {
           const post_univeral_en = await postgres.query(
             `INSERT INTO "post_universal" (post_id, title, content, lang)
           VALUES ($1, $2, $3, 'en')`,
-            [insertedId, title_en, markdown_en]
+            [insertedId, title_en, markdown_en],
           );
         } else {
           const post_univeral_en = await postgres.query(
             `INSERT INTO "post_universal" (post_id, lang)
           VALUES ($1, 'en')`,
-            [insertedId]
+            [insertedId],
           );
         }
 
@@ -123,19 +124,20 @@ const insertToTable = async () => {
           const post_univeral_vn = await postgres.query(
             `INSERT INTO "post_universal" (post_id, title, content, lang)
           VALUES ($1, $2, $3, 'vn')`,
-            [insertedId, title_vn, markdown_vn]
+            [insertedId, title_vn, markdown_vn],
           );
         } else {
           const post_univeral_vn = await postgres.query(
             `INSERT INTO "post_universal" (post_id, lang)
           VALUES ($1, 'vn')`,
-            [insertedId]
+            [insertedId],
           );
         }
 
         console.log(post);
       } catch (e) {
         console.log(e);
+        process.exit(0);
       }
     }
   }
