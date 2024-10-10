@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import path from "path";
 import puppeteer, { Page } from "puppeteer"; // or import puppeteer from 'puppeteer-core';
 import { parentPort } from "worker_threads";
-import { Category } from ".";
+import { Category } from "./index.js";
 
 var BASE_URL = "https://www.chasedream.com";
 
@@ -31,14 +31,23 @@ const getLinks = async (page: Page, category: Category, pageIdx: number) => {
 };
 
 const getContent = async (page: Page, link: { title: string; url: string }) => {
+  console.log("Pulling", link.title);
   await page.goto(link.url);
 
   return await page.evaluate(() => {
-    return (
-      document.querySelector(".aTitle")?.outerHTML +
-      "\n" +
-      document.querySelector("#content")?.outerHTML
-    );
+    const context = document.querySelector("#bodyTd");
+    const date = context
+      .querySelector("tr")
+      .querySelector("td")
+      .innerText.match(/\d{4}-\d{2}-\d{2}/)[0];
+
+    return {
+      date: date,
+      content:
+        document.querySelector(".aTitle")?.outerHTML +
+        "\n" +
+        document.querySelector("#content")?.outerHTML,
+    };
   });
 };
 
@@ -57,24 +66,38 @@ const signle = async (data: {
 }) => {
   const regex = /id=(\d+)/;
 
+  console.log(data.start, data.stop);
+
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  const resultDir = path.join("result", data.category.category);
+  const resultDir = "cn";
   if (!fs.access(resultDir)) {
     fs.mkdir(resultDir, { recursive: true });
   }
+
+  const files = await fs.readdir(resultDir);
 
   for (let pageIdx = data.start; pageIdx < data.stop + 1; pageIdx++) {
     const links = await getLinks(page, data.category, pageIdx);
     for (const link of links) {
       try {
-        console.log("Pulling", link.title);
-        const content = await getContent(page, link);
         const match = link.url.match(regex);
         const id = match ? match[1] : null;
 
-        if (content) {
-          fs.writeFile(path.join(resultDir, id + ".html"), content.toString());
+        const matchingFile = files.filter((file) => file.startsWith(id));
+
+        if (matchingFile.length > 0) {
+          console.log("Skip", link.title);
+          continue;
+        }
+
+        const data = await getContent(page, link);
+
+        if (data.content) {
+          fs.writeFile(
+            path.join(resultDir, id + "_" + data.date + ".html"),
+            data.content.toString(),
+          );
         }
       } catch (e) {
         console.log(e);
@@ -88,7 +111,7 @@ const all = async (categories: Category[]) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   for (const category of categories) {
-    const resultDir = path.join("result", category.category);
+    const resultDir = path.join("cn");
     if (!fs.access(resultDir)) {
       fs.mkdir(resultDir, { recursive: true });
     }
@@ -104,7 +127,7 @@ const all = async (categories: Category[]) => {
           if (content) {
             fs.writeFile(
               path.join(resultDir, id + ".html"),
-              content.toString()
+              content.toString(),
             );
           }
         } catch (e) {

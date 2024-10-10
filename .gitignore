@@ -1,3 +1,8 @@
 node_modules
 .env
-markdown
+cn
+en
+vn
+data
+cookies.json
+localStorage.json

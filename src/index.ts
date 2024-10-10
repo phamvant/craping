@@ -5,7 +5,6 @@ var BASE_URL = "https://www.chasedream.com";
 const CORE_NUM = 4;
 
 export interface Category {
-  category: string;
   url: string;
 }
 
@@ -40,7 +39,6 @@ const getCategories = async (page: Page) => {
     const list = titleElements?.querySelectorAll("li");
     return Array.from(list!).map((li) => {
       const a = li.querySelector("a");
-      // if (!a!.getAttribute("href").includes("21")) {
       return {
         category: a!.innerText,
         url: baseURL + "/" + a!.getAttribute("href"),
@@ -74,7 +72,7 @@ const all = async (idx: number) => {
   browser.close();
 };
 
-const single = async (idx: number) => {
+const single = async ({ idx, pages }: { idx: number; pages: number }) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
@@ -82,7 +80,7 @@ const single = async (idx: number) => {
     waitUntil: "networkidle2",
   });
 
-  const chunks2 = chunkify2(26, 4);
+  const chunks2 = chunkify2(pages, 4);
   chunks2.forEach((data, i) => {
     const worker = new Worker(require.resolve(`./worker`), {
       execArgv: ["-r", "ts-node/register/transpile-only"],
@@ -90,8 +88,7 @@ const single = async (idx: number) => {
     worker.postMessage({
       ...data,
       category: {
-        category: "MBA面试",
-        url: "https://www.chasedream.com/list.aspx?cid=21",
+        url: `https://www.chasedream.com/list.aspx?cid=${idx}`,
       },
     });
     worker.on("message", () => {
@@ -102,4 +99,23 @@ const single = async (idx: number) => {
   browser.close();
 };
 
-single(25);
+const test = async () => {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+
+  await page.goto("https://www.chasedream.com/show.aspx?id=35415&cid=22");
+
+  const date = await page.evaluate(() => {
+    const context = document.querySelector("#bodyTd");
+    const date = context
+      .querySelector("tr")
+      .querySelector("td")
+      .innerText.match(/\d{4}-\d{2}-\d{2}/)[0];
+
+    return date;
+  });
+
+  console.log(date);
+};
+
+single({ idx: 66, pages: 48 });

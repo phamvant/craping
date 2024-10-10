@@ -1,80 +1,92 @@
-import { readFile, writeFile } from "fs/promises";
-import OpenAI from "openai";
+import { readFile, writeFile, readdir } from "fs/promises";
+import { encoding_for_model } from "@dqbd/tiktoken";
+import Groq from "groq-sdk";
 
-const openai = new OpenAI({
-  baseURL: "http://localhost:1234/v1",
-  apiKey: "lm-studio", // This is the default and can be omitted
-});
+const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+const TOKEN_LIMIT = 30000; // Limit of tokens per minute
 
-export async function callAI(prop) {
-  const chatCompletion = await getGroqChatCompletion(prop);
-  return chatCompletion.choices[0]?.message?.content || "";
-}
+async function getGroqChatCompletion(prop, lang) {
+  const chatCompletion = await groq.chat.completions.create({
+    messages: [
+      {
+        role: "user",
+        content: `
+        ${prop}
 
-async function getGroqChatCompletion(prop) {
-  return await openai.chat.completions.create({
-    messages: [{ role: "user", content: prop }],
-    model: "lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF",
+        just translate to ${lang} without change html format. You don't have to explain anything
+      `,
+      },
+    ],
+    model: "llama3-8b-8192",
   });
+
+  return chatCompletion.choices[0].message.content;
 }
 
-const main = async () => {
-  console.log("");
+function numTokensFromString(message) {
+  const encoder = encoding_for_model("gpt-3.5-turbo");
+
+  const tokens = encoder.encode(
+    message +
+      `
+
+
+
+      just translate to English without change html format. You don't have to explain anything
+  `,
+  );
+  encoder.free();
+  return tokens.length;
+}
+
+const main = async (lang: string) => {
   let i = 0;
-  const file = await readFile("contents.json");
-  const posts = JSON.parse(file.toString())["posts"] as string[];
-  let totalTokenPerMinues = 0;
+  let tokensUsed = 0;
+  const posts = await readdir(lang === "en" ? "cn" : "en");
+
+  const resetTokens = () => {
+    tokensUsed = 0;
+  };
+
+  setInterval(resetTokens, 60000); // Reset the token count every minute
 
   const getData = async () => {
+    const content = (await readFile(`./cn/${posts[i]}`)).toString();
+    const tokens = numTokensFromString(content);
     console.log(posts[i]);
-    const content = (await readFile(`./result/${posts[i]}`)).toString();
+
+    if (tokensUsed + tokens > TOKEN_LIMIT) {
+      while (!tokensUsed) {}
+    }
+
+    if (tokens > 8000) {
+      // If the content is too large or we exceed the token limit, skip to the next file
+      i++;
+      return true;
+    }
+
+    tokensUsed += tokens;
 
     const ret = await getGroqChatCompletion(
-      content +
-        `
-
-
-        translate to English and convert to markdown`,
+      content,
+      lang === "vn" ? "Vietnamese" : "English",
     );
 
-    writeFile(
-      `./markdown/${posts[i].toString().split("/")[2].replace("html", "md")}`,
-      ret.choices[0]?.message?.content || "null",
-    );
-    totalTokenPerMinues += ret.usage.total_tokens;
+    await writeFile(`./${lang}/${posts[i]}`, ret || "null");
 
     if (i < posts.length) {
       i++;
       return true;
     } else {
-      false;
+      return false;
     }
   };
 
-  let isPending = false;
-  let pending;
-
   while (1) {
-    if (isPending) {
-      while (new Date().getMinutes() - pending === 0) {}
-      isPending = false;
-    }
-
     if (!(await getData())) {
-      return;
+      process.exit(0);
     }
   }
 };
 
-main();
-// const main = async () => {
-//   const content = (
-//     await fs.readFile("./result/MBA/MBA面试/000001.html")
-//   ).toString();
-//   const ret = await getGroqChatCompletion(content);
-
-//   console.log(ret.choices[0]?.message?.content || "");
-//   console.log(ret);
-// };
-
-// main();
+main("vn");
