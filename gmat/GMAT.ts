@@ -95,14 +95,13 @@ export async function scrapeData(
 
     const explainContent = allItems[1].innerHTML;
 
-    const pureQuestion = htmlContent
+    const question = htmlContent
       .split(`<div class="item twoRowsBlock">`)[0]
       .replace(/<br\s*\/?>/g, "\n")
       .replace(/&nbsp;/g, " ")
       .replace(/<[^>]+>.*?<\/[^>]+>/gs, "")
       .trim();
 
-    const { question, options } = answerParse(pureQuestion);
     const explanation = explainContent
       .split(`<div class="item twoRowsBlock">`)[0]
       .replace(/<br\s*\/?>/g, "\n")
@@ -120,13 +119,19 @@ export async function scrapeData(
 
     return {
       question,
-      options,
       answer,
       explanation,
     };
   });
 
-  return data;
+  let ret;
+  if (data) {
+    const { question, options } = answerParse(data.question);
+
+    ret = { ...data, question: question, options };
+  }
+
+  return ret;
 }
 
 // scrapeData().catch((err) => console.error("Error:", err));
