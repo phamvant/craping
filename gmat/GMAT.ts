@@ -1,5 +1,6 @@
 import * as fs from "fs";
 import puppeteer, { Page } from "puppeteer";
+import { answerParse } from "./utils/AnswerParse";
 
 const cookiesFilePath = "./cookies.json";
 const localStorageFilePath = "./localStorage.json";
@@ -11,7 +12,7 @@ export async function saveCookies(page: Page) {
 
 export async function saveLocalStorage(page: Page) {
   const localStorageData = await page.evaluate(() =>
-    JSON.stringify(window.localStorage),
+    JSON.stringify(window.localStorage)
   );
   fs.writeFileSync(localStorageFilePath, localStorageData);
 }
@@ -26,7 +27,7 @@ export async function loadCookies(page: Page) {
 export async function loadLocalStorage(page: Page) {
   if (fs.existsSync(localStorageFilePath)) {
     const localStorageData = JSON.parse(
-      fs.readFileSync(localStorageFilePath, "utf-8"),
+      fs.readFileSync(localStorageFilePath, "utf-8")
     );
     await page.evaluate((data) => {
       for (const key in data) {
@@ -40,9 +41,10 @@ export async function loadLocalStorage(page: Page) {
 
 export async function scrapeData(
   page: Page,
-  link: string,
+  link: string
 ): Promise<{
   question: string;
+  options: string[];
   answer: string;
   explanation: string;
   // link: string;
@@ -93,13 +95,14 @@ export async function scrapeData(
 
     const explainContent = allItems[1].innerHTML;
 
-    const question = htmlContent
+    const pureQuestion = htmlContent
       .split(`<div class="item twoRowsBlock">`)[0]
       .replace(/<br\s*\/?>/g, "\n")
       .replace(/&nbsp;/g, " ")
       .replace(/<[^>]+>.*?<\/[^>]+>/gs, "")
       .trim();
 
+    const { question, options } = answerParse(pureQuestion);
     const explanation = explainContent
       .split(`<div class="item twoRowsBlock">`)[0]
       .replace(/<br\s*\/?>/g, "\n")
@@ -117,9 +120,9 @@ export async function scrapeData(
 
     return {
       question,
+      options,
       answer,
       explanation,
-      // link: link,
     };
   });
 
@@ -164,7 +167,7 @@ export async function scrapeData2() {
     "https://gmatclub.com/forum/in-1986-the-city-of-los-diablos-had-20-days-on-which-air-pollution-re-78466.html",
     {
       waitUntil: "networkidle2",
-    },
+    }
   );
 
   const data = await page.evaluate(() => {
@@ -180,27 +183,27 @@ export async function scrapeData2() {
 
     return explainContent;
 
-    let question = htmlContent
-      .split(`<div class="item twoRowsBlock">`)[0]
-      .replace(/<br\s*\/?>/g, "\n")
-      .trim()
-      .replace(/&nbsp;/g, " ")
-      .trim()
-      .replace(/<[^>]+>.*?<\/[^>]+>/gs, "")
-      .trim();
+    // let question = htmlContent
+    //   .split(`<div class="item twoRowsBlock">`)[0]
+    //   .replace(/<br\s*\/?>/g, "\n")
+    //   .trim()
+    //   .replace(/&nbsp;/g, " ")
+    //   .trim()
+    //   .replace(/<[^>]+>.*?<\/[^>]+>/gs, "")
+    //   .trim();
 
-    const answerElement = document.querySelector(".downRow");
+    // const answerElement = document.querySelector(".downRow");
 
-    if (!answerElement || !answerElement.textContent) {
-      return null;
-    }
+    // if (!answerElement || !answerElement.textContent) {
+    //   return null;
+    // }
 
-    const answer = answerElement ? answerElement.textContent.trim() : "";
+    // const answer = answerElement ? answerElement.textContent.trim() : "";
 
-    return {
-      question,
-      answer,
-    };
+    // return {
+    //   question,
+    //   answer,
+    // };
   });
 
   console.log(data);

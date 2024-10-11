@@ -70,7 +70,7 @@ const signle = async (data: {
 
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  const resultDir = "cn";
+  const resultDir = "./dreamhacker/data/cn";
   if (!fs.access(resultDir)) {
     fs.mkdir(resultDir, { recursive: true });
   }
