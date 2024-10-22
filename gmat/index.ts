@@ -7,41 +7,41 @@ import {
   saveLocalStorage,
   scrapeData,
 } from "./GMAT";
-import { a505 } from "./input/505";
+import { a805 } from "./input/805";
 
 (async () => {
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
 
-  await loadCookies(page);
-  await loadLocalStorage(page);
+  // await loadCookies(page);
+  // await loadLocalStorage(page);
 
-  // // Go to the login page (if not logged in)
-  // await page.goto("https://gmatclub.com/forum/ucp.php?mode=login", {
-  //   waitUntil: "networkidle2",
-  // });
+  // Go to the login page (if not logged in)
+  await page.goto("https://gmatclub.com/forum/ucp.php?mode=login", {
+    waitUntil: "networkidle2",
+  });
 
-  // // Check if logged in (by checking for a specific element)
-  // const isLoggedIn = await page.evaluate(() => {
-  //   return !!document.querySelector("element-1"); // Adjust the selector based on your site
-  // });
+  // Check if logged in (by checking for a specific element)
+  const isLoggedIn = await page.evaluate(() => {
+    return !!document.querySelector("element-1"); // Adjust the selector based on your site
+  });
 
-  // if (!isLoggedIn) {
-  //   // Perform login if not already logged in
-  //   await page.type("#email", "phamvant"); // Replace with your email
-  //   await page.type("#password", "thuan286"); // Replace with your password
-  //   await Promise.all([
-  //     page.click('input[type="submit"]'), // Adjust the selector for the submit button if needed
-  //     page.waitForNavigation({ waitUntil: "networkidle2" }),
-  //   ]);
+  if (!isLoggedIn) {
+    // Perform login if not already logged in
+    await page.type("#email", "phamvant"); // Replace with your email
+    await page.type("#password", "thuan286"); // Replace with your password
+    await Promise.all([
+      page.click('input[type="submit"]'), // Adjust the selector for the submit button if needed
+      page.waitForNavigation({ waitUntil: "networkidle2" }),
+    ]);
 
-  //   // Save cookies and local storage after login
-  //   await saveCookies(page);
-  //   await saveLocalStorage(page);
-  // }
+    // Save cookies and local storage after login
+    await saveCookies(page);
+    await saveLocalStorage(page);
+  }
 
   let ret = {};
-  for (const val of a505) {
+  for (const val of a805) {
     await page.goto(val.link, {
       waitUntil: "networkidle2",
     });
@@ -68,7 +68,7 @@ import { a505 } from "./input/505";
 
             ret[val.topic].push({ data, link: post });
             await writeFile(
-              "./gmat/output/data505.json",
+              "./gmat/output/data805.json",
               JSON.stringify(ret, null, 2),
             );
           }

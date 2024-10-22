@@ -107,10 +107,12 @@ const test = async () => {
 
   const date = await page.evaluate(() => {
     const context = document.querySelector("#bodyTd");
-    const date = context
-      .querySelector("tr")
-      .querySelector("td")
-      .innerText.match(/\d{4}-\d{2}-\d{2}/)[0];
+
+    const date =
+      context
+        ?.querySelector("tr")
+        ?.querySelector("td")
+        ?.innerText.match(/\d{4}-\d{2}-\d{2}/)?.[0] || null;
 
     return date;
   });

@@ -23,7 +23,7 @@ const getLinks = async (page: Page, category: Category, pageIdx: number) => {
     return Array.from(links).map((link) => {
       const aTag = link.querySelector("a");
       return {
-        title: aTag.innerText,
+        title: aTag!.innerText,
         url: baseUrl + "/" + aTag?.getAttribute("href"),
       };
     });
@@ -36,10 +36,17 @@ const getContent = async (page: Page, link: { title: string; url: string }) => {
 
   return await page.evaluate(() => {
     const context = document.querySelector("#bodyTd");
-    const date = context
-      .querySelector("tr")
-      .querySelector("td")
-      .innerText.match(/\d{4}-\d{2}-\d{2}/)[0];
+
+    const date =
+      context
+        ?.querySelector("tr")
+        ?.querySelector("td")
+        ?.innerText.match(/\d{4}-\d{2}-\d{2}/)?.[0] || null;
+
+    // const date = context
+    //   .querySelector("tr")
+    //   .querySelector("td")
+    //   .innerText.match(/\d{4}-\d{2}-\d{2}/)[0];
 
     return {
       date: date,
@@ -51,7 +58,7 @@ const getContent = async (page: Page, link: { title: string; url: string }) => {
   });
 };
 
-parentPort.on("message", async (data: any) => {
+parentPort?.on("message", async (data: any) => {
   if (data.start) {
     signle(data);
   } else {
@@ -84,7 +91,7 @@ const signle = async (data: {
         const match = link.url.match(regex);
         const id = match ? match[1] : null;
 
-        const matchingFile = files.filter((file) => file.startsWith(id));
+        const matchingFile = files.filter((file) => file.startsWith(id ?? ""));
 
         if (matchingFile.length > 0) {
           console.log("Skip", link.title);
@@ -96,7 +103,7 @@ const signle = async (data: {
         if (data.content) {
           fs.writeFile(
             path.join(resultDir, id + "_" + data.date + ".html"),
-            data.content.toString(),
+            data.content.toString()
           );
         }
       } catch (e) {
@@ -127,7 +134,7 @@ const all = async (categories: Category[]) => {
           if (content) {
             fs.writeFile(
               path.join(resultDir, id + ".html"),
-              content.toString(),
+              content.toString()
             );
           }
         } catch (e) {
