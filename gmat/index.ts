@@ -7,7 +7,7 @@ import {
   saveLocalStorage,
   scrapeData,
 } from "./GMAT";
-import { a805 } from "./input/805";
+import { a805 } from "./input/CR/805";
 
 (async () => {
   const browser = await puppeteer.launch({ headless: true });
