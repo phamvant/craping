@@ -7,7 +7,7 @@ import {
   saveLocalStorage,
   scrapeData,
 } from "./GMAT";
-import { a805 } from "./input/CR/805";
+import { a500 } from "./input/DS/500";
 
 (async () => {
   const browser = await puppeteer.launch({ headless: true });
@@ -41,7 +41,7 @@ import { a805 } from "./input/CR/805";
   }
 
   let ret = {};
-  for (const val of a805) {
+  for (const val of a500) {
     await page.goto(val.link, {
       waitUntil: "networkidle2",
     });
@@ -68,13 +68,13 @@ import { a805 } from "./input/CR/805";
 
             ret[val.topic].push({ data, link: post });
             await writeFile(
-              "./gmat/output/data805.json",
-              JSON.stringify(ret, null, 2),
+              "./gmat/output/data500.json",
+              JSON.stringify(ret, null, 2)
             );
           }
         }
       } catch (err) {
-        console.error(err)
+        console.error(err);
         console.error(post);
       }
     }
