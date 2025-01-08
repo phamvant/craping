@@ -8,3 +8,4 @@ cookies.json
 localStorage.json
 batch/batch_input.jsonl
 batch/batch_output.jsonl
+gmat/output

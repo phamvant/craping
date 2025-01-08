@@ -10,7 +10,9 @@ import {
 import { a500 } from "./input/DS/500";
 
 (async () => {
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({
+    headless: true,
+  });
   const page = await browser.newPage();
 
   // await loadCookies(page);
@@ -56,19 +58,18 @@ import { a500 } from "./input/DS/500";
         .filter((href) => href !== null); // Filter out any null values
     });
 
-    console.log(postLinks);
-
     ret[val.topic] = [];
     for (const post of postLinks) {
       try {
         if (post) {
           const data = await scrapeData(page, post);
+          await new Promise((resolve) => setTimeout(resolve, 3000));
           if (data) {
             console.log(post);
 
             ret[val.topic].push({ data, link: post });
             await writeFile(
-              "./gmat/output/data500.json",
+              "./gmat/output/DS/data500.json",
               JSON.stringify(ret, null, 2)
             );
           }

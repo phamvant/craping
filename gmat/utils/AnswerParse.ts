@@ -14,6 +14,7 @@ const pattern = [
   ["a)", "b)", "c)", "d)", "e)"],
   ["A)", "B)", "C)", "D)", "E)"],
   ["A.", "B.", "C.", "D.", "E."],
+  ["(1)", "(2)", "(3)", "(4)", "(5)"],
 ];
 
 export function answerParse(content: string): {
@@ -23,6 +24,7 @@ export function answerParse(content: string): {
   let idx = 0;
   let patternIdx = -1;
   let question;
+
   const options = content.split("\n").reduce((acc, cur) => {
     if (patternIdx === -1) {
       patternIdx = pattern.findIndex((val) => cur.includes(val[0]));

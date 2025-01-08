@@ -81,7 +81,7 @@ export async function scrapeData(
   // }
 
   await page.goto(link, {
-    waitUntil: "networkidle2",
+    waitUntil: "domcontentloaded",
   });
 
   const data = await page.evaluate(() => {
@@ -95,20 +95,18 @@ export async function scrapeData(
 
     const explainContent = allItems[1].innerHTML;
 
-    allItems[1].querySelector("")
-
     const question = htmlContent
       .split(`<div class="item twoRowsBlock">`)[0]
-      // .replace(/<br\s*\/?>/g, "\n")
+      .replace(/<br\s*\/?>/g, "\n")
       .replace(/&nbsp;/g, " ")
-      // .replace(/<[^>]+>.*?<\/[^>]+>/gs, "")
+      .replace(/<[^>]+>.*?<\/[^>]+>/gs, "")
       .trim();
 
     const explanation = explainContent
       .split(`<div class="item twoRowsBlock">`)[0]
-      // .replace(/<br\s*\/?>/g, "\n")
+      .replace(/<br\s*\/?>/g, "\n")
       .replace(/&nbsp;/g, " ")
-      // .replace(/<[^>]+>.*?<\/[^>]+>/gs, "")
+      .replace(/<[^>]+>.*?<\/[^>]+>/gs, "")
       .trim();
 
     const answerElement = document.querySelector(".downRow");
