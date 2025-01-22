@@ -7,12 +7,19 @@ import {
   saveLocalStorage,
   scrapeData,
 } from "./GMAT";
-import { a500 } from "./input/DS/500";
+import { a655 } from "./input/PS/655";
+import { a705 } from "./input/PS/705";
+import { a805 } from "./input/PS/805";
 
-(async () => {
+//need fix 605
+const files = [a655, a705, a805];
+const num = [655, 705, 805];
+
+const getData = async (file: any[], num: number) => {
   const browser = await puppeteer.launch({
     headless: true,
   });
+
   const page = await browser.newPage();
 
   // await loadCookies(page);
@@ -23,12 +30,12 @@ import { a500 } from "./input/DS/500";
     waitUntil: "networkidle2",
   });
 
-  // Check if logged in (by checking for a specific element)
   const isLoggedIn = await page.evaluate(() => {
-    return !!document.querySelector("element-1"); // Adjust the selector based on your site
+    return document.querySelector(".head-table") !== null;
   });
 
   if (!isLoggedIn) {
+    console.log("Logging in...");
     // Perform login if not already logged in
     await page.type("#email", "phamvant"); // Replace with your email
     await page.type("#password", "thuan286"); // Replace with your password
@@ -42,8 +49,10 @@ import { a500 } from "./input/DS/500";
     await saveLocalStorage(page);
   }
 
+  console.log("Logged in");
+
   let ret = {};
-  for (const val of a500) {
+  for (const val of file) {
     await page.goto(val.link, {
       waitUntil: "networkidle2",
     });
@@ -63,13 +72,17 @@ import { a500 } from "./input/DS/500";
       try {
         if (post) {
           const data = await scrapeData(page, post);
+
           await new Promise((resolve) => setTimeout(resolve, 3000));
           if (data) {
             console.log(post);
 
-            ret[val.topic].push({ data, link: post });
+            ret[val.topic].push({
+              data: { ...data, type: "PS", range: num },
+              link: post,
+            });
             await writeFile(
-              "./gmat/output/DS/data500.json",
+              `./gmat/output/PS/data${num}.json`,
               JSON.stringify(ret, null, 2)
             );
           }
@@ -82,4 +95,12 @@ import { a500 } from "./input/DS/500";
   }
 
   await browser.close();
-})();
+};
+
+const main = async () => {
+  for (let i = 0; i < files.length; i++) {
+    await getData(files[i], num[i]);
+  }
+};
+
+main();

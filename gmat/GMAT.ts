@@ -47,6 +47,7 @@ export async function scrapeData(
   options: string[];
   answer: string;
   explanation: string;
+  imgUrl?: string;
   // link: string;
 } | null> {
   // const browser = await puppeteer.launch({ headless: true });
@@ -81,10 +82,21 @@ export async function scrapeData(
   // }
 
   await page.goto(link, {
-    waitUntil: "domcontentloaded",
+    waitUntil: "networkidle2",
   });
 
   const data = await page.evaluate(() => {
+    document.querySelectorAll("span")?.forEach((span) => span.remove());
+    document.querySelectorAll("script").forEach((script) => {
+      const textContent = script.textContent || "";
+      script.replaceWith(textContent);
+    });
+    document.querySelectorAll(".quotetitle").forEach((title) => {
+      title.remove();
+    });
+    document.querySelectorAll(".quotecontent").forEach((content) => {
+      content.remove();
+    });
     const allItems = document.querySelectorAll(".item.text");
 
     const htmlContent = allItems[0].innerHTML;
@@ -95,18 +107,22 @@ export async function scrapeData(
 
     const explainContent = allItems[1].innerHTML;
 
-    const question = htmlContent
+    let question = htmlContent
       .split(`<div class="item twoRowsBlock">`)[0]
       .replace(/<br\s*\/?>/g, "\n")
       .replace(/&nbsp;/g, " ")
-      .replace(/<[^>]+>.*?<\/[^>]+>/gs, "")
       .trim();
+
+    const imgMatch = question.match(/<img[^>]+src="([^">]+)"/);
+    const imgUrl = imgMatch ? imgMatch[1] : null;
+
+    question = question.replace(/<img[^>]*>/g, "").trim();
 
     const explanation = explainContent
       .split(`<div class="item twoRowsBlock">`)[0]
       .replace(/<br\s*\/?>/g, "\n")
       .replace(/&nbsp;/g, " ")
-      .replace(/<[^>]+>.*?<\/[^>]+>/gs, "")
+      .replace(/<[^>]*>/g, "")
       .trim();
 
     const answerElement = document.querySelector(".downRow");
@@ -121,6 +137,7 @@ export async function scrapeData(
       question,
       answer,
       explanation,
+      imgUrl,
     };
   });
 
@@ -128,7 +145,7 @@ export async function scrapeData(
   if (data) {
     const { question, options } = answerParse(data.question);
 
-    ret = { ...data, question: question, options };
+    ret = { ...data, question: question, options, imgUrl: data.imgUrl };
   }
 
   return ret;
