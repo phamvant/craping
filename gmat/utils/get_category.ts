@@ -6,7 +6,7 @@ const dom = new JSDOM(html);
 
 const document = dom.window.document;
 
-const read = [805, 705, 655, 605, 555, 505, 500];
+const read = [655, 555, 500];
 
 const tbody = document.querySelectorAll("tbody");
 const tr = tbody[2].querySelectorAll("tr");
@@ -23,5 +23,5 @@ read.forEach((cate, idx) => {
 
   const ret = `export const a${cate} = ` + JSON.stringify(data);
 
-  writeFileSync(`./gmat/input/PS/${cate}.ts`, ret);
+  writeFileSync(`./gmat/input/RC/${cate}.ts`, ret);
 });

@@ -1,19 +1,14 @@
 import puppeteer from "puppeteer";
 import { writeFile } from "fs/promises";
-import {
-  loadCookies,
-  loadLocalStorage,
-  saveCookies,
-  saveLocalStorage,
-  scrapeData,
-} from "./GMAT";
-import { a655 } from "./input/PS/655";
-import { a705 } from "./input/PS/705";
-import { a805 } from "./input/PS/805";
+import { scrapeData } from "./utils/transform/transform_general";
+import { a500 } from "./input/RC/500";
+import { a555 } from "./input/RC/555";
+import { a655 } from "./input/RC/655";
+import { saveCookies } from "./cookies/cookies";
+import { saveLocalStorage } from "./cookies/cookies";
 
-//need fix 605
-const files = [a655, a705, a805];
-const num = [655, 705, 805];
+const files = [a500, a555, a655];
+const num = [500, 555, 655];
 
 const getData = async (file: any[], num: number) => {
   const browser = await puppeteer.launch({
@@ -78,11 +73,11 @@ const getData = async (file: any[], num: number) => {
             console.log(post);
 
             ret[val.topic].push({
-              data: { ...data, type: "PS", range: num },
+              data: { ...data, type: "SC", range: num },
               link: post,
             });
             await writeFile(
-              `./gmat/output/PS/data${num}.json`,
+              `./gmat/output/SC/data${num}.json`,
               JSON.stringify(ret, null, 2)
             );
           }

@@ -1,15 +1,3 @@
-import { readFile, writeFile } from "fs/promises";
-
-interface GMAT {
-  data: {
-    question: string;
-    options: string[];
-    answer: string;
-    explaination: string;
-  };
-  link: string;
-}
-
 const pattern = [
   ["a)", "b)", "c)", "d)", "e)"],
   ["A)", "B)", "C)", "D)", "E)"],
@@ -49,20 +37,3 @@ export function answerParse(content: string): {
 
   return { question, options };
 }
-
-// async function main() {
-//   const content = await readFile("./gmat/output/data500.json", "utf-8");
-
-//   const gmatData = JSON.parse(content) as { [key: string]: GMAT[] };
-//   for (const key in gmatData) {
-//     let idx = 0;
-//     for (const content of gmatData[key]) {
-//       const ret = answerParse(content.data.question);
-//       gmatData[key][idx].data.options = ret.options;
-//       gmatData[key][idx].data.question = ret.question;
-//       idx++;
-//     }
-//   }
-
-//   await writeFile("./gmat/output/test.json", JSON.stringify(gmatData), "utf-8");
-// }
