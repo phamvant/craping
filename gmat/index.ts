@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer";
 import { writeFile } from "fs/promises";
-import { scrapeData } from "./utils/transform/transform_general";
+import { scrapeReading } from "./utils/transform/scrape_reading";
 import { a500 } from "./input/RC/500";
 import { a555 } from "./input/RC/555";
 import { a655 } from "./input/RC/655";
@@ -40,8 +40,8 @@ const getData = async (file: any[], num: number) => {
     ]);
 
     // Save cookies and local storage after login
-    await saveCookies(page);
-    await saveLocalStorage(page);
+    // await saveCookies(page);
+    // await saveLocalStorage(page);
   }
 
   console.log("Logged in");
@@ -66,18 +66,18 @@ const getData = async (file: any[], num: number) => {
     for (const post of postLinks) {
       try {
         if (post) {
-          const data = await scrapeData(page, post);
+          console.log(post);
+          const data = await scrapeReading(page, post);
 
           await new Promise((resolve) => setTimeout(resolve, 3000));
           if (data) {
-            console.log(post);
-
             ret[val.topic].push({
-              data: { ...data, type: "SC", range: num },
+              data: { ...data, type: "RC", range: num },
+
               link: post,
             });
             await writeFile(
-              `./gmat/output/SC/data${num}.json`,
+              `./gmat/output/RC/data${num}.json`,
               JSON.stringify(ret, null, 2)
             );
           }

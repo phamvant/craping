@@ -1,7 +1,7 @@
 import { Page } from "puppeteer";
 import { answerParse } from "./answer_parse_general";
 
-export async function scrapeData(
+export async function scrapeGeneral(
   page: Page,
   link: string
 ): Promise<{
