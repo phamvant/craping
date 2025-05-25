@@ -2,7 +2,9 @@ import { readFile, writeFile, readdir } from "fs/promises";
 import { encoding_for_model } from "@dqbd/tiktoken";
 import Groq from "groq-sdk";
 
-const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+const groq = new Groq({
+  apiKey: "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",
+});
 const TOKEN_LIMIT = 30000; // Limit of tokens per minute
 
 async function getGroqChatCompletion(prop, lang) {
@@ -33,13 +35,13 @@ function numTokensFromString(message) {
 
 
       just translate to English without change html format. You don't have to explain anything
-  `,
+  `
   );
   encoder.free();
   return tokens.length;
 }
 
-const main = async (category: number) => {
+const translatePosts = async (category: number) => {
   let i = 0;
   let tokensUsed = 0;
   const posts = await readdir(`./data/en/${category}_en`);
@@ -89,4 +91,52 @@ const main = async (category: number) => {
   }
 };
 
-main(66);
+export async function translate(
+  text: string,
+  targetLanguage: string
+): Promise<string> {
+  if (!text) return "";
+
+  try {
+    // Map target language codes to full names for the prompt
+    const languageMap: { [key: string]: string } = {
+      zh: "Chinese",
+      vi: "Vietnamese",
+      en: "English",
+    };
+
+    const targetLanguageName = languageMap[targetLanguage] || targetLanguage;
+
+    // Create a prompt for translation
+    const prompt = `Translate the following text to ${targetLanguageName}: "${text}"`;
+
+    // Call Groq API
+    const completion = await groq.chat.completions.create({
+      model: "llama3-70b-8192", // Use the available Groq model (e.g., grok-beta)
+      messages: [
+        {
+          role: "system",
+          content:
+            "You are a professional translator. Provide accurate and natural translations. Just return the translation, no other text.",
+        },
+        {
+          role: "user",
+          content: prompt,
+        },
+      ],
+      max_tokens: 2000, // Adjust based on expected response length
+      temperature: 0.7, // Adjust for creativity vs. accuracy
+    });
+
+    // Extract the translated text
+    const translatedText = completion.choices[0]?.message?.content?.trim();
+    if (!translatedText) {
+      throw new Error("No translation returned from Groq API");
+    }
+
+    return translatedText;
+  } catch (error) {
+    console.error("Error translating text with Groq API:", error);
+    throw new Error(`Translation failed: ${error}`);
+  }
+}

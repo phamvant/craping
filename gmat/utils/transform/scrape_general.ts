@@ -1,8 +1,9 @@
 import { Page } from "puppeteer";
 import { answerParse } from "./answer_parse_general";
+import { PageWithCursor } from "puppeteer-real-browser";
 
 export async function scrapeGeneral(
-  page: Page,
+  page: PageWithCursor,
   link: string
 ): Promise<{
   question: string;
@@ -50,7 +51,15 @@ export async function scrapeGeneral(
       .trim();
 
     const imgMatch = question.match(/<img[^>]+src="([^">]+)"/);
-    const imgUrl = imgMatch ? imgMatch[1] : null;
+    let imgUrl = imgMatch ? imgMatch[1] : null;
+
+    if (
+      imgUrl &&
+      imgUrl.includes("download/file.php") &&
+      !imgUrl.includes("gmatclub.com")
+    ) {
+      imgUrl = `https://gmatclub.com${imgUrl}`;
+    }
 
     question = question.replace(/<img[^>]*>/g, "").trim();
 
@@ -65,7 +74,10 @@ export async function scrapeGeneral(
       .replace(/<(?!ins\b|\/?ins\b)[^>]*>/g, "")
       .trim();
 
-    const answerElement = document.querySelector(".downRow");
+    const answerElement = document
+      .querySelector(".item.text")
+      ?.querySelector(".item")
+      ?.querySelector(".downRow");
 
     if (!answerElement || !answerElement.textContent) {
       return null;

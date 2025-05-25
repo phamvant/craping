@@ -1,14 +1,40 @@
-const pattern = [
-  ["a)", "b)", "c)", "d)", "e)"],
-  ["A)", "B)", "C)", "D)", "E)"],
-  ["A.", "B.", "C.", "D.", "E."],
-  ["(1)", "(2)", "(3)", "(4)", "(5)"],
-];
-
 export function answerParse(content: string): {
   question: string;
   options: string[];
 } {
+  let pattern = [
+    ["a)", "b)", "c)", "d)", "e)"],
+    ["A)", "B)", "C)", "D)", "E)"],
+    ["A.", "B.", "C.", "D.", "E."],
+    ["(1)", "(2)", "(3)", "(4)", "(5)"],
+    ["a.", "b.", "c.", "d.", "e."],
+    ["[A]", "[B]", "[C]", "[D]", "[E]"],
+  ];
+
+  if (content.includes("1)") && content.includes("2)")) {
+    pattern = [...pattern, ["1)", "2)", "3)", "4)", "5)"]];
+  }
+
+  if (content.includes("1.") && content.includes("2.")) {
+    pattern = [...pattern, ["1.", "2.", "3.", "4.", "5."]];
+  }
+
+  if (
+    content.includes("1 ") &&
+    content.includes("2 ") &&
+    content.includes("3 ")
+  ) {
+    pattern = [...pattern, ["1 ", "2 ", "3 ", "4 ", "5 "]];
+  }
+
+  if (
+    content.includes("A ") &&
+    content.includes("B ") &&
+    content.includes("C ")
+  ) {
+    pattern = [...pattern, ["A ", "B ", "C ", "D ", "E "]];
+  }
+
   let idx = 0;
   let patternIdx = -1;
   let question;

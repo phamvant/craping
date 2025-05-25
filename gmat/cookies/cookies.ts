@@ -1,7 +1,7 @@
-import { Page } from "puppeteer";
-import * as fs from "fs";
-export const cookiesFilePath = "./cookies/cookies.json";
-export const localStorageFilePath = "./cookies/localStorage.json";
+import { Browser, Page } from "puppeteer";
+import fs from "fs";
+export const cookiesFilePath = "./gmat/cookies/cookies.json";
+export const localStorageFilePath = "./gmat/cookies/localstorage.json";
 
 export async function saveCookies(page: Page) {
   const cookies = await page.cookies();
@@ -15,14 +15,14 @@ export async function saveLocalStorage(page: Page) {
   fs.writeFileSync(localStorageFilePath, localStorageData);
 }
 
-export async function loadCookies(page: Page, fs: any) {
+export const loadCookies = async (browser: Browser) => {
   if (fs.existsSync(cookiesFilePath)) {
     const cookies = JSON.parse(fs.readFileSync(cookiesFilePath, "utf-8"));
-    await page.setCookie(...cookies);
+    await browser.setCookie(...cookies);
   }
-}
+};
 
-export async function loadLocalStorage(page: Page) {
+export const loadLocalStorage = async (page: Page) => {
   if (fs.existsSync(localStorageFilePath)) {
     const localStorageData = JSON.parse(
       fs.readFileSync(localStorageFilePath, "utf-8")
@@ -33,4 +33,4 @@ export async function loadLocalStorage(page: Page) {
       }
     }, localStorageData);
   }
-}
+};

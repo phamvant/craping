@@ -1,0 +1,1613 @@
+[
+  { "school": "Duke Kunshan University", "nations": ["China"] },
+  { "school": "Renmin University of China", "nations": ["China"] },
+  { "school": "University College London", "nations": ["United Kingdom"] },
+  {
+    "school": "London School of Economics and Political Science",
+    "nations": ["United Kingdom"]
+  },
+  { "school": "Duke University", "nations": ["United States"] },
+  { "school": "University of Oxford", "nations": ["United Kingdom"] },
+  { "school": "Cornell University", "nations": ["United States"] },
+  { "school": "Columbia University", "nations": ["United States"] },
+  { "school": "Royal Society", "nations": ["United Kingdom"] },
+  { "school": "National University of Singapore", "nations": ["Singapore"] },
+  { "school": "Tsinghua University", "nations": ["China"] },
+  {
+    "school": "University of Illinois Urbana-Champaign",
+    "nations": ["United States"]
+  },
+  { "school": "Fudan University", "nations": ["China"] },
+  { "school": "Xi'an Jiaotong University", "nations": ["China"] },
+  {
+    "school": "Shanghai University of Finance and Economics",
+    "nations": ["China"]
+  },
+  {
+    "school": "Central University of Finance and Economics",
+    "nations": ["China"]
+  },
+  { "school": "Hainan University", "nations": ["China"] },
+  {
+    "school": "University of California, Berkeley",
+    "nations": ["United States"]
+  },
+  { "school": "University of Bristol", "nations": ["United Kingdom"] },
+  { "school": "University of Leeds", "nations": ["United Kingdom"] },
+  { "school": "University of Melbourne", "nations": ["Australia"] },
+  { "school": "Zhejiang University", "nations": ["China"] },
+  { "school": "Central South University", "nations": ["China"] },
+  { "school": "China Agricultural University", "nations": ["China"] },
+  { "school": "Nanjing Audit University", "nations": ["China"] },
+  { "school": "China University of Petroleum", "nations": ["China"] },
+  { "school": "University of Munich", "nations": ["Germany"] },
+  {
+    "school": "INSEAD",
+    "nations": ["France", "Singapore", "France / Singapore"]
+  },
+  { "school": "London Business School", "nations": ["United Kingdom"] },
+  { "school": "HEC Paris", "nations": ["France"] },
+  {
+    "school": "Rotterdam School of Management, Erasmus University",
+    "nations": ["Netherlands"]
+  },
+  {
+    "school": "Wharton School, University of Pennsylvania",
+    "nations": ["United States"]
+  },
+  { "school": "New York University", "nations": ["United States"] },
+  { "school": "University of British Columbia", "nations": ["Canada"] },
+  { "school": "Ohio State University", "nations": ["United States"] },
+  { "school": "University of Wisconsin", "nations": ["United States"] },
+  { "school": "University of Pittsburgh", "nations": ["United States"] },
+  { "school": "University of Texas at Austin", "nations": ["United States"] },
+  { "school": "University of Arizona", "nations": ["United States"] },
+  { "school": "University of Minnesota", "nations": ["United States"] },
+  { "school": "Sun Yat-sen University", "nations": ["China"] },
+  { "school": "University of Groningen", "nations": ["Netherlands"] },
+  { "school": "University of Antwerp", "nations": ["Belgium"] },
+  {
+    "school": "European School of Management and Technology",
+    "nations": ["Germany"]
+  },
+  {
+    "school": "Frankfurt School of Finance & Management",
+    "nations": ["Germany"]
+  },
+  {
+    "school": "HHL Leipzig Graduate School of Management",
+    "nations": ["Germany"]
+  },
+  { "school": "ESADE Business School", "nations": ["Spain"] },
+  {
+    "school": "Northwestern University Kellogg School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "WHU – Otto Beisheim School of Management",
+    "nations": ["Germany"]
+  },
+  { "school": "Georgia Institute of Technology", "nations": ["United States"] },
+  { "school": "Case Western Reserve University", "nations": ["United States"] },
+  { "school": "McGill University", "nations": ["Canada"] },
+  { "school": "Lingnan University", "nations": ["China", "Hong Kong"] },
+  {
+    "school": "University at Buffalo, The State University of New York (SUNY Buffalo)",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Foster School of Business Management (FSFM)",
+    "nations": ["United States"]
+  },
+  { "school": "City University of Hong Kong", "nations": ["Hong Kong"] },
+  {
+    "school": "Chinese University of Hong Kong (CUHK)",
+    "nations": ["Hong Kong"]
+  },
+  {
+    "school": "University of California, Irvine (UCI)",
+    "nations": ["United States"]
+  },
+  { "school": "University of Kentucky", "nations": ["United States"] },
+  {
+    "school": "Hitotsubashi University Business School (Hitotsubashi ICS)",
+    "nations": ["Japan"]
+  },
+  {
+    "school": "The Chinese University of Hong Kong, Shenzhen",
+    "nations": ["China"]
+  },
+  { "school": "McMaster University", "nations": ["Canada"] },
+  {
+    "school": "Schulich School of Business, York University",
+    "nations": ["Canada"]
+  },
+  { "school": "Wilfrid Laurier University", "nations": ["Canada"] },
+  { "school": "University of Waterloo", "nations": ["Canada"] },
+  { "school": "University of Toronto", "nations": ["Canada"] },
+  { "school": "University of Calgary", "nations": ["Canada"] },
+  { "school": "Carleton University", "nations": ["Canada"] },
+  { "school": "Brock University", "nations": ["Canada"] },
+  {
+    "school": "McMaster University DeGroote School of Business",
+    "nations": ["Canada"]
+  },
+  { "school": "University of Ottawa", "nations": ["Canada"] },
+  {
+    "school": "Johns Hopkins University Carey Business School",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Cornell University School of Applied Economics and Management",
+    "nations": ["United States"]
+  },
+  { "school": "University of Rochester", "nations": ["United States"] },
+  { "school": "Vanderbilt University", "nations": ["United States"] },
+  { "school": "Boston University", "nations": ["United States"] },
+  {
+    "school": "University of Southern California",
+    "nations": ["United States"]
+  },
+  { "school": "Northwestern University", "nations": ["United States"] },
+  {
+    "school": "Chinese University of Hong Kong",
+    "nations": ["China", "Hong Kong"]
+  },
+  {
+    "school": "Hong Kong University of Science and Technology",
+    "nations": [
+      "China",
+      "Hong Kong",
+      "Hong Kong Special Administrative Region of China"
+    ]
+  },
+  { "school": "Singapore Management University", "nations": ["Singapore"] },
+  { "school": "Stockholm School of Economics", "nations": ["Sweden"] },
+  { "school": "Swiss Finance Institute", "nations": ["Switzerland"] },
+  { "school": "Bocconi University", "nations": ["Italy"] },
+  { "school": "Tinbergen Institute", "nations": ["Netherlands"] },
+  { "school": "Imperial College London", "nations": ["United Kingdom"] },
+  { "school": "University of Warwick", "nations": ["United Kingdom"] },
+  {
+    "school": "University of Maryland, College Park",
+    "nations": ["United States"]
+  },
+  { "school": "École Polytechnique", "nations": ["France"] },
+  {
+    "school": "École Nationale de la Statistique et de l'Administration Économique",
+    "nations": ["France"]
+  },
+  { "school": "University of Lausanne", "nations": ["Switzerland"] },
+  { "school": "Georgia State University", "nations": ["United States"] },
+  { "school": "University of Georgia", "nations": ["United States"] },
+  { "school": "Iowa State University", "nations": ["United States"] },
+  { "school": "University of Iowa", "nations": ["United States"] },
+  { "school": "University of Oklahoma", "nations": ["United States"] },
+  { "school": "University of Utah", "nations": ["United States"] },
+  { "school": "University of Cincinnati", "nations": ["United States"] },
+  { "school": "Texas Tech University", "nations": ["United States"] },
+  { "school": "University of Texas at Dallas", "nations": ["United States"] },
+  { "school": "Nanyang Technological University", "nations": ["Singapore"] },
+  {
+    "school": "Booth School of Business, University of Chicago",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Kellogg School of Management, Northwestern University",
+    "nations": ["United States"]
+  },
+  { "school": "University of Washington", "nations": ["United States"] },
+  { "school": "University of Florida", "nations": ["United States"] },
+  { "school": "University of Maryland", "nations": ["United States"] },
+  { "school": "Pennsylvania State University", "nations": ["United States"] },
+  { "school": "University of Colorado Boulder", "nations": ["United States"] },
+  {
+    "school": "University of Illinois at Urbana-Champaign",
+    "nations": ["United States"]
+  },
+  { "school": "Virginia Tech", "nations": ["United States"] },
+  { "school": "Arizona State University", "nations": ["United States"] },
+  { "school": "Hong Kong Polytechnic University", "nations": ["Hong Kong"] },
+  { "school": "Carlson School of Management", "nations": ["United States"] },
+  { "school": "University of Alberta", "nations": ["Canada"] },
+  { "school": "Queen's University", "nations": ["Canada"] },
+  { "school": "Harvard University", "nations": ["United States"] },
+  { "school": "Cornell Baker Program", "nations": ["United States"] },
+  { "school": "ESMT Berlin", "nations": ["Germany"] },
+  {
+    "school": "Massachusetts Institute of Technology",
+    "nations": ["United States"]
+  },
+  { "school": "University of Chicago", "nations": ["United States"] },
+  { "school": "University of Pennsylvania", "nations": ["United States"] },
+  { "school": "Stanford University", "nations": ["United States"] },
+  { "school": "Carnegie Mellon University", "nations": ["United States"] },
+  {
+    "school": "University of California, Los Angeles",
+    "nations": ["United States"]
+  },
+  { "school": "Yale University", "nations": ["United States"] },
+  {
+    "school": "Washington University in St. Louis",
+    "nations": ["United States"]
+  },
+  { "school": "University of Michigan", "nations": ["United States"] },
+  { "school": "University of Hong Kong", "nations": ["Hong Kong"] },
+  {
+    "school": "International Institute for Management Development",
+    "nations": ["Switzerland"]
+  },
+  { "school": "Florida State University", "nations": ["United States"] },
+  { "school": "University of South Florida", "nations": ["United States"] },
+  { "school": "University of Missouri Columbia", "nations": ["United States"] },
+  { "school": "Drexel University", "nations": ["United States"] },
+  {
+    "school": "University of Massachusetts Amherst",
+    "nations": ["United States"]
+  },
+  { "school": "University of Kansas", "nations": ["United States"] },
+  { "school": "University of South Carolina", "nations": ["United States"] },
+  {
+    "school": "University of Wisconsin–Green Bay",
+    "nations": ["United States"]
+  },
+  { "school": "University of Nebraska", "nations": ["United States"] },
+  { "school": "University of Tulsa", "nations": ["United States"] },
+  { "school": "Pepperdine University", "nations": ["United States"] },
+  { "school": "Johns Hopkins University", "nations": ["United States"] },
+  { "school": "Northeastern University", "nations": ["United States"] },
+  {
+    "school": "The University of Texas at Austin",
+    "nations": ["United States"]
+  },
+  { "school": "Goodman School of Business", "nations": ["Canada"] },
+  {
+    "school": "Rotman School of Management, University of Toronto",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "Sauder School of Business, University of British Columbia",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "University of British Columbia Sauder School of Business",
+    "nations": ["Canada"]
+  },
+  { "school": "Carleton University MBA", "nations": ["Canada"] },
+  { "school": "University of Notre Dame", "nations": ["United States"] },
+  { "school": "Schulich School of Business", "nations": ["Canada"] },
+  { "school": "Rotman School of Management", "nations": ["Canada"] },
+  {
+    "school": "The Hong Kong Polytechnic University",
+    "nations": ["Hong Kong", "Hong Kong Special Administrative Region"]
+  },
+  {
+    "school": "Carlson School of Management, University of Minnesota",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Washington, Seattle",
+    "nations": ["United States"]
+  },
+  { "school": "University of Miami", "nations": ["United States"] },
+  { "school": "Emory University", "nations": ["United States"] },
+  { "school": "Boston College", "nations": ["United States"] },
+  {
+    "school": "University of California, San Diego",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of California, Irvine",
+    "nations": ["United States"]
+  },
+  { "school": "University of Wisconsin–Madison", "nations": ["United States"] },
+  { "school": "EMLYON Business School", "nations": ["France"] },
+  {
+    "school": "University of Michigan Ross School of Business",
+    "nations": ["United States"]
+  },
+  { "school": "Amazon", "nations": ["United States"] },
+  { "school": "Brown University", "nations": ["United States"] },
+  { "school": "Michigan State University", "nations": ["United States"] },
+  {
+    "school": "University of Washington (Seattle)",
+    "nations": ["United States"]
+  },
+  { "school": "Rutgers University", "nations": ["United States"] },
+  { "school": "University of Manchester", "nations": ["United Kingdom"] },
+  {
+    "school": "Ludwig Maximilian University of Munich",
+    "nations": ["Germany"]
+  },
+  { "school": "Technical University of Munich", "nations": ["Germany"] },
+  {
+    "school": "École Polytechnique Fédérale de Lausanne",
+    "nations": ["Switzerland"]
+  },
+  {
+    "school": "Duke University Fuqua School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "ESCP Business School",
+    "nations": [
+      "France",
+      "Italy",
+      "Spain",
+      "United Kingdom",
+      "Germany",
+      "France / United Kingdom / Germany / Spain / Italy"
+    ]
+  },
+  { "school": "Emlyon Business School", "nations": ["France"] },
+  { "school": "Skema Business School", "nations": ["France"] },
+  { "school": "Audencia Business School", "nations": ["France"] },
+  { "school": "ESSEC Business School", "nations": ["France", "Singapore"] },
+  { "school": "University of Amsterdam", "nations": ["Netherlands"] },
+  { "school": "University of California, Davis", "nations": ["United States"] },
+  { "school": "The University of Hong Kong", "nations": ["Hong Kong"] },
+  {
+    "school": "The Chinese University of Hong Kong",
+    "nations": ["Hong Kong", "China"]
+  },
+  { "school": "Dalhousie University", "nations": ["Canada"] },
+  { "school": "Ivey Business School", "nations": ["Canada"] },
+  {
+    "school": "Ivey Business School, Western University",
+    "nations": ["Canada"]
+  },
+  { "school": "The University of Toronto", "nations": ["Canada"] },
+  { "school": "York University", "nations": ["Canada"] },
+  {
+    "school": "University of North Carolina at Chapel Hill",
+    "nations": ["United States"]
+  },
+  { "school": "University of Cambridge", "nations": ["United Kingdom"] },
+  { "school": "University of Liverpool", "nations": ["United Kingdom"] },
+  {
+    "school": "Stanford Graduate School of Business",
+    "nations": ["United States"]
+  },
+  { "school": "Xiamen University", "nations": ["China"] },
+  { "school": "Tel Aviv University", "nations": ["Israel"] },
+  {
+    "school": "University of Toronto Rotman School of Management",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "Laurier School of Business and Economics",
+    "nations": ["Canada"]
+  },
+  { "school": "University of Windsor", "nations": ["Canada"] },
+  { "school": "EM Lyon Business School", "nations": ["France"] },
+  { "school": "Wuhan University", "nations": ["China"] },
+  {
+    "school": "York University Schulich School of Business",
+    "nations": ["Canada"]
+  },
+  { "school": "Olin Business School", "nations": ["United States"] },
+  {
+    "school": "The Hong Kong University of Science and Technology",
+    "nations": ["Hong Kong"]
+  },
+  {
+    "school": "ESMT European School of Management and Technology",
+    "nations": ["Germany"]
+  },
+  {
+    "school": "Imperial College Business School",
+    "nations": ["United Kingdom"]
+  },
+  { "school": "Shanghai Jiao Tong University", "nations": ["China"] },
+  {
+    "school": "DeGroote School of Business, McMaster University",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "China Europe International Business School",
+    "nations": ["China"]
+  },
+  { "school": "Hitotsubashi University ICS", "nations": ["Japan"] },
+  { "school": "Peking University", "nations": ["China"] },
+  { "school": "University of Virginia", "nations": ["United States"] },
+  { "school": "Wake Forest University", "nations": ["United States"] },
+  { "school": "Kellogg School of Management", "nations": ["United States"] },
+  {
+    "school": "University of Rochester Simon Business School",
+    "nations": ["United States"]
+  },
+  { "school": "Rice University", "nations": ["United States"] },
+  {
+    "school": "University of California San Diego",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of California, Berkeley Haas School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "European School of Management and Technology Berlin",
+    "nations": ["Germany"]
+  },
+  {
+    "school": "University of Pittsburgh Katz Graduate School of Business",
+    "nations": ["United States"]
+  },
+  { "school": "Rotterdam School of Management", "nations": ["Netherlands"] },
+  { "school": "Tilburg University", "nations": ["Netherlands"] },
+  { "school": "University of Zurich", "nations": ["Switzerland"] },
+  { "school": "Stockholm School of Economics (SFI)", "nations": ["Sweden"] },
+  { "school": "IE University", "nations": ["Spain"] },
+  { "school": "IESE Business School", "nations": ["Spain"] },
+  { "school": "Australian National University", "nations": ["Australia"] },
+  {
+    "school": "University of Pennsylvania Wharton School",
+    "nations": ["United States"]
+  },
+  { "school": "University of Arkansas", "nations": ["United States"] },
+  { "school": "University of Connecticut", "nations": ["United States"] },
+  { "school": "West Virginia University", "nations": ["United States"] },
+  { "school": "Temple University", "nations": ["United States"] },
+  { "school": "University of Oregon", "nations": ["United States"] },
+  { "school": "Rutgers Business School", "nations": ["United States"] },
+  { "school": "CUNY Baruch College", "nations": ["United States"] },
+  {
+    "school": "University of Illinois at Chicago",
+    "nations": ["United States"]
+  },
+  { "school": "University of Houston", "nations": ["United States"] },
+  {
+    "school": "Erasmus University Rotterdam, Rotterdam School of Management",
+    "nations": ["Netherlands"]
+  },
+  { "school": "Copenhagen Business School", "nations": ["Denmark"] },
+  { "school": "BI Norwegian Business School", "nations": ["Norway"] },
+  { "school": "Aalto University", "nations": ["Finland"] },
+  { "school": "Jilin International Studies University", "nations": ["China"] },
+  { "school": "Sciences Po Lyon", "nations": ["France"] },
+  {
+    "school": "Cambridge Judge Business School",
+    "nations": ["United Kingdom"]
+  },
+  { "school": "Oxford Saïd Business School", "nations": ["United Kingdom"] },
+  { "school": "IMD Business School", "nations": ["Switzerland"] },
+  { "school": "Darden School of Business", "nations": ["United States"] },
+  { "school": "Columbia Business School", "nations": ["United States"] },
+  {
+    "school": "Stephen M. Ross School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Oxford University Said Business School",
+    "nations": ["United Kingdom"]
+  },
+  {
+    "school": "University of Cambridge Judge Business School",
+    "nations": ["United Kingdom"]
+  },
+  {
+    "school": "École Supérieure des Sciences Économiques et Commerciales (ESSEC Business School)",
+    "nations": ["France"]
+  },
+  {
+    "school": "The University of Texas at Dallas",
+    "nations": ["United States"]
+  },
+  { "school": "The University of British Columbia", "nations": ["Canada"] },
+  {
+    "school": "IESE Business School, University of Navarra",
+    "nations": ["Spain"]
+  },
+  { "school": "University of Mannheim", "nations": ["Germany"] },
+  {
+    "school": "Institut Européen d'Administration des Affaires (INSEAD)",
+    "nations": ["France"]
+  },
+  { "school": "Norwegian School of Economics (NHH)", "nations": ["Norway"] },
+  { "school": "Harvard Business School", "nations": ["United States"] },
+  {
+    "school": "Wharton School of the University of Pennsylvania",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Haas School of Business, University of California, Berkeley",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Ross School of Business, University of Michigan",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Foster School of Business, University of Washington",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Emory University - Goizueta Business School",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Rice University - Jones Graduate School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Chicago Booth School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Stanford School of Management Science and Engineering",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Carnegie Mellon University Tepper School of Business (Operations Management)",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Duke University Fuqua School of Business (Operations Management)",
+    "nations": ["United States"]
+  },
+  { "school": "Yale School of Management", "nations": ["United States"] },
+  {
+    "school": "Purdue University Krannert School of Management (Quantitative Methods)",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Colorado Boulder Leeds School of Business (Operations Management)",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Indiana University Kelley School of Business (Operations Management)",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Texas at Dallas Naveen Jindal School of Management (Operations Management)",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of California Los Angeles Department of Technology Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Georgia Institute of Technology H. Milton Stewart School of Industrial and Systems Engineering",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Michigan Industrial and Operations Engineering",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Carnegie Mellon University Tepper School of Business (Operations Research/Applied Computational Optimization)",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Georgia Institute of Technology (Applied Computational Optimization)",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Duke University (Decision Sciences)",
+    "nations": ["United States"]
+  },
+  { "school": "INSEAD (Decision Sciences)", "nations": ["France"] },
+  {
+    "school": "INSEAD (Technology and Operations Management)",
+    "nations": ["France"]
+  },
+  { "school": "University of Wisconsin–Stout", "nations": ["United States"] },
+  { "school": "Rady School of Management", "nations": ["United States"] },
+  {
+    "school": "Wake Forest University School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Washington University in St. Louis Olin Business School",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Duke University Fuqua School of Business Decision Sciences",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Fuqua School of Business, Duke University",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Kellogg School of Management Northwestern University",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Tuck School of Business Dartmouth College",
+    "nations": ["United States"]
+  },
+  { "school": "emlyon Business School", "nations": ["France"] },
+  { "school": "University of Edinburgh", "nations": ["United Kingdom"] },
+  { "school": "Durham University", "nations": ["United Kingdom"] },
+  { "school": "King's College London", "nations": ["United Kingdom"] },
+  { "school": "Warwick Business School", "nations": ["United Kingdom"] },
+  { "school": "Lakehead University", "nations": ["Canada"] },
+  { "school": "DeGroote School of Business", "nations": ["Canada"] },
+  { "school": "City University of New York", "nations": ["United States"] },
+  { "school": "Tianjin Foreign Studies University", "nations": ["China"] },
+  { "school": "University of Debrecen", "nations": ["Hungary"] },
+  { "school": "SKEMA Business School", "nations": ["France"] },
+  { "school": "Simon Fraser University", "nations": ["Canada"] },
+  { "school": "Lund University", "nations": ["Sweden"] },
+  {
+    "school": "HEC Paris Master in International Finance",
+    "nations": ["France"]
+  },
+  { "school": "University of Missouri", "nations": ["United States"] },
+  { "school": "Illinois State University", "nations": ["United States"] },
+  { "school": "University of Central Florida", "nations": ["United States"] },
+  {
+    "school": "University of Texas at San Antonio",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Texas at Arlington",
+    "nations": ["United States"]
+  },
+  { "school": "University of Memphis", "nations": ["United States"] },
+  { "school": "Amherst College", "nations": ["United States"] },
+  {
+    "school": "University of Manchester, Alliance Manchester Business School",
+    "nations": ["United Kingdom"]
+  },
+  { "school": "Telfer School of Management", "nations": ["Canada"] },
+  { "school": "Esade Business School", "nations": ["Spain"] },
+  { "school": "EDHEC Business School", "nations": ["France"] },
+  { "school": "Concordia University", "nations": ["Canada"] },
+  { "school": "HEC Montréal", "nations": ["Canada"] },
+  { "school": "Smith School of Business", "nations": ["Canada"] },
+  { "school": "Georgetown University", "nations": ["United States"] },
+  { "school": "Maastricht University", "nations": ["Netherlands"] },
+  {
+    "school": "Singapore Institute of Management (SAI)",
+    "nations": ["Singapore"]
+  },
+  {
+    "school": "University of Washington Foster School of Business",
+    "nations": ["United States"]
+  },
+  { "school": "Pforzheim University", "nations": ["Germany"] },
+  { "school": "Hautes Études Commerciales", "nations": ["France"] },
+  {
+    "school": "Beijing University of Finance and Economics",
+    "nations": ["China"]
+  },
+  {
+    "school": "Olin Business School, Washington University in St. Louis",
+    "nations": ["United States"]
+  },
+  { "school": "ETH Zurich", "nations": ["Switzerland"] },
+  { "school": "Erasmus University Rotterdam", "nations": ["Netherlands"] },
+  { "school": "Paris Sciences et Lettres University", "nations": ["France"] },
+  {
+    "school": "The Wharton School, University of Pennsylvania",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Minnesota Carlson School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Shanghai Jiao Tong University Antai College of Economics and Management",
+    "nations": ["China"]
+  },
+  { "school": "Aalto University School of Business", "nations": ["Finland"] },
+  {
+    "school": "Duke University Master of Management Studies: Foundations of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "London Business School Masters in Management",
+    "nations": ["United Kingdom"]
+  },
+  {
+    "school": "University College London Management",
+    "nations": ["United Kingdom"]
+  },
+  {
+    "school": "Imperial College London Management",
+    "nations": ["United Kingdom"]
+  },
+  {
+    "school": "University of Chicago Master of Science in Computational Analysis and Public Policy",
+    "nations": ["United States"]
+  },
+  {
+    "school": "London School of Economics General Master in Management",
+    "nations": ["United Kingdom"]
+  },
+  {
+    "school": "Georgia Institute of Technology Masters in Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Pennsylvania Master of Science in Social Policy and Data Analytics",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Virginia Master of Science in Commerce",
+    "nations": ["United States"]
+  },
+  { "school": "INSEAD Masters in Management", "nations": ["France"] },
+  {
+    "school": "Haskayne School of Business, University of Calgary",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "Paul Merage School of Business, University of California, Irvine",
+    "nations": ["United States"]
+  },
+  { "school": "University of St. Gallen", "nations": ["Switzerland"] },
+  { "school": "Texas A&M University", "nations": ["United States"] },
+  { "school": "Purdue University", "nations": ["United States"] },
+  { "school": "IE Business School", "nations": ["Spain"] },
+  { "school": "University of Alabama", "nations": ["United States"] },
+  { "school": "Singapore Polytechnic", "nations": ["Singapore"] },
+  { "school": "Fordham University", "nations": ["United States"] },
+  {
+    "school": "École des hautes études commerciales de Paris",
+    "nations": ["France"]
+  },
+  {
+    "school": "University of Virginia Darden School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Carnegie Mellon University Tepper School of Business",
+    "nations": ["United States"]
+  },
+  { "school": "ESC Rennes School of Business", "nations": ["France"] },
+  { "school": "University College Dublin", "nations": ["Ireland"] },
+  { "school": "Sauder School of Business", "nations": ["Canada"] },
+  {
+    "school": "Simon Business School, University of Rochester",
+    "nations": ["United States"]
+  },
+  { "school": "Western University", "nations": ["Canada"] },
+  { "school": "SDA Bocconi School of Management", "nations": ["Italy"] },
+  {
+    "school": "University of California at Berkeley: Haas School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Cornell University: Johnson Graduate School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Northwestern University: Kellogg School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Chicago: Booth School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Duke University: Fuqua School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Massachusetts Institute of Technology: Sloan School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "UCLA Anderson School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Dartmouth College: Tuck School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Virginia: Darden School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "New York University: Stern School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "China Europe International Business School (CEIBS)",
+    "nations": ["China"]
+  },
+  {
+    "school": "University of Southern California: Marshall School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Cambridge: Judge Business School",
+    "nations": ["United Kingdom"]
+  },
+  {
+    "school": "National University of Singapore Business School",
+    "nations": ["Singapore"]
+  },
+  {
+    "school": "University of Michigan: Ross School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Oxford: Saïd Business School",
+    "nations": ["United Kingdom"]
+  },
+  {
+    "school": "Rice University: Jones Graduate School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Washington University in St. Louis: Olin Business School",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Georgetown University: McDonough School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "International Institute for Management Development (IMD)",
+    "nations": ["Switzerland"]
+  },
+  {
+    "school": "University of Washington: Michael G. Foster School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of North Carolina: Kenan-Flagler Business School",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Emory University: Goizueta Business School",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Nanyang Business School, Nanyang Technological University",
+    "nations": ["Singapore"]
+  },
+  { "school": "Indian School of Business", "nations": ["India"] },
+  {
+    "school": "University of Florida: Warrington College of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Hong Kong (HKU) Business School",
+    "nations": ["China", "Hong Kong"]
+  },
+  {
+    "school": "Hong Kong University of Science and Technology (HKUST) Business School",
+    "nations": ["China", "Hong Kong"]
+  },
+  {
+    "school": "Michigan State University: Eli Broad College of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Vanderbilt University: Owen Graduate School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Rochester: Simon Business School",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Alliance Manchester Business School",
+    "nations": ["United Kingdom"]
+  },
+  { "school": "Fudan University School of Management", "nations": ["China"] },
+  {
+    "school": "Carnegie Mellon University: Tepper School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Texas at Austin: McCombs School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Indian Institute of Management Ahmedabad",
+    "nations": ["India"]
+  },
+  {
+    "school": "Indian Institute of Management Bangalore",
+    "nations": ["India"]
+  },
+  {
+    "school": "Arizona State University: W. P. Carey School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of California at Irvine: Paul Merage School of Business",
+    "nations": ["United States"]
+  },
+  { "school": "Mannheim Business School", "nations": ["Germany"] },
+  {
+    "school": "University of Maryland: Smith School of Business",
+    "nations": ["United States"]
+  },
+  { "school": "George Washington University", "nations": ["United States"] },
+  {
+    "school": "University of Texas at Dallas: Naveen Jindal School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Singapore Management University: Lee Kong Chian School of Business",
+    "nations": ["Singapore"]
+  },
+  {
+    "school": "University of Georgia: Terry College of Business",
+    "nations": ["United States"]
+  },
+  { "school": "CUHK Business School", "nations": ["China"] },
+  {
+    "school": "Georgia Tech Scheller College of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "City, University of London: Bayes Business School (formerly Cass)",
+    "nations": ["United Kingdom"]
+  },
+  {
+    "school": "University of Toronto: Rotman School of Management",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "University of Massachusetts Amherst: Isenberg School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Notre Dame: Mendoza College of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Queen's University: Smith School of Business",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "Boston College: Carroll School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Texas A & M University: Mays Business School",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Boston University Questrom School of Business",
+    "nations": ["United States"]
+  },
+  { "school": "Indian Institute of Management Calcutta", "nations": ["India"] },
+  {
+    "school": "University of Pittsburgh: Katz Graduate School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Durham University Business School",
+    "nations": ["United Kingdom"]
+  },
+  {
+    "school": "Northeastern University: D'Amore-McKim School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "College of William & Mary: Mason School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Sungkyunkwan University Graduate School of Business",
+    "nations": ["South Korea"]
+  },
+  {
+    "school": "McGill University: Desautels Faculty of Management",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "Western University: Ivey Business School",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "The Lisbon MBA: Catolica | Nova Schools of Business & Economics",
+    "nations": ["Portugal"]
+  },
+  {
+    "school": "Trinity College Dublin: Trinity Business School",
+    "nations": ["Ireland"]
+  },
+  { "school": "Cranfield School of Management", "nations": ["United Kingdom"] },
+  { "school": "Indian Institute of Management Indore", "nations": ["India"] },
+  { "school": "Indian Institute of Management Lucknow", "nations": ["India"] },
+  {
+    "school": "TIAS School for Business and Society, Tilburg University",
+    "nations": ["Netherlands"]
+  },
+  {
+    "school": "Brigham Young University: Marriott School of Business",
+    "nations": ["United States"]
+  },
+  { "school": "Vlerick Business School", "nations": ["Belgium"] },
+  {
+    "school": "University College Dublin: Michael Smurfit Graduate Business School",
+    "nations": ["Ireland"]
+  },
+  {
+    "school": "Babson College: Olin Graduate School of Business",
+    "nations": ["United States"]
+  },
+  { "school": "AGSM at UNSW Business School", "nations": ["Australia"] },
+  { "school": "Birmingham Business School", "nations": ["United Kingdom"] },
+  {
+    "school": "Frankfurt School of Finance and Management",
+    "nations": ["Germany"]
+  },
+  {
+    "school": "University of California at Davis: Graduate School of Management",
+    "nations": ["United States"]
+  },
+  { "school": "EADA Business School Barcelona", "nations": ["Spain"] },
+  { "school": "University of Winnipeg", "nations": ["Canada"] },
+  { "school": "University of New South Wales", "nations": ["Australia"] },
+  { "school": "University of Nottingham", "nations": ["United Kingdom"] },
+  { "school": "University of Toronto Mississauga", "nations": ["Canada"] },
+  {
+    "school": "University of California, San Diego Rady School of Management",
+    "nations": ["United States"]
+  },
+  { "school": "Shanghai Stock Exchange", "nations": ["China"] },
+  {
+    "school": "Simon Fraser University Beedie School of Business",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "Ohio State University Fisher College of Business",
+    "nations": ["United States"]
+  },
+  { "school": "Brandeis University", "nations": ["United States"] },
+  { "school": "University of Sydney", "nations": ["Australia"] },
+  { "school": "Monash University", "nations": ["Australia"] },
+  { "school": "University of Queensland", "nations": ["Australia"] },
+  { "school": "Queensland University of Technology", "nations": ["Australia"] },
+  { "school": "University of Technology Sydney", "nations": ["Australia"] },
+  { "school": "European Business School", "nations": ["Germany"] },
+  {
+    "school": "Alliance Manchester Business School, University of Manchester",
+    "nations": ["United Kingdom"]
+  },
+  { "school": "National Taiwan University", "nations": ["Taiwan"] },
+  { "school": "University of Glasgow", "nations": ["United Kingdom"] },
+  { "school": "University of Southampton", "nations": ["United Kingdom"] },
+  { "school": "Qingdao University", "nations": ["China"] },
+  { "school": "Morgan Stanley", "nations": ["United States"] },
+  {
+    "school": "Guanshankou Vocational and Technical College for Men",
+    "nations": ["China"]
+  },
+  { "school": "University of Wisconsin-Madison", "nations": ["United States"] },
+  {
+    "school": "University of Washington Seattle",
+    "nations": ["United States"]
+  },
+  {
+    "school": "FSFM Frankfurt School of Finance & Management",
+    "nations": ["Germany"]
+  },
+  { "school": "McMaster DeGroote School of Business", "nations": ["Canada"] },
+  { "school": "Carson School of Business", "nations": ["United States"] },
+  {
+    "school": "Stephen M. Ross School of Business, University of Michigan",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Darden School of Business, University of Virginia",
+    "nations": ["United States"]
+  },
+  { "school": "Loyola Marymount University", "nations": ["United States"] },
+  { "school": "Waseda University Business School", "nations": ["Japan"] },
+  { "school": "Waseda University", "nations": ["Japan"] },
+  { "school": "SGU (Study Group University Program)", "nations": ["Japan"] },
+  { "school": "Henry Business School", "nations": ["United Kingdom"] },
+  { "school": "Stockholm Finance Institute", "nations": ["Sweden"] },
+  { "school": "The University of Manchester", "nations": ["United Kingdom"] },
+  { "school": "City, University of London", "nations": ["United Kingdom"] },
+  { "school": "Princeton University", "nations": ["United States"] },
+  { "school": "Goethe University Frankfurt", "nations": ["Germany"] },
+  { "school": "Lyon Business School", "nations": ["France"] },
+  { "school": "Lancaster University", "nations": ["United Kingdom"] },
+  { "school": "KU Leuven", "nations": ["Belgium"] },
+  {
+    "school": "Shanghai International Studies University",
+    "nations": ["China"]
+  },
+  {
+    "school": "Harvard Business School, Harvard University",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Southern California Master of Science in Finance",
+    "nations": ["United States"]
+  },
+  { "school": "Santa Clara University", "nations": ["United States"] },
+  { "school": "NEOMA Business School", "nations": ["France"] },
+  { "school": "Trinity College Dublin", "nations": ["Ireland"] },
+  { "school": "Oslo Metropolitan University", "nations": ["Norway"] },
+  { "school": "University of Denver", "nations": ["United States"] },
+  { "school": "IESA Performance Art Management", "nations": ["France"] },
+  { "school": "EBS Business School", "nations": ["Germany"] },
+  { "school": "Munich Business School", "nations": ["Germany"] },
+  {
+    "school": "Tuck School of Business, Dartmouth College",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Anderson School of Management, University of California, Los Angeles",
+    "nations": ["United States"]
+  },
+  {
+    "school": "NYU Stern School of Business, New York University",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Columbia Business School, Columbia University",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Massachusetts Institute of Technology Sloan School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Samuel Curtis Johnson Graduate School of Management, Cornell University",
+    "nations": ["United States"]
+  },
+  { "school": "European Business School (EBS)", "nations": ["Germany"] },
+  { "school": "Tongji University", "nations": ["China"] },
+  {
+    "school": "University of Minnesota, Twin Cities",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Rutgers, The State University of New Jersey",
+    "nations": ["United States"]
+  },
+  { "school": "Indiana University", "nations": ["United States"] },
+  { "school": "FSFM", "nations": ["Germany"] },
+  {
+    "school": "Cornell University Samuel Curtis Johnson Graduate School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "WHU - Otto Beisheim School of Management",
+    "nations": ["Germany", "China"]
+  },
+  { "school": "Jinan University", "nations": ["China"] },
+  { "school": "University of Birmingham", "nations": ["United Kingdom"] },
+  {
+    "school": "Cornell Baker Program in Real Estate",
+    "nations": ["United States"]
+  },
+  { "school": "Nanyang Business School", "nations": ["Singapore"] },
+  { "school": "Simon Business School", "nations": ["United States"] },
+  {
+    "school": "University of California, Riverside",
+    "nations": ["United States"]
+  },
+  {
+    "school": "MIT Sloan School of Management, Massachusetts Institute of Technology",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Tepper School of Business, Carnegie Mellon University",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of California, Los Angeles (UCLA)",
+    "nations": ["United States"]
+  },
+  {
+    "school": "McCombs School of Business, University of Texas at Austin",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Kenan-Flagler Business School, University of North Carolina at Chapel Hill",
+    "nations": ["United States"]
+  },
+  {
+    "school": "McDonough School of Business, Georgetown University",
+    "nations": ["United States"]
+  },
+  { "school": "Southern Methodist University", "nations": ["United States"] },
+  {
+    "school": "Brandeis University International Business School",
+    "nations": ["United States"]
+  },
+  { "school": "Dartmouth College", "nations": ["United States"] },
+  { "school": "Brigham Young University", "nations": ["United States"] },
+  {
+    "school": "Michael Smurfit Graduate Business School, University College Dublin",
+    "nations": ["Ireland"]
+  },
+  { "school": "Nanjing Double First-Class University", "nations": ["China"] },
+  {
+    "school": "New York University Stern School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Tuck School of Business at Dartmouth",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Johnson Graduate School of Management",
+    "nations": ["United States"]
+  },
+  { "school": "IMD", "nations": ["Switzerland"] },
+  { "school": "RSM Erasmus University", "nations": ["Netherlands"] },
+  {
+    "school": "Katz Graduate School of Business, University of Pittsburgh",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Faculty of Social Sciences and Management, University of Ljubljana",
+    "nations": ["Slovenia"]
+  },
+  { "school": "Tianjin University", "nations": ["China"] },
+  { "school": "Tulane University", "nations": ["United States"] },
+  { "school": "Boston Consulting Group", "nations": ["United States"] },
+  { "school": "College of William & Mary", "nations": ["United States"] },
+  {
+    "school": "University of Navarra - IESE Business School",
+    "nations": ["Spain"]
+  },
+  {
+    "school": "Columbia University School of International and Public Affairs",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Rensselaer Polytechnic Institute",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Dartmouth College Tuck School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Johns Hopkins University School of Advanced International Studies",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Ivey Business School, University of Western Ontario",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "University of California, Irvine Master of Science in Business Analytics",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Cornell University, School of International and Public Affairs",
+    "nations": ["United States"]
+  },
+  {
+    "school": "The Wharton School of the University of Pennsylvania",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Maryland Robert H. Smith School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Haas School of Business, University of California Berkeley",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Saïd Business School, University of Oxford",
+    "nations": ["United Kingdom"]
+  },
+  { "school": "Indiana University Bloomington", "nations": ["United States"] },
+  { "school": "University of California Irvine", "nations": ["United States"] },
+  {
+    "school": "Save the Children International",
+    "nations": ["United Kingdom"]
+  },
+  { "school": "Roland Berger", "nations": ["Germany"] },
+  {
+    "school": "Fordham University Gabelli School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Judge Business School, University of Cambridge",
+    "nations": ["United Kingdom"]
+  },
+  { "school": "University of Cologne", "nations": ["Germany"] },
+  { "school": "Korea University Business School", "nations": ["South Korea"] },
+  { "school": "Fundação Getulio Vargas (FGV)", "nations": ["Brazil"] },
+  { "school": "Cass Business School", "nations": ["United Kingdom"] },
+  { "school": "International School of Management", "nations": ["Germany"] },
+  {
+    "school": "Simon Fraser University (Beedie School of Business)",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "University of Chicago - Master of Arts Program in the Social Sciences (MAPSS)",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Chicago - Master of Arts in Computational Social Science (MACSS)",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Columbia University - Master of Science in Marketing Science",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Duke University - Master of Arts in Economics (MAE)",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Columbia University - Quantitative Methods in the Social Sciences (QMSS)",
+    "nations": ["United States"]
+  },
+  {
+    "school": "New York University - Master of Arts in Psychology",
+    "nations": ["United States"]
+  },
+  { "school": "University of Texas at El Paso", "nations": ["United States"] },
+  { "school": "University of Hawaii at Manoa", "nations": ["United States"] },
+  { "school": "Keio University", "nations": ["Japan"] },
+  { "school": "Bayes Business School", "nations": ["United Kingdom"] },
+  { "school": "University of Cape Town", "nations": ["South Africa"] },
+  { "school": "Indian Institutes of Management", "nations": ["India"] },
+  { "school": "Hong Kong University", "nations": ["Hong Kong"] },
+  { "school": "Hong Kong Baptist University", "nations": ["Hong Kong"] },
+  {
+    "school": "University of Oxford Saïd Business School",
+    "nations": ["United Kingdom"]
+  },
+  { "school": "University of Texas", "nations": ["United States"] },
+  { "school": "Syracuse University", "nations": ["United States"] },
+  { "school": "University of Sheffield", "nations": ["United Kingdom"] },
+  { "school": "Newcastle University", "nations": ["United Kingdom"] },
+  { "school": "Loughborough University", "nations": ["United Kingdom"] },
+  { "school": "University of Strathclyde", "nations": ["United Kingdom"] },
+  {
+    "school": "University of Washington Michael G. Foster School of Business",
+    "nations": ["United States"]
+  },
+  { "school": "George Mason University", "nations": ["United States"] },
+  { "school": "Louisiana State University", "nations": ["United States"] },
+  {
+    "school": "Ecole Polytechnique Fédérale de Lausanne",
+    "nations": ["Switzerland"]
+  },
+  {
+    "school": "Swedish Foundation for International Cooperation in Research and Higher Education",
+    "nations": ["Sweden"]
+  },
+  { "school": "Fudan University School of Economics", "nations": ["China"] },
+  {
+    "school": "Paris Dauphine University (University of Paris IX)",
+    "nations": ["France"]
+  },
+  { "school": "H&M", "nations": ["Sweden"] },
+  {
+    "school": "University of Chicago Harris School of Public Policy",
+    "nations": ["United States"]
+  },
+  { "school": "Xi'an Jiaotong-Liverpool University", "nations": ["China"] },
+  { "school": "EMlyon Business School", "nations": ["France"] },
+  {
+    "school": "University of Pennsylvania: Wharton",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Northwestern University: Kellogg",
+    "nations": ["United States"]
+  },
+  { "school": "University of Chicago: Booth", "nations": ["United States"] },
+  {
+    "school": "Massachusetts Institute of Technology: Sloan",
+    "nations": ["United States"]
+  },
+  { "school": "New York University: Stern", "nations": ["United States"] },
+  {
+    "school": "University of California at Berkeley: Haas",
+    "nations": ["United States"]
+  },
+  { "school": "Cornell University: Johnson", "nations": ["United States"] },
+  { "school": "Dartmouth College: Tuck", "nations": ["United States"] },
+  { "school": "Duke University: Fuqua", "nations": ["United States"] },
+  { "school": "University of Virginia: Darden", "nations": ["United States"] },
+  { "school": "University of Cambridge: Judge", "nations": ["United Kingdom"] },
+  {
+    "school": "Carnegie Mellon University: Tepper",
+    "nations": ["United States"]
+  },
+  { "school": "University of Michigan: Ross", "nations": ["United States"] },
+  {
+    "school": "University of Southern California: Marshall",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of California, Los Angeles (UCLA) Anderson School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Georgetown University: McDonough",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Washington University in St. Louis: Olin",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Washington: Foster",
+    "nations": ["United States"]
+  },
+  { "school": "University of Oxford: Saïd", "nations": ["United Kingdom"] },
+  { "school": "Ohio State University: Fisher", "nations": ["United States"] },
+  {
+    "school": "University of North Carolina: Kenan-Flagler",
+    "nations": ["United States"]
+  },
+  { "school": "Vanderbilt University: Owen", "nations": ["United States"] },
+  { "school": "Peking University: Guanghua", "nations": ["China"] },
+  {
+    "school": "University of Florida: Warrington",
+    "nations": ["United States"]
+  },
+  { "school": "Emory University: Goizueta", "nations": ["United States"] },
+  {
+    "school": "University of Texas at Austin: McCombs",
+    "nations": ["United States"]
+  },
+  { "school": "Rice University: Jones", "nations": ["United States"] },
+  { "school": "University of Rochester: Simon", "nations": ["United States"] },
+  {
+    "school": "University of California at Irvine: Merage",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Chinese University of Hong Kong (CUHK) Business School",
+    "nations": ["Hong Kong"]
+  },
+  {
+    "school": "Singapore Management University: Lee Kong Chian",
+    "nations": ["Singapore"]
+  },
+  {
+    "school": "University of Notre Dame: Mendoza",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Georgia Institute of Technology: Scheller College of Business",
+    "nations": ["United States"]
+  },
+  { "school": "Indiana University: Kelley", "nations": ["United States"] },
+  { "school": "Shanghai Jiao Tong University: Antai", "nations": ["China"] },
+  {
+    "school": "Pennsylvania State University: Smeal",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Tsinghua University School of Economics and Management",
+    "nations": ["China"]
+  },
+  { "school": "Boston University: Questrom", "nations": ["United States"] },
+  { "school": "Babson College: Olin", "nations": ["United States"] },
+  {
+    "school": "Tongji University School of Economics and Management",
+    "nations": ["China"]
+  },
+  {
+    "school": "City, University of London: Bayes (formerly Cass)",
+    "nations": ["United Kingdom"]
+  },
+  {
+    "school": "Arizona State University: W. P. Carey",
+    "nations": ["United States"]
+  },
+  { "school": "Boston College: Carroll", "nations": ["United States"] },
+  {
+    "school": "Lancaster University Management School",
+    "nations": ["United Kingdom"]
+  },
+  { "school": "University of Toronto: Rotman", "nations": ["Canada"] },
+  { "school": "University of Georgia: Terry", "nations": ["United States"] },
+  {
+    "school": "University of Texas at Dallas: Jindal",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Minnesota: Carlson",
+    "nations": ["United States"]
+  },
+  { "school": "University of Pittsburgh: Katz", "nations": ["United States"] },
+  {
+    "school": "Brigham Young University: Marriott",
+    "nations": ["United States"]
+  },
+  { "school": "University of Maryland: Smith", "nations": ["United States"] },
+  {
+    "school": "University of Wisconsin School of Business",
+    "nations": ["United States"]
+  },
+  { "school": "EMLyon Business School", "nations": ["France"] },
+  { "school": "McGill University: Desautels", "nations": ["Canada"] },
+  {
+    "school": "Politecnico di Milano School of Management",
+    "nations": ["Italy"]
+  },
+  { "school": "Western University: Ivey", "nations": ["Canada"] },
+  { "school": "Miami Herbert Business School", "nations": ["United States"] },
+  { "school": "William & Mary: Mason", "nations": ["United States"] },
+  { "school": "Texas A&M University: Mays", "nations": ["United States"] },
+  { "school": "Melbourne Business School", "nations": ["Australia"] },
+  { "school": "Queen's University: Smith", "nations": ["Canada"] },
+  { "school": "Ipade Business School", "nations": ["Mexico"] },
+  {
+    "school": "City University of New York Baruch College",
+    "nations": ["United States"]
+  },
+  { "school": "Haskeye Business School", "nations": ["United States"] },
+  {
+    "school": "Northwestern University Medill School of Journalism, Media, Integrated Marketing Communications",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Southern California Marshall School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Northeastern University Master of Science in Business Analytics",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Queen's University Smith School of Business",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "University of Washington Seattle Foster School of Business",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Brock University Goodman School of Business",
+    "nations": ["Canada"]
+  },
+  {
+    "school": "Weatherhead School of Management",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Emory University Goizueta Business School",
+    "nations": ["United States"]
+  },
+  {
+    "school": "University of Chicago Master of Science in Business Analytics (MSBA)",
+    "nations": ["United States"]
+  },
+  { "school": "EBS European Business School", "nations": ["Germany"] },
+  { "school": "Oklahoma Accounting Program", "nations": ["United States"] },
+  {
+    "school": "Krannert School of Management, Purdue University",
+    "nations": ["United States"]
+  },
+  { "school": "Cornell Tech", "nations": ["United States"] },
+  {
+    "school": "University of Minnesota, Carlson School of Management",
+    "nations": ["United States"]
+  },
+  { "school": "Oklahoma State University", "nations": ["United States"] },
+  { "school": "The University of Mississippi", "nations": ["United States"] },
+  { "school": "GEM Grenoble Ecole de Management", "nations": ["France"] },
+  { "school": "Université Grenoble Alpes", "nations": ["France"] },
+  { "school": "Microsoft", "nations": ["United States"] },
+  { "school": "Tableau", "nations": ["United States"] },
+  { "school": "T-Mobile", "nations": ["United States"] },
+  { "school": "Alaska", "nations": ["United States"] },
+  { "school": "Mercer", "nations": ["United States"] },
+  {
+    "school": "Chinese University of Hong Kong, Shenzhen",
+    "nations": ["China"]
+  },
+  {
+    "school": "Johns Hopkins University Master of Science in Finance",
+    "nations": ["United States"]
+  },
+  {
+    "school": "Columbia University School of Professional Studies",
+    "nations": ["United States"]
+  },
+  { "school": "Auburn University", "nations": ["United States"] },
+  { "school": "Cheung Kong Graduate School of Business", "nations": ["China"] }
+]

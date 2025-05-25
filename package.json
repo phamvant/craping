@@ -1,35 +1,8 @@
 {
-  "name": "scraping",
-  "version": "1.0.0",
-  "main": "src/index.ts",
-  "scripts": {
-    "dev": "node src/ai/groq.js"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "@types/cheerio": "^0.22.35",
-    "@types/node": "^20.14.6",
-    "@types/pg": "^8.11.6",
-    "ts-node": "^10.9.2",
-    "tsx": "^4.15.6",
-    "typescript": "^5.4.5"
-  },
   "dependencies": {
-    "@aws-sdk/client-secrets-manager": "^3.726.1",
-    "@blocknote/server-util": "^0.15.1",
-    "@dqbd/tiktoken": "^1.0.15",
-    "@lmstudio/sdk": "^0.0.12",
-    "@types/emoji-mart": "^3.0.14",
-    "@types/jsdom": "^21.1.7",
-    "@types/mssql": "^9.1.6",
-    "archiver": "^7.0.1",
-    "cheerio": "^1.0.0-rc.12",
-    "groq-sdk": "^0.5.0",
-    "jsdom": "^25.0.1",
-    "mssql": "^11.0.1",
-    "mysql2": "^3.12.0",
-    "openai": "^4.77.0",
-    "pg": "^8.12.0",
-    "puppeteer": "^23.11.1"
+    "@types/node": "^22.15.21",
+    "axios": "^1.9.0",
+    "openai": "^4.100.0",
+    "pg": "^8.16.0"
   }
 }
