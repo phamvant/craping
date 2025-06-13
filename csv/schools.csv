@@ -1,0 +1,1087 @@
+uni_name,uni_cd_name,department_name,qs_world_rank,us_news_rank_world,us_rank,law_school_rank_us,business_school_rank_us,medicine_school_rank_us,medicine_school_rank_us,gpa,gre,toefl,ielts,gmat,ctry_cd,number_of_applications,number_of_admissions
+Harvard University,HARVARD,General,,,,,,,,"3,88",327,107,,,US,,
+Harvard University,HARVARD,Faculty of Arts and Sciences,,,,,,,,0,0,0,,,US,3,0
+Harvard University,HARVARD,School of Engineering and Applied Sciences,,,,,,,,"3,92",326,104,,,US,201,51
+Harvard University,HARVARD,School of Public Health,,,,,,,,"3,94",330,110,,,US,64,43
+Harvard University,HARVARD,Graduate School of Arts & Sciences,,,,,,,,"3,86",329,113,,,US,15,8
+Harvard University,HARVARD,Medical School,,,,,,,,"3,94",325,161,,,US,11,8
+Harvard University,HARVARD,Graduate School of Design,,,,,,,,"3,81",315,105,,,US,13,7
+Harvard University,HARVARD,Business School,,,,,,,,0,0,0,,,US,0,0
+Harvard University,HARVARD,John F. Kennedy School of Government,,,,,,,,0,0,0,,,US,0,0
+Harvard University,HARVARD,Graduate School of Education,,,,,,,,0,0,0,,,US,1,1
+Massachusetts Institute of Technology,MIT,General,,,,,,,,"3,87",329,107,,,US,,
+Massachusetts Institute of Technology,MIT,Sloan School of Management,,,,,,,,"3,8",330,110,,,US,84,36
+Massachusetts Institute of Technology,MIT,School of Engineering,,,,,,,,"3,93",327,107,,,US,59,17
+Massachusetts Institute of Technology,MIT,Schwarzman College of Computing,,,,,,,,"3,9",326,106,,,US,62,17
+Massachusetts Institute of Technology,MIT,School of Science,,,,,,,,0,0,0,,,US,5,0
+Massachusetts Institute of Technology,MIT,"School of Humanities, Arts, and Social Sciences",,,,,,,,0,0,0,,,US,0,0
+Massachusetts Institute of Technology,MIT,School of Architecture and Planning,,,,,,,,"3,66",335,101,,,US,12,3
+Stanford University,STANFORD,General,,,,,,,,"3,91",328,107,,,US,,
+Stanford University,STANFORD,School of Engineering,,,,,,,,"3,94",329,109,,,US,342,109
+Stanford University,STANFORD,School of Humanities & Sciences,,,,,,,,"3,99",330,105,,,US,46,14
+Stanford University,STANFORD,School of Medicine,,,,,,,,"3,6",328,108,,,US,5,2
+Stanford University,STANFORD,"School of Earth, Energy& Environmental Sciences",,,,,,,,0,0,0,,,US,1,0
+Stanford University,STANFORD,School of Graduate,,,,,,,,"3,85",325,109,,,US,6,3
+Stanford University,STANFORD,Department of Music,,,,,,,,0,0,0,,,US,1,0
+Stanford University,STANFORD,Department of Communication,,,,,,,,0,0,0,,,US,0,0
+"University of California, Berkeley",BERKELEY,General,,,,,,,,"3,83",327,106,,,US,,
+"University of California, Berkeley",BERKELEY,School of Information,,,,,,,,"3,7",329,107,,,US,44,13
+"University of California, Berkeley",BERKELEY,College of Engineering,,,,,,,,"3,87",327,106,,,US,551,403
+"University of California, Berkeley",BERKELEY,"Division of Computing, Data Science & Society",,,,,,,,"3,84",327,108,,,US,36,17
+"University of California, Berkeley",BERKELEY,Boot Camps,,,,,,,,"3,79",326,104,,,US,17,13
+"University of California, Berkeley",BERKELEY,School of Public Health,,,,,,,,"3,9",330,110,,,US,24,7
+"University of California, Berkeley",BERKELEY,College of Environmental Design,,,,,,,,"3,81",0,108,,,US,13,12
+"University of California, Berkeley",BERKELEY,College of Letters & Science (L&S),,,,,,,,"3,9",329,106,,,US,3,3
+"University of California, Berkeley",BERKELEY,Rausser College of Natural Resources,,,,,,,,0,0,0,,,US,1,0
+"University of California, Berkeley",BERKELEY,Goldman School of Public Policy,,,,,,,,"3,8",0,112,,,US,2,1
+"University of California, Berkeley",BERKELEY,College of Chemistry,,,,,,,,"3,96",323,102,,,US,4,2
+University of Oxford,OXFORD,General,,,,,,,,"3,85",328,108,,,UK,,
+University of Oxford,OXFORD,Department of Statistics,,,,,,,,0,0,0,,,UK,0,0
+University of Oxford,OXFORD,Department of Materials,,,,,,,,0,0,0,,,UK,0,0
+University of Oxford,OXFORD,Social Sciences Division,,,,,,,,0,0,0,,,UK,2,1
+University of Oxford,OXFORD,Saïd business school,,,,,,,,4,333,114,,,UK,6,3
+University of Oxford,OXFORD,Department of Engineering Science,,,,,,,,0,0,0,,,UK,0,0
+University of Oxford,OXFORD,"Mathematical, Physical and Life Sciences",,,,,,,,"3,85",329,106,,,UK,57,34
+University of Oxford,OXFORD,Medical Sciences Division,,,,,,,,"3,65",321,103,,,UK,2,2
+University of Oxford,OXFORD,Department of Computer Science,,,,,,,,0,0,0,,,UK,0,0
+University of Oxford,OXFORD,Mathematical Institute,,,,,,,,"3,92",330,108,,,UK,13,11
+University of Oxford,OXFORD,Department of Economics,,,,,,,,0,0,0,,,UK,0,0
+"University of Washington, Seattle",UW,General,,,,,,,,"3,7",324,103,,,US,,
+"University of Washington, Seattle",UW,College of Engineering,,,,,,,,"3,7",323,103,,,US,403,247
+"University of Washington, Seattle",UW,Michael G. Foster School of Business,,,,,,,,"3,5",324,103,,,US,45,39
+"University of Washington, Seattle",UW,The Information School,,,,,,,,"3,72",326,107,,,US,78,44
+"University of Washington, Seattle",UW,College of Arts & Sciences,,,,,,,,"3,79",327,106,,,US,162,132
+"University of Washington, Seattle",UW,The Graduate School,,,,,,,,"3,71",327,101,,,US,41,19
+"University of Washington, Seattle",UW,SCHOOL OF PUBLIC HEALTH,,,,,,,,"3,77",325,104,,,US,59,34
+"University of Washington, Seattle",UW,College of the Environment,,,,,,,,90,329,103,,,US,1,1
+"University of Washington, Seattle",UW,Daniel J. Evans School of Public Policy & Governance,,,,,,,,"3,34",323,101,,,US,2,2
+"University of Washington, Seattle",UW,Global Innovation Exchange(GIX),,,,,,,,"3,62",322,106,,,US,42,41
+"University of Washington, Seattle",UW,School of Medicine,,,,,,,,"3,74",0,107,,,US,2,2
+Columbia University,COLUMBIA,General,,,,,,,,"3,78",325,105,,,US,,
+Columbia University,COLUMBIA,School of Engineering,,,,,,,,"3,8",326,105,,,US,1171,1006
+Columbia University,COLUMBIA,Department of Statistics,,,,,,,,"3,77",325,106,,,US,198,173
+Columbia University,COLUMBIA,Mailman School of public health,,,,,,,,"3,68",324,105,,,US,98,93
+Columbia University,COLUMBIA,Teachers College,,,,,,,,"3,7",325,107,,,US,53,49
+Columbia University,COLUMBIA,Date Science Institute,,,,,,,,"3,83",327,106,,,US,187,167
+Columbia University,COLUMBIA,Institute for Social and Economic Research and Policy,,,,,,,,"3,8",327,104,,,US,16,13
+Columbia University,COLUMBIA,Department of Mathematics,,,,,,,,"3,85",330,109,,,US,80,60
+Columbia University,COLUMBIA,School of Business,,,,,,,,"3,85",328,104,,,US,45,40
+Columbia University,COLUMBIA,Graduate School of Arts and Sciences,,,,,,,,"3,88",329,110,,,US,28,21
+Columbia University,COLUMBIA,School of Professional Studies,,,,,,,,"3,66",323,105,,,US,108,87
+Columbia University,COLUMBIA,School of Social Work,,,,,,,,"3,45",325,0,,,US,2,2
+Columbia University,COLUMBIA,School of International and Public Affairs,,,,,,,,"3,61",328,110,,,US,11,10
+Columbia University,COLUMBIA,"Graduate School of Architecture, Planning",,,,,,,,"3,3",0,100,,,US,2,2
+Columbia University,COLUMBIA,Department of Music,,,,,,,,0,0,0,,,US,0,0
+Columbia University,COLUMBIA,School of Journalism,,,,,,,,0,0,0,,,US,0,0
+Columbia University,COLUMBIA,Department of Economics,,,,,,,,0,0,0,,,US,1,0
+University of Cambridge,CAMBRIDGE,General,,,,,,,,"3,9",328,108,,,UK,343,234
+University of Cambridge,CAMBRIDGE,School of Physical Sciences,,,,,,,,"3,9",326,107,,,UK,5,4
+University of Cambridge,CAMBRIDGE,Cambridge Judge Business School,,,,,,,,"3,85",319,109,,,UK,6,6
+University of Cambridge,CAMBRIDGE,School of Humanities and Social Sciences,,,,,,,,"3,94",327,111,,,UK,6,4
+University of Cambridge,CAMBRIDGE,School of Technology,,,,,,,,"3,9",327,110,,,UK,29,22
+University of Cambridge,CAMBRIDGE,School of Clinical Medicine,,,,,,,,0,0,0,,,UK,1,0
+California Institute Of Technology,CALTECH,General,,,,,,,,"3,93",328,106,,,US,220,88
+California Institute Of Technology,CALTECH,DIVISION OF ENGINEERING & APPLIED SCIENCE,,,,,,,,"3,88",325,109,,,US,36,13
+California Institute Of Technology,CALTECH,Division of Chemistry and Chemical Engineering,,,,,,,,"3,99",0,104,,,US,3,2
+California Institute Of Technology,CALTECH,"Division of Physics, Mathematics and Astronomy",,,,,,,,0,0,0,,,US,2,0
+Johns Hopkins University,JHU,General,,,,,,,,"3,72",325,104,,,,3622,2637
+Johns Hopkins University,JHU,Whiting School of Engineering,,,,,,,,"3,75",325,104,,,,848,587
+Johns Hopkins University,JHU,Bloomberg School of Public Health,,,,,,,,"3,83",327,107,,,,78,48
+Johns Hopkins University,JHU,Carey Business School,,,,,,,,"3,61",325,103,,,,175,150
+Johns Hopkins University,JHU,School of Advanced International Studies,,,,,,,,"3,75",325,105,,,,5,5
+Johns Hopkins University,JHU,Department of Mechanical Engineering,,,,,,,,0,0,0,,,,0,0
+Johns Hopkins University,JHU,School of Arts & Sciences,,,,,,,,"3,45",326,106,,,,6,5
+Johns Hopkins University,JHU,Johns Hopkins School of Medicine,,,,,,,,"3,58",321,103,,,,2,1
+Johns Hopkins University,JHU,School of Education,,,,,,,,"3,73",325,103,,,,7,7
+Johns Hopkins University,JHU,Peabody Institute,,,,,,,,0,0,0,,,,0,0
+Yale University,YALE,General,,,,,,,,"3,87",327,106,,,,1703,916
+Yale University,YALE,School of Engineering & Applied Science,,,,,,,,"3,7",324,102,,,,20,11
+Yale University,YALE,Graduate School of Arts & Sciences,,,,,,,,"3,92",330,109,,,,278,134
+Yale University,YALE,School of Public Health,,,,,,,,"3,81",327,106,,,,140,112
+Yale University,YALE,School of Management,,,,,,,,"3,83",330,109,,,,9,5
+Yale University,YALE,School of the Environment,,,,,,,,0,0,0,,,,0,0
+University College London,UCL,General,,,,,,,,"3,7",323,100,,,,1316,928
+University College London,UCL,Department of Computer Science,,,,,,,,"3,8",323,103,,,,54,27
+University College London,UCL,"Department of Civil, Environmental & Geomatic Engineering",,,,,,,,"3,7",321,103,,,,2,2
+University College London,UCL,Department of Division of Psychology & Language Sciences,,,,,,,,"3,17",0,0,,,,1,1
+University College London,UCL,School of Management,,,,,,,,0,0,0,,,,4,2
+University College London,UCL,Department of Mathematics,,,,,,,,"3,7",320,103,,,,1,1
+University College London,UCL,Centre for Advanced Spatial Analysis,,,,,,,,0,0,0,,,,0,0
+University College London,UCL,Department of Division of Biosciences,,,,,,,,0,0,0,,,,1,0
+University College London,UCL,Department of Statistical Science,,,,,,,,"3,86",323,109,,,,4,2
+University College London,UCL,Department of Economics,,,,,,,,0,0,0,,,,0,0
+University College London,UCL,Department of Medical Physics and Biomedical Engineering,,,,,,,,0,0,0,,,,0,0
+University College London,UCL,Department of Electronic and Electrical Engineering,,,,,,,,"3,75",322,100,,,,8,7
+University College London,UCL,Department of Physics and Astronomy,,,,,,,,"3,75",323,100,,,,9,5
+University College London,UCL,Queen Square Institute of Neurology,,,,,,,,"3,8",0,100,,,,1,1
+University College London,UCL,The Bartlett School of Sustainable Construction,,,,,,,,0,0,0,,,,1,1
+University College London,UCL,Department of History,,,,,,,,0,0,0,,,,0,0
+Imperial College London,IMPERIAL,General,,,,,,,,"3,8",324,102,,,,1057,717
+Imperial College London,IMPERIAL,Faculty of Engineering,,,,,,,,"3,81",324,105,,,,232,147
+Imperial College London,IMPERIAL,Faculty of Natural Sciences,,,,,,,,"3,85",325,104,,,,45,23
+Imperial College London,IMPERIAL,Imperial College Business School,,,,,,,,"3,8",326,107,,,,21,17
+Imperial College London,IMPERIAL,Faculty of Medicine,,,,,,,,"3,8",319,103,,,,6,6
+University of California--Los Angeles,UCLA,General,,,,,,,,"3,78",325,105,,,,3703,2328
+University of California--Los Angeles,UCLA,Anderson School of Management,,,,,,,,"3,79",327,106,,,,64,42
+University of California--Los Angeles,UCLA,Samueli School of Engineering,,,,,,,,"3,83",325,105,,,,608,383
+University of California--Los Angeles,UCLA,College of Physical Sciences,,,,,,,,"3,86",331,106,,,,22,16
+University of California--Los Angeles,UCLA,College of Social Sciences,,,,,,,,"3,69",327,107,,,,10,9
+University of California--Los Angeles,UCLA,School of Public Health,,,,,,,,"3,7",327,103,,,,32,31
+University of California--Los Angeles,UCLA,College of Letters and Science,,,,,,,,"3,72",324,107,,,,4,3
+University of California--Los Angeles,UCLA,Luskin School of Public Affairs,,,,,,,,"3,45",325,0,,,,5,3
+University of Pennsylvania,UPENN,General,,,,,,,,"3,79",325,105,,,,4776,2876
+University of Pennsylvania,UPENN,School of Engineering and Applied Science,,,,,,,,"3,82",326,105,,,,1005,654
+University of Pennsylvania,UPENN,College of Liberal and Professional Studies,,,,,,,,"3,8",325,104,,,,5,4
+University of Pennsylvania,UPENN,School of Arts &? Sciences,,,,,,,,"3,81",325,105,,,,23,19
+University of Pennsylvania,UPENN,Perelman School of Medicine,,,,,,,,"3,72",324,109,,,,14,6
+University of Pennsylvania,UPENN,School of Social Policy &? Practice,,,,,,,,"3,65",327,105,,,,14,13
+University of Pennsylvania,UPENN,Graduate School of Education,,,,,,,,"3,69",324,102,,,,13,11
+University of Pennsylvania,UPENN,Annenberg School for Communication,,,,,,,,0,0,0,,,,0,0
+University of Pennsylvania,UPENN,Weitzman School of Design,,,,,,,,"3,75",321,108,,,,12,12
+University of Pennsylvania,UPENN,The Wharton School,,,,,,,,0,0,0,,,,1,0
+University of California--San Francisco,UCSF,General,,,,,,,,"3,46",329,107,,,,19,8
+Princeton University,PRINCETON,General,,,,,,,,"3,88",329,107,,,,466,158
+Princeton University,PRINCETON,School of Engineering and Applied Science,,,,,,,,"3,91",328,110,,,,76,35
+Princeton University,PRINCETON,Bendheim Center for Finance,,,,,,,,"3,98",335,111,,,,14,6
+Princeton University,PRINCETON,Department of Economics,,,,,,,,0,0,0,,,,0,0
+Princeton University,PRINCETON,Department of Geosciences,,,,,,,,0,0,0,,,,1,0
+Princeton University,PRINCETON,Princeton School of Public and International Affairs,,,,,,,,0,0,0,,,,1,0
+Princeton University,PRINCETON,Princeton University Graduate School,,,,,,,,"3,83",334,103,,,,8,4
+University of Toronto,UTORONTO,General,,,,,,,,"3,77",325,104,,,,1222,952
+University of Toronto,UTORONTO,Faculty of Arts & Science,,,,,,,,"3,9",326,106,,,,174,113
+University of Toronto,UTORONTO,Faculty of Applied Science & Engineering,,,,,,,,"3,7",324,104,,,,100,94
+University of Toronto,UTORONTO,School of Public Health,,,,,,,,"3,79",325,104,,,,20,16
+University of Toronto,UTORONTO,Faculty of Information,,,,,,,,"3,77",325,109,,,,25,22
+University of Toronto,UTORONTO,Rotman School of Management,,,,,,,,"3,7",325,100,,,,7,7
+University of Toronto,UTORONTO,University of Toronto Mississauga,,,,,,,,0,0,0,,,,0,0
+University of Toronto,UTORONTO,Ontario Institute for Studies in Education (OISE),,,,,,,,0,0,0,,,,0,0
+University of Michigan--Ann Arbor,UMICH,General,,,,,,,,"3,76",324,104,,,,5450,4028
+University of Michigan--Ann Arbor,UMICH,School of Information,,,,,,,,"3,77",324,107,,,,80,66
+University of Michigan--Ann Arbor,UMICH,"College of Literature, Science, and the Arts",,,,,,,,"3,81",326,105,,,,270,206
+University of Michigan--Ann Arbor,UMICH,College of Engineering(Michigan Engineering),,,,,,,,"3,8",325,104,,,,732,562
+University of Michigan--Ann Arbor,UMICH,UM School of Public Health,,,,,,,,"3,64",324,105,,,,112,104
+University of Michigan--Ann Arbor,UMICH,Medical School,,,,,,,,"3,86",324,107,,,,13,11
+University of Michigan--Ann Arbor,UMICH,Ross School of Business,,,,,,,,"3,69",326,105,,,,6,4
+University of Michigan--Ann Arbor,UMICH,School for Environment and Sustainability,,,,,,,,"3,68",326,106,,,,3,2
+University of Michigan--Ann Arbor,UMICH,Stamps School of Art & Design,,,,,,,,0,0,0,,,,2,1
+University of Michigan--Ann Arbor,UMICH,Institute for Social Research,,,,,,,,"3,86",320,104,,,,1,1
+University of Michigan--Ann Arbor,UMICH,Gerald R. Ford School of Public Policy,,,,,,,,"3,85",308,98,,,,1,1
+University of Michigan--Ann Arbor,UMICH,School of Kinesiology,,,,,,,,0,0,0,,,,0,0
+University of California--San Diego,UCSD,General,,,,,,,,"3,8",325,104,,,,5614,3574
+University of California--San Diego,UCSD,Rady School of Management,,,,,,,,"3,65",325,107,,,,60,43
+University of California--San Diego,UCSD,John Muir College,,,,,,,,"3,81",325,102,,,,23,20
+University of California--San Diego,UCSD,Jacobs School of Engineering,,,,,,,,"3,8",325,105,,,,1136,756
+University of California--San Diego,UCSD,Thurgood Marshall College,,,,,,,,"3,77",321,102,,,,7,5
+University of California--San Diego,UCSD,Scripps Institution of Oceanography,,,,,,,,66,0,102,,,,1,1
+University of California--San Diego,UCSD,Revelle College,,,,,,,,"3,86",0,0,,,,4,3
+University of California--San Diego,UCSD,Eleanor Roosevelt College,,,,,,,,4,329,0,,,,4,2
+University of California--San Diego,UCSD,THE HERBERT WERTHEIM SCHOOL OF PUBLIC HEALTH AND HUMAN LONGEVITY SCIENCE,,,,,,,,"3,79",321,102,,,,13,11
+University of California--San Diego,UCSD,SCHOOL OF GLOBAL POLICY & STRATEGY,,,,,,,,"3,64",322,103,,,,5,5
+University of California--San Diego,UCSD,Division of Arts and Humanities,,,,,,,,0,0,0,,,,1,0
+Cornell University,CORNELL,General,,,,,,,,"3,78",325,105,,,,4896,3386
+Cornell University,CORNELL,College of Engineering,,,,,,,,"3,8",325,105,,,,421,312
+Cornell University,CORNELL,The Ann S. Bowers College of Computing and Information Science,,,,,,,,"3,78",326,106,,,,184,132
+Cornell University,CORNELL,Weill Cornell Medicine,,,,,,,,"3,79",323,106,,,,44,40
+Cornell University,CORNELL,Cornell SC Johnson College of Business,,,,,,,,"3,73",325,106,,,,25,23
+Cornell University,CORNELL,College of Agriculture and Life Sciences,,,,,,,,"3,83",320,101,,,,5,3
+Cornell University,CORNELL,School of Industrial and Labor Relations,,,,,,,,0,0,0,,,,1,0
+Cornell University,CORNELL,College of Human Ecology,,,,,,,,"3,75",327,102,,,,9,7
+Cornell University,CORNELL,Graduate School,,,,,,,,"3,87",327,105,,,,30,16
+University of Chicago,UCHICAGO,General,,,,,,,,"3,8",327,107,,,,2812,1986
+University of Chicago,UCHICAGO,Harris School of Public Policy Studies,,,,,,,,"3,65",327,107,,,,23,22
+University of Chicago,UCHICAGO,Professional Education,,,,,,,,"3,78",328,106,,,,88,78
+University of Chicago,UCHICAGO,Physical Sciences Division,,,,,,,,"3,8",328,106,,,,647,466
+University of Chicago,UCHICAGO,Pritzker School of Molecular Engineering,,,,,,,,"3,84",329,104,,,,12,8
+University of Chicago,UCHICAGO,Social Sciences Division,,,,,,,,"3,95",332,111,,,,5,3
+University of Chicago,UCHICAGO,Humanities Division,,,,,,,,0,0,0,,,,0,0
+University of Chicago,UCHICAGO,The University of Chicago Booth School of Business,,,,,,,,0,0,0,,,,2,1
+University of Chicago,UCHICAGO,"Crown Family School of Social Work, Policy, and Practice",,,,,,,,"3,45",325,0,,,,1,1
+University of Chicago,UCHICAGO,Biological Sciences Division,,,,,,,,"3,88",331,0,,,,1,1
+Northwestern University,NORTHWESTERN,General,,,,,,,,"3,74",325,105,,,,3218,2366
+Northwestern University,NORTHWESTERN,McCormick School of Engineering,,,,,,,,"3,79",325,105,,,,704,503
+Northwestern University,NORTHWESTERN,Weinberg College of Arts&Sciences,,,,,,,,"3,86",325,104,,,,28,24
+Northwestern University,NORTHWESTERN,"School of Journalism, Media, Integrated Marketing Communications",,,,,,,,"3,74",324,105,,,,4,3
+Northwestern University,NORTHWESTERN,School of Communication,,,,,,,,0,0,0,,,,0,0
+Northwestern University,NORTHWESTERN,School of Professional Stidoes,,,,,,,,"3,7",319,93,,,,3,3
+Northwestern University,NORTHWESTERN,Feinberg School of Medicine,,,,,,,,"3,75",321,107,,,,6,5
+Northwestern University,NORTHWESTERN,School of Education & Social Policy,,,,,,,,0,0,0,,,,0,0
+Northwestern University,NORTHWESTERN,Kellogg School of Management,,,,,,,,0,0,0,,,,1,0
+Duke University,DUKE,General,,,,,,,,"3,8",326,105,,,,4835,3338
+Duke University,DUKE,Trinity College of Arts & Sciences,,,,,,,,"3,86",327,107,,,,135,102
+Duke University,DUKE,Pratt school of engineering,,,,,,,,"3,8",326,105,,,,784,620
+Duke University,DUKE,Department of Computer Science,,,,,,,,"3,84",328,109,,,,210,124
+Duke University,DUKE,School of Graduate,,,,,,,,0,0,0,,,,1,1
+Duke University,DUKE,Social Science Research Institute,,,,,,,,"3,79",329,105,,,,81,37
+Duke University,DUKE,School of Medicine,,,,,,,,"3,71",327,105,,,,84,72
+Duke University,DUKE,Department of Mathematics,,,,,,,,"3,7",327,105,,,,3,1
+Duke University,DUKE,School of Business,,,,,,,,"3,76",330,106,,,,85,50
+Duke University,DUKE,Trinity College of Arts and Sciences,,,,,,,,0,0,0,,,,0,0
+Duke University,DUKE,SANFORD SCHOOL OF PUBLIC POLICY,,,,,,,,"3,54",324,105,,,,36,28
+National University of Singapore,NUS,General,,,,,,,,"3,7",324,100,,,,2180,1836
+National University of Singapore,NUS,School of Computing,,,,,,,,"3,81",325,105,,,,122,112
+National University of Singapore,NUS,NUS Engineering,,,,,,,,"3,71",320,104,,,,29,23
+National University of Singapore,NUS,Risk Management Institute,,,,,,,,"3,82",329,105,,,,29,29
+National University of Singapore,NUS,Faculty of Science,,,,,,,,"3,72",325,105,,,,145,111
+National University of Singapore,NUS,Integrative Sciences and Engineering Programme,,,,,,,,"3,88",328,108,,,,8,7
+National University of Singapore,NUS,Business School,,,,,,,,"3,6",326,109,,,,27,22
+National University of Singapore,NUS,The Logistics Institute - Asia Pacific,,,,,,,,0,0,0,,,,0,0
+National University of Singapore,NUS,Faculty of Arts and Social Sciences,,,,,,,,0,0,0,,,,0,0
+National University of Singapore,NUS,NUS School of Continuing and Lifelong Education,,,,,,,,"3,5",320,100,,,,3,3
+National University of Singapore,NUS,Institute of Systems Science,,,,,,,,0,0,0,,,,1,1
+National University of Singapore,NUS,School of Law,,,,,,,,0,0,0,,,,0,0
+University of Melbourne,MELBOURNE,General,,,,,,,,"3,57",321,100,,,,335,307
+University of Sydney,SYDNEY. AU,General,,,,,,,,"3,5",320,100,,,,349,341
+ETH Zurich,ETHZ,General,,,,,,,,"3,9",325,105,,,,942,581
+ETH Zurich,ETHZ,Department of Computer Science,,,,,,,,"3,91",325,107,,,,166,91
+ETH Zurich,ETHZ,Department of Information Technology and Electrical Engineering,,,,,,,,"3,94",326,105,,,,56,39
+ETH Zurich,ETHZ,Department of Mechanical and Process Engineering,,,,,,,,"3,91",325,108,,,,49,36
+ETH Zurich,ETHZ,Department of Biosystems Science and Engineering,,,,,,,,"3,8",326,107,,,,12,11
+ETH Zurich,ETHZ,Department of Materials,,,,,,,,"3,75",329,103,,,,5,5
+ETH Zurich,ETHZ,Department of Mathematics,,,,,,,,"3,8",326,107,,,,23,14
+ETH Zurich,ETHZ,Department of Chemistry and Applied Biosciences,,,,,,,,0,0,0,,,,2,2
+ETH Zurich,ETHZ,Department of Earth Sciences,,,,,,,,0,0,0,,,,0,0
+ETH Zurich,ETHZ,"Department of Civil, Environmental and Geomatic Engineering",,,,,,,,90,0,100,,,,2,2
+ETH Zurich,ETHZ,"Department of Humanities, Social and Political Sciences",,,,,,,,0,0,0,,,,1,0
+ETH Zurich,ETHZ,Department of Environmental Systems Science,,,,,,,,"3,8",0,109,,,,1,1
+ETH Zurich,ETHZ,"Department of Management, Technology, and Economics",,,,,,,,"3,73",325,104,,,,4,3
+Nanyang Technological University,NTU,General,,,,,,,,"3,6",323,100,,,,1299,1193
+Nanyang Technological University,NTU,Nanyang Business School,,,,,,,,"3,56",326,109,,,,23,19
+Nanyang Technological University,NTU,School of Electrical and Electronic Engineering,,,,,,,,"3,6",321,102,,,,9,9
+Nanyang Technological University,NTU,College of Engineering,,,,,,,,"3,58",323,102,,,,37,36
+Nanyang Technological University,NTU,College of Science,,,,,,,,"3,7",325,104,,,,54,44
+Nanyang Technological University,NTU,Wee Kim Wee School of Communication and Information,,,,,,,,"3,69",325,107,,,,5,5
+Nanyang Technological University,NTU,School of Humanities,,,,,,,,0,0,0,,,,0,0
+Nanyang Technological University,NTU,Nanyang Technopreneurship Center,,,,,,,,"2,8",0,109,,,,1,1
+Nanyang Technological University,NTU,School of Mechanical and Aerospace Engineering,,,,,,,,0,0,0,,,,0,0
+New York University,NYU,General,,,,,,,,"3,71",325,105,,,,4378,3510
+New York University,NYU,School of Global Public Health,,,,,,,,"3,52",322,101,,,,57,57
+New York University,NYU,Center for Data Science,,,,,,,,"3,85",329,108,,,,226,200
+New York University,NYU,Courant Institute of Mathematical Sciences,,,,,,,,"3,72",325,105,,,,500,422
+New York University,NYU,"Steinhardt School of Culture, Education, and Human Development",,,,,,,,"3,6",324,103,,,,25,18
+New York University,NYU,Leonard N. Stern School of Business,,,,,,,,"3,66",326,105,,,,15,14
+New York University,NYU,Arts & Science,,,,,,,,"3,8",324,106,,,,30,26
+New York University,NYU,School of Professional Studies,,,,,,,,"3,42",319,102,,,,31,31
+New York University,NYU,Tisch School of the Arts,,,,,,,,"3,71",322,106,,,,29,27
+New York University,NYU,Robert F. Wagner Graduate School of Public Service,,,,,,,,"3,61",327,105,,,,6,6
+New York University,NYU,The Center for Urban Science and Progress (CUSP),,,,,,,,"3,47",323,100,,,,11,10
+New York University,NYU,Grossman School of Medicine,,,,,,,,"3,88",325,105,,,,7,3
+New York University,NYU,Silver School of Social Work,,,,,,,,0,0,0,,,,0,0
+Washington University in St. Louis,WUSTL,General,,,,,,,,"3,6",323,102,,,,3042,2523
+Washington University in St. Louis,WUSTL,McKelvey School of Engineering,,,,,,,,"3,63",323,103,,,,546,432
+Washington University in St. Louis,WUSTL,Olin Business School,,,,,,,,"3,62",325,104,,,,142,137
+Washington University in St. Louis,WUSTL,Arts & Sciences,,,,,,,,"3,64",323,102,,,,20,18
+Washington University in St. Louis,WUSTL,School of Medicine,,,,,,,,"3,41",324,101,,,,20,15
+Washington University in St. Louis,WUSTL,Brown School,,,,,,,,"3,62",327,96,,,,5,5
+King's College London,KCL,General,,,,,,,,"3,61",321,100,,,,502,376
+University of Edinburgh,EDINBURGH,General,,,,,,,,"3,66",322,100,,,,1147,898
+University of Edinburgh,EDINBURGH,College of Science & Engineering,,,,,,,,"3,77",323,103,,,,82,72
+University of Edinburgh,EDINBURGH,"College of Arts, Humanities & Social Sciences",,,,,,,,"3,6",0,99,,,,5,4
+University of Edinburgh,EDINBURGH,College of Medicine & Veterinary Medicine,,,,,,,,0,0,0,,,,0,0
+University of British Columbia,UBC,General,,,,,,,,"3,75",325,104,,,,1192,746
+University of British Columbia,UBC,Faculty of Science,,,,,,,,"3,75",323,105,,,,152,91
+University of British Columbia,UBC,Faculty of Applied Science,,,,,,,,"3,8",325,104,,,,138,90
+University of British Columbia,UBC,Vancouver School of Economics,,,,,,,,0,0,0,,,,1,1
+University of British Columbia,UBC,Graduate School,,,,,,,,"3,75",319,104,,,,4,3
+University of British Columbia,UBC,School of business,,,,,,,,"3,22",321,109,,,,8,5
+University of British Columbia,UBC,Faculty of Education,,,,,,,,0,0,0,,,,0,0
+University of British Columbia,UBC,Department of Physics & Astronomy,,,,,,,,0,0,0,,,,0,0
+University of Queensland,QUEENSLAND,General,,,,,,,,"3,36",317,95,,,,76,71
+University of New South Wales,UNSW,General,,,,,,,,"3,4",320,100,,,,171,166
+Monash University,MONASH,General,,,,,,,,"3,35",322,96,,,,61,60
+University of Amsterdam,UVA.NL,General,,,,,,,,"3,6",321,100,,,,322,282
+"University of North Carolina, Chapel Hill",UNC,General,,,,,,,,"3,7",325,104,,,,925,666
+"University of North Carolina, Chapel Hill",UNC,College of Arts & Science,,,,,,,,"3,78",325,104,,,,55,31
+"University of North Carolina, Chapel Hill",UNC,GILLINGS SCHOOL OF GLOBAL PUBLIC HEALTH,,,,,,,,"3,7",325,105,,,,61,56
+"University of North Carolina, Chapel Hill",UNC,School of Information and Library Science,,,,,,,,"3,5",321,103,,,,69,58
+"University of North Carolina, Chapel Hill",UNC,Hussman School of Journalism and Media,,,,,,,,0,0,0,,,,0,0
+"University of North Carolina, Chapel Hill",UNC,School of Nursing,,,,,,,,"3,65",328,104,,,,1,1
+University of Copenhagen,KU. DK,General,,,,,,,,"3,6",321,100,,,,417,292
+University of Texas at Austin,AUSTIN,General,,,,,,,,"3,76",324,104,,,,2540,1474
+University of Texas at Austin,AUSTIN,McCombs School of Business,,,,,,,,"3,63",327,107,,,,39,26
+University of Texas at Austin,AUSTIN,Cockrell School of Engineering,,,,,,,,"3,81",325,105,,,,145,97
+University of Texas at Austin,AUSTIN,College of Natural Sciences,,,,,,,,"3,8",326,105,,,,154,73
+University of Texas at Austin,AUSTIN,Jackson School of Geosciences,,,,,,,,0,0,0,,,,1,1
+University of Texas at Austin,AUSTIN,College of Liberal Arts,,,,,,,,"3,6",328,109,,,,1,1
+University of Texas at Austin,AUSTIN,School of Information,,,,,,,,"3,59",323,104,,,,51,36
+University of Texas at Austin,AUSTIN,College of Pharmacy,,,,,,,,0,0,0,,,,1,1
+University of Texas at Austin,AUSTIN,School of Education,,,,,,,,0,0,0,,,,1,1
+Utrecht University,UU.NL,General,,,,,,,,"3,51",321,100,,,,228,192
+University of Pittsburgh,PITT,General,,,,,,,,"3,5",321,101,,,,1734,1417
+University of Pittsburgh,PITT,School of Computing and Information,,,,,,,,"3,4",320,101,,,,145,129
+University of Pittsburgh,PITT,Swanson School of Engineering,,,,,,,,"3,45",320,97,,,,37,33
+University of Pittsburgh,PITT,School of Public Health,,,,,,,,"3,62",324,104,,,,37,29
+University of Pittsburgh,PITT,Katz Graduate School of Business,,,,,,,,"3,79",324,107,,,,2,1
+University of Pittsburgh,PITT,Dietrich School of Arts and Sciences,,,,,,,,"3,85",327,102,,,,21,9
+University of Munich,UNI-MUENCHEN.DE,General,,,,,,,,"3,7",320,99,,,,18,11
+University of Paris,U-PARIS.FR,General,,,,,,,,0,0,0,,,,0,0
+Sorbonne University,SORBONNE-UNIVERSITE.FR,,,,,,,,,"3,17",0,90,,,,2,2
+Katholieke Universiteit Leuven,KULEUVEN,General,,,,,,,,"3,6",322,100,,,,580,501
+Karolinska Institute,KI.SE,General,,,,,,,,"3,5",322,100,,,,39,35
+Georgia Institute of Technology,GATECH,General,,,,,,,,"3,78",325,105,,,,3963,2525
+Georgia Institute of Technology,GATECH,Scheller College of Business,,,,,,,,"3,79",328,107,,,,127,83
+Georgia Institute of Technology,GATECH,College of Computing,,,,,,,,"3,78",326,106,,,,613,403
+Georgia Institute of Technology,GATECH,College of Engineering,,,,,,,,"3,78",325,104,,,,350,251
+Georgia Institute of Technology,GATECH,College of Sciences,,,,,,,,"3,83",328,102,,,,4,4
+Georgia Institute of Technology,GATECH,College of Design,,,,,,,,"3,8",318,102,,,,8,8
+Chinese University of Hong Kong,CUHK,General,,,,,,,,"3,57",320,100,,,,2457,2325
+Chinese University of Hong Kong,CUHK,School of Journalism and Communication,,,,,,,,"3,55",318,99,,,,5,4
+Chinese University of Hong Kong,CUHK,Faculty of Engineering,,,,,,,,"3,69",323,102,,,,20,19
+Chinese University of Hong Kong,CUHK,Department of Statistics,,,,,,,,0,0,0,,,,2,2
+Chinese University of Hong Kong,CUHK,School of Data Science,,,,,,,,"3,75",326,109,,,,2,2
+Chinese University of Hong Kong,CUHK,Shenzhen Finance Institute,,,,,,,,0,0,0,,,,1,1
+Chinese University of Hong Kong,CUHK,School of Public Health and Primary Care,,,,,,,,"3,23",0,0,,,,1,1
+Chinese University of Hong Kong,CUHK,Faculty of Science,,,,,,,,0,0,0,,,,0,0
+Chinese University of Hong Kong,CUHK,School of Graduate,,,,,,,,0,0,0,,,,1,1
+Chinese University of Hong Kong,CUHK,"Department of Mathematics,",,,,,,,,0,0,0,,,,1,1
+Chinese University of Hong Kong,CUHK,School of Business,,,,,,,,"3,6",327,107,,,,2,2
+McGill University,MCGILL,General,,,,,,,,"3,7",325,104,,,,665,436
+McGill University,MCGILL,School of Computer Science,,,,,,,,"3,71",330,105,,,,30,12
+McGill University,MCGILL,Faculty of Engineering,,,,,,,,"3,7",324,102,,,,27,16
+McGill University,MCGILL,School of Information Studies,,,,,,,,"3,44",0,104,,,,8,4
+McGill University,MCGILL,Faculty of Science,,,,,,,,"3,62",0,0,,,,6,3
+McGill University,MCGILL,Department of Geography,,,,,,,,0,0,0,,,,0,0
+McGill University,MCGILL,Desautels Faculty of Management,,,,,,,,0,0,0,,,,1,0
+McGill University,MCGILL,Integrated Program in Neuroscience,,,,,,,,0,0,0,,,,0,0
+McGill University,MCGILL,Faculty of Agricultural and Environmental Sciences,,,,,,,,"3,4",338,0,,,,1,1
+University of Hong Kong,HKU,General,,,,,,,,"3,6",323,100,,,,1830,1692
+University of Hong Kong,HKU,Faculty of Engineering,,,,,,,,"3,59",324,100,,,,21,21
+University of Hong Kong,HKU,School of Business,,,,,,,,"3,65",324,100,,,,32,32
+University of Hong Kong,HKU,Faculty of Science,,,,,,,,"3,54",325,106,,,,13,12
+University of Hong Kong,HKU,Graduate House,,,,,,,,"3,69",324,100,,,,26,24
+University of Hong Kong,HKU,Faculty of Education,,,,,,,,0,0,0,,,,0,0
+University of Hong Kong,HKU,LKS Faculty of Medicine,,,,,,,,0,0,0,,,,0,0
+Ohio State University,OHIOSTATE,General,,,,,,,,"3,7",322,101,,,,1808,1361
+Ohio State University,OHIOSTATE,College of Art and Sciences,,,,,,,,"3,77",323,102,,,,20,16
+Ohio State University,OHIOSTATE,College of Engineering,,,,,,,,"3,7",322,100,,,,154,129
+Ohio State University,OHIOSTATE,College of Public Health,,,,,,,,"3,31",321,99,,,,3,3
+Ohio State University,OHIOSTATE,Russ College of Engineering and Technology,,,,,,,,0,0,0,,,,0,0
+Ohio State University,OHIOSTATE,Fisher College of Business,,,,,,,,4,315,103,,,,3,2
+Ohio State University,OHIOSTATE,College of Medicine,,,,,,,,0,320,103,,,,1,1
+Ohio State University,OHIOSTATE,College of Education and Human Ecology,,,,,,,,0,0,0,,,,0,0
+"University of Maryland, College Park",UMD,General,,,,,,,,"3,65",323,104,,,,1459,990
+"University of Maryland, College Park",UMD,School of Business,,,,,,,,"3,51",321,104,,,,45,45
+"University of Maryland, College Park",UMD,College of Information Studies,,,,,,,,"3,6",323,105,,,,47,33
+"University of Maryland, College Park",UMD,School of Engineering,,,,,,,,"3,87",321,102,,,,21,16
+"University of Maryland, College Park",UMD,"The Applied Mathematics & Statistics, and Scientific Computation",,,,,,,,"3,94",327,104,,,,4,4
+"University of Maryland, College Park",UMD,"College of Computer, Mathematical,& Natural Sciences",,,,,,,,0,0,107,,,,1,1
+"University of Maryland, College Park",UMD,Maryland Applied Graduate Engineering Faculty,,,,,,,,"3,5",319,96,,,,20,15
+"University of Maryland, College Park",UMD,Department of Computer Science,,,,,,,,"3,8",325,102,,,,18,14
+"University of Maryland, College Park",UMD,The Graduate School,,,,,,,,"3,87",329,106,,,,32,15
+"University of Maryland, College Park",UMD,The Department of Chemistry & Biochemistry,,,,,,,,0,0,0,,,,0,0
+"University of Maryland, College Park",UMD,Department of Geology,,,,,,,,"3,82",0,0,,,,2,1
+"University of Maryland, College Park",UMD,Maryland Transportation Institute,,,,,,,,"3,69",317,100,,,,1,1
+"University of Maryland, College Park",UMD,DEPARTMENT OF PHYSICS,,,,,,,,"3,78",321,107,,,,1,1
+"University of Minnesota, Twin Cities",UMN,General,,,,,,,,"3,66",324,103,,,,1586,1099
+"University of Minnesota, Twin Cities",UMN,College of Science and Engineering,,,,,,,,"3,61",324,101,,,,128,92
+"University of Minnesota, Twin Cities",UMN,School of Public Health,,,,,,,,"3,63",324,103,,,,32,30
+"University of Minnesota, Twin Cities",UMN,Carlson School of Management,,,,,,,,"3,74",323,106,,,,34,32
+"University of Minnesota, Twin Cities",UMN,College of Liberal Arts,,,,,,,,"3,7",325,105,,,,29,21
+"University of Minnesota, Twin Cities",UMN,"College of Food, Agricultural and Natural Resource Sciences",,,,,,,,4,332,116,,,,2,1
+"University of Minnesota, Twin Cities",UMN,School of Nursing,,,,,,,,"3,65",328,104,,,,1,1
+Heidelberg University,UNI-HEIDELBERG.DE,General,,,,,,,,0,0,0,,,,0,0
+University of Paris-Sud,UNIVERSITE-PARIS-SACLAY.FR,General,,,,,,,,0,0,0,,,,0,0
+Humboldt University of Berlin,HU-BERLIN.DE,General,,,,,,,,,,,,,,,
+Australian National University,ANU,General,,,,,,,,"3,5",320,100,,,,181,174
+University of Wisconsin--Madison,WISCONSIN,General,,,,,,,,"3,7",325,103,,,,2177,1238
+University of Wisconsin--Madison,WISCONSIN,College of Engineering,,,,,,,,"3,7",324,102,,,,98,73
+University of Wisconsin--Madison,WISCONSIN,"School of Computer, Data & Information Sciences",,,,,,,,"3,8",325,104,,,,242,113
+University of Wisconsin--Madison,WISCONSIN,College of Letters & Science,,,,,,,,"3,74",325,105,,,,70,39
+University of Wisconsin--Madison,WISCONSIN,School of Medicine and Public Health,,,,,,,,"3,41",321,101,,,,6,6
+University of Wisconsin--Madison,WISCONSIN,School of Journalism and Mass Communication,,,,,,,,0,0,0,,,,0,0
+University of Wisconsin--Madison,WISCONSIN,School of Business,,,,,,,,"3,7",320,100,,,,11,11
+University of Wisconsin--Madison,WISCONSIN,Information School,,,,,,,,"3,5",324,103,,,,36,34
+University of Machester,MANCHESTER,General,,,,,,,,"3,51",321,100,,,,793,614
+University of Machester,MANCHESTER,School of Engineering,,,,,,,,"3,68",323,100,,,,21,15
+University of Machester,MANCHESTER,"School of Environment, Education and Development",,,,,,,,"3,56",325,100,,,,1,1
+University of Machester,MANCHESTER,School of Social Sciences,,,,,,,,"3,83",313,103,,,,3,2
+University of Machester,MANCHESTER,"Faculty of Biology, Medicine and Health",,,,,,,,"3,8",0,100,,,,1,1
+University of Machester,MANCHESTER,School of Natural Sciences,,,,,,,,0,0,0,,,,0,0
+University of Machester,MANCHESTER,Alliance Manchester Business School,,,,,,,,0,0,0,,,,1,1
+Erasmus University Rotterdam,EUR.NL,General,,,,,,,,"3,54",315,101,,,,76,67
+University of California--Santa Barbara,UCSB,General,,,,,,,,"3,74",324,104,,,,1046,501
+University of California--Santa Barbara,UCSB,College of Letters & Science,,,,,,,,"3,8",325,103,,,,28,21
+University of California--Santa Barbara,UCSB,College of Engineering,,,,,,,,"3,79",324,104,,,,129,79
+University of Zurich,UZH. CH,General,,,,,,,,"3,59",322,100,,,,282,224
+Swiss Federal Institute of Technology Lausanne,EPFL,General,,,,,,,,"3,88",325,104,,,,626,354
+Swiss Federal Institute of Technology Lausanne,EPFL,School of Computer and Communication Sciences,,,,,,,,"3,89",326,105,,,,111,72
+Swiss Federal Institute of Technology Lausanne,EPFL,School of Engineering,,,,,,,,"3,84",326,103,,,,55,26
+Swiss Federal Institute of Technology Lausanne,EPFL,School of Basic Sciences,,,,,,,,"3,3",322,109,,,,2,2
+Swiss Federal Institute of Technology Lausanne,EPFL,College of Management of Technology,,,,,,,,0,322,105,,,,3,2
+Swiss Federal Institute of Technology Lausanne,EPFL,College of Humanities,,,,,,,,"3,88",327,107,,,,10,8
+Ecole Polytechnique,POLYTECHNIQUE,General,,,,,,,,"3,68",327,100,,,,42,21
+Boston University,BU,General,,,,,,,,"3,6",324,103,,,,3388,2837
+Boston University,BU,College and Graduate School of Arts & Sciences,,,,,,,,"3,6",324,103,,,,321,273
+Boston University,BU,College of Engineering,,,,,,,,"3,56",322,103,,,,222,176
+Boston University,BU,School of Public Health,,,,,,,,"3,75",323,103,,,,18,7
+Boston University,BU,Questrom School of Business,,,,,,,,"3,7",326,106,,,,108,107
+Boston University,BU,Metropolitan College,,,,,,,,"3,4",320,100,,,,40,40
+Boston University,BU,School of Social Work,,,,,,,,"3,45",325,0,,,,1,1
+Boston University,BU,College of Communication,,,,,,,,"3,59",317,0,,,,3,3
+"University of Colorado, Boulder",COLORADO,General,,,,,,,,"3,6",322,102,,,,415,280
+"University of Colorado, Boulder",COLORADO,College of Engineering & Applied Science,,,,,,,,"3,59",321,101,,,,54,29
+"University of Colorado, Boulder",COLORADO,College of Arts and Sciences,,,,,,,,"3,66",322,102,,,,10,9
+"University of Colorado, Boulder",COLORADO,Graduate School,,,,,,,,"3,45",327,107,,,,6,4
+Emory University,EMORY,General,,,,,,,,"3,64",324,103,,,,963,798
+Emory University,EMORY,Emory College of Arts and Sciences,,,,,,,,"3,65",320,100,,,,50,35
+Emory University,EMORY,Rollins School of Public Health,,,,,,,,"3,67",324,104,,,,114,104
+Emory University,EMORY,Roberto C. Goizueta Business School,,,,,,,,"3,75",327,106,,,,38,22
+Emory University,EMORY,James T. Laney School of Graduate Studies,,,,,,,,0,0,0,,,,1,1
+University of California--Davis,UCD,General,,,,,,,,"3,69",323,103,,,,1689,1228
+University of California--Davis,UCD,College of Letters and Science,,,,,,,,"3,66",325,104,,,,82,73
+University of California--Davis,UCD,College of Engineering,,,,,,,,"3,58",322,102,,,,235,176
+University of California--Davis,UCD,Graduate School of Management,,,,,,,,"3,62",324,107,,,,59,46
+University of California--Davis,UCD,School of Medicine,,,,,,,,0,0,0,,,,0,0
+University of California--Davis,UCD,College of Biological Sciences,,,,,,,,"3,9",320,103,,,,6,4
+"University of Illinois, Urbana-Champaign",UIUC,General,,,,,,,,"3,74",324,104,,,,5261,3431
+"University of Illinois, Urbana-Champaign",UIUC,College of Liberal Arts & Sciences,,,,,,,,"3,7",325,103,,,,139,118
+"University of Illinois, Urbana-Champaign",UIUC,The Grainger College of Engineering,,,,,,,,"3,8",325,105,,,,958,628
+"University of Illinois, Urbana-Champaign",UIUC,COLLEGES of BUSINESS and ENGINEERING,,,,,,,,0,0,0,,,,0,0
+"University of Illinois, Urbana-Champaign",UIUC,School of Information Sciences,,,,,,,,"3,5",323,104,,,,164,144
+"University of Illinois, Urbana-Champaign",UIUC,Gies College of Business,,,,,,,,"3,63",321,101,,,,23,22
+"University of Illinois, Urbana-Champaign",UIUC,College of Education,,,,,,,,"3,5",320,95,,,,1,1
+"University of Illinois, Urbana-Champaign",UIUC,School of Labor and Employment Relations,,,,,,,,4,315,103,,,,3,3
+"University of Illinois, Urbana-Champaign",UIUC,College of Fine& Applied Arts,,,,,,,,0,0,0,,,,0,0
+University of Glasgow,GLASGOW,General,,,,,,,,"3,42",320,100,,,,551,493
+University of Glasgow,GLASGOW,School of Physics & Astronomy,,,,,,,,0,0,0,,,,0,0
+University of Glasgow,GLASGOW,Adam Smith Business School,,,,,,,,0,0,0,,,,0,0
+University of Glasgow,GLASGOW,School of Computing Science,,,,,,,,"3,25",320,108,,,,4,4
+University of Glasgow,GLASGOW,School of Design,,,,,,,,0,0,0,,,,0,0
+University of Glasgow,GLASGOW,School of Humanities | Sgoil nan Daonnachdan,,,,,,,,0,0,0,,,,0,0
+University of Adelaide,ADELAIDE. AU,General,,,,,,,,"3,3",315,100,,,,15,15
+Leiden University,UNIVERSITEITLEIDEN.NL,General,,,,,,,,"3,5",320,100,,,,288,245
+Vanderbilt University,VANDERBILT,General,,,,,,,,"3,6",323,104,,,,909,764
+Vanderbilt University,VANDERBILT,School of Engineering,,,,,,,,"3,56",322,103,,,,78,64
+Vanderbilt University,VANDERBILT,College of Arts and Science,,,,,,,,"3,96",332,0,,,,1,1
+Vanderbilt University,VANDERBILT,Owen Graduate School of Management,,,,,,,,0,0,0,,,,0,0
+Vanderbilt University,VANDERBILT,Data Science Institute,,,,,,,,"3,68",324,103,,,,39,39
+Vanderbilt University,VANDERBILT,Peabody College,,,,,,,,"3,78",323,109,,,,3,3
+Vanderbilt University,VANDERBILT,Vanderbilt School of Medicine,,,,,,,,"3,78",325,110,,,,3,2
+Technical University of Munich,TUM.DE,General,,,,,,,,"3,61",322,100,,,,161,129
+University of Southern California,USC,General,,,,,,,,"3,72",324,103,,,,8944,7697
+University of Southern California,USC,Viterbi School of Engineering,,,,,,,,"3,75",324,104,,,,1943,1678
+University of Southern California,USC,Keck School of Medicine,,,,,,,,"3,62",324,102,,,,23,20
+University of Southern California,USC,Marshall School of Business,,,,,,,,"3,81",327,107,,,,148,109
+University of Southern California,USC,Annenberg School for Communication and Journalism,,,,,,,,"3,78",324,109,,,,13,13
+University of Southern California,USC,"Dornsife College of Letters, Arts and Sciences",,,,,,,,"3,69",326,105,,,,19,14
+University of Southern California,USC,Price School of Public Policy,,,,,,,,"3,85",0,109,,,,3,3
+University of Southern California,USC,Suzanne Dworak-Peck School of Social Work,,,,,,,,"3,45",325,0,,,,1,1
+University of Southern California,USC,Rossier School of Education,,,,,,,,"3,45",325,0,,,,2,1
+University of Southern California,USC,Thornton School of Music,,,,,,,,0,0,0,,,,1,0
+University of Tokyo,U-TOKYO,General,,,,,,,,"3,7",323,104,,,,164,119
+Vrije University Amsterdam,VU.NL,General,,,,,,,,"3,54",320,100,,,,248,225
+University of Western Australia,UWA. AU,General,,,,,,,,"3,14",,100,,,,4,4
+University of California--Irvine,UCI,General,,,,,,,,"3,68",324,103,,,,3506,2270
+University of California--Irvine,UCI,School of Physical Sciences,,,,,,,,"3,9",327,104,,,,3,3
+University of California--Irvine,UCI,Donald Bren School of Information & Computer Sciences,,,,,,,,"3,74",325,105,,,,484,313
+University of California--Irvine,UCI,Samueli School of Engineering,,,,,,,,"3,61",323,103,,,,300,250
+University of California--Irvine,UCI,Networked Systems,,,,,,,,0,0,0,,,,0,0
+University of California--Irvine,UCI,Paul Merage School of Business,,,,,,,,"3,65",321,102,,,,34,30
+University of California--Irvine,UCI,School of Biological Sciences,,,,,,,,0,0,0,,,,0,0
+University of California--Irvine,UCI,School of Social Sciences,,,,,,,,"3,54",321,105,,,,1,1
+Pennsylvania State University,PENNSTATE,General,,,,,,,,"3,63",323,102,,,,1314,916
+Pennsylvania State University,PENNSTATE,College of Engineering,,,,,,,,"3,6",322,100,,,,87,71
+Pennsylvania State University,PENNSTATE,College of Information Sciences and Technology,,,,,,,,"3,45",324,105,,,,20,18
+Pennsylvania State University,PENNSTATE,College of Earth and Mineral Sciences,,,,,,,,"3,98",323,105,,,,5,5
+Pennsylvania State University,PENNSTATE,World Campus,,,,,,,,"3,7",326,99,,,,8,6
+Pennsylvania State University,PENNSTATE,College of the Liberal Arts,,,,,,,,0,0,0,,,,0,0
+Pennsylvania State University,PENNSTATE,Eberly College of Science,,,,,,,,"3,66",323,102,,,,19,13
+Pennsylvania State University,PENNSTATE,Huck Institutes of the Life Sciences,,,,,,,,"3,52",323,108,,,,4,2
+Pennsylvania State University,PENNSTATE,College of Medicine,,,,,,,,0,0,0,,,,3,0
+Pennsylvania State University,PENNSTATE,College of Eudcation,,,,,,,,"3,76",0,0,,,,1,1
+University of Barcelona,UB.ES,General,,,,,,,,0,0,0,,,,0,0
+Freie Universitaet Berlin,FU-BERLIN.DE,General,,,,,,,,0,,0,,,,0,0
+University of Groningen,RUG.NL,General,,,,,,,,"3,48",320,100,,,,100,86
+Wageningen University,WUR,General,,,,,,,,"3,54",321,100,,,,172,153
+University of Oslo,UIO.NO,General,,,,,,,,"3,51",330,100,,,,21,11
+University of Birmingham,BIRMINGHAM,General,,,,,,,,"3,38",320,97,,,,210,183
+University of Bristol,BRISTOL,General,,,,,,,,"3,53",321,100,,,,578,464
+Hong Kong University of Science and Technology,HKUST,General,,,,,,,,"3,56",323,100,,,,1629,1502
+Hong Kong University of Science and Technology,HKUST,Department of Electronic & Computer Engineering,,,,,,,,"3,59",314,102,,,,5,5
+Hong Kong University of Science and Technology,HKUST,School of Engineering,,,,,,,,"3,7",325,101,,,,87,67
+Hong Kong University of Science and Technology,HKUST,Department of Mathematics,,,,,,,,"3,8",325,104,,,,14,14
+Hong Kong University of Science and Technology,HKUST,School of Business and Management,,,,,,,,"3,7",325,106,,,,15,15
+Hong Kong University of Science and Technology,HKUST,DEPARTMENT OF PHYSICS,,,,,,,,0,325,106,,,,2,1
+Hong Kong University of Science and Technology,HKUST,Information Hub,,,,,,,,"3,9",326,113,,,,1,1
+King Abdullah University of Science and Technology,KAUST,General,,,,,,,,"3,73",323,101,,,,20,17
+Ghent University,UGENT.BE,General,,,,,,,,"3,5",316,91,,,,22,18
+University of Florida,UFL,General,,,,,,,,"3,5",321,101,,,,1967,1564
+University of Florida,UFL,Warrington College of Business,,,,,,,,"3,33",321,100,,,,29,26
+University of Florida,UFL,Herbert Wertheim College of Engineering,,,,,,,,"3,5",321,100,,,,291,235
+University of Florida,UFL,College of Agricultural and Life Sciences,,,,,,,,0,330,0,,,,1,1
+University of Florida,UFL,College of Liberal Arts and Sciences,,,,,,,,"3,7",326,105,,,,24,10
+University of Florida,UFL,College of Public Health and Health Professions,,,,,,,,"3,29",321,98,,,,13,12
+University of Florida,UFL,"College of Design, Construction and Planning",,,,,,,,0,0,0,,,,0,0
+University of Florida,UFL,College of Journalism and Communications,,,,,,,,0,0,0,,,,0,0
+University of Helsinki,HELSINKI.FI,General,,,,,,,,"3,57",323,100,,,,81,69
+Queen Mary University of London,QMUL,General,,,,,,,,"3,41",321,100,,,,106,102
+Hong Kong Polytechnic University,POLYU,General,,,,,,,,"3,36",315,90,,,,1052,988
+Rockefeller University,ROCKEFELLER,General,,,,,,,,0,0,0,,,,0,0
+University of Southampton,SOUTHAMPTON,General,,,,,,,,"3,41",321,91,,,,252,218
+University of California--Santa Cruz,UCSC,General,,,,,,,,"3,53",321,101,,,,776,445
+University of California--Santa Cruz,UCSC,Baskin School of Engineering,,,,,,,,"3,51",321,102,,,,140,62
+University of California--Santa Cruz,UCSC,PBSE Faculty,,,,,,,,0,0,0,,,,0,0
+University of California--Santa Cruz,UCSC,Games & Playable Media,,,,,,,,4,0,111,,,,4,4
+Radboud University Nijmegen,RU.NL,General,,,,,,,,"3,7",320,102,,,,36,24
+University of Bern,UNIBE. CH,General,,,,,,,,0,0,0,,,,0,0
+University of Arizona,ARIZONA,General,,,,,,,,"3,6",323,102,,,,335,278
+University of Arizona,ARIZONA,Eller College Of Management,,,,,,,,"3,5",320,104,,,,10,9
+University of Arizona,ARIZONA,James C. Wyant College of Optical Sciences,,,,,,,,"3,74",323,100,,,,3,3
+University of Arizona,ARIZONA,College of Science,,,,,,,,"3,7",320,101,,,,14,9
+Aarhus University,AU. DK,General,,,,,,,,"3,53",321,99,,,,108,88
+University of Geneva,UNIGE. CH,General,,,,,,,,"3,4",318,100,,,,8,6
+Lund University,LU.SE,General,,,,,,,,"3,5",317,100,,,,85,81
+University of Technology Sydney,UTS. AU,General,,,,,,,,"3,51",,90,,,,1,1
+University of Padua,UNIPD.IT,General,,,,,,,,0,0,0,,,,0,0
+Michigan State University,MSU,General,,,,,,,,"3,6",322,101,,,,314,251
+Carnegie Mellon University,CMU,General,,,,,,,,"3,8",325,106,,,,9674,6424
+Carnegie Mellon University,CMU,Heinz College of Information Systems and Public Policy,,,,,,,,"3,75",326,107,,,,420,301
+Carnegie Mellon University,CMU,College of Engineering,,,,,,,,"3,82",325,106,,,,1347,971
+Carnegie Mellon University,CMU,College of Fine Arts,,,,,,,,"3,7",324,106,,,,18,13
+Carnegie Mellon University,CMU,Dietrich College of Humanities & Social Sciences,,,,,,,,"3,82",330,109,,,,36,26
+Carnegie Mellon University,CMU,Mellon College of Science,,,,,,,,4,0,0,,,,1,1
+Carnegie Mellon University,CMU,School of Computer Science,,,,,,,,"3,85",327,108,,,,971,488
+Carnegie Mellon University,CMU,Tepper School of Business,,,,,,,,"3,9",330,110,,,,80,61
+University of Virginia,UVA,General,,,,,,,,"3,62",324,103,,,,1894,1198
+University of Virginia,UVA,School of Engineering and Applied Science,,,,,,,,"3,6",325,104,,,,257,138
+University of Virginia,UVA,College and Graduate School of Arts and Sciences,,,,,,,,"3,7",325,105,,,,31,27
+University of Virginia,UVA,School of Data Science,,,,,,,,"3,94",329,107,,,,18,8
+University of Virginia,UVA,McIntire School of Commerce,,,,,,,,"3,99",332,114,,,,7,6
+University of Virginia,UVA,Frank Batten School of Leadership and Public Policy,,,,,,,,0,0,0,,,,0,0
+University of Virginia,UVA,School of Education and Human Development,,,,,,,,0,0,0,,,,0,0
+City University of Hong Kong,CITYU,General,,,,,,,,"3,4",317,97,,,,1647,1551
+Universidade de Sao Paulo,USP.BR,General,,,,,,,,0,0,0,,,,0,0
+University of Bologna,UNIBO.IT,General,,,,,,,,"3,5",320,90,,,,20,18
+University of Auckland,AUCKLAND,General,,,,,,,,"3,5",322,100,,,,68,62
+University of Cape Town,UCT. ZA,General,,,,,,,,0,0,0,,,,0,0
+Sapienza University of Rome,UNIROMA1.IT,General,,,,,,,,"3,6",321,90,,,,8,5
+Stockholm University,SU.SE,General,,,,,,,,"3,61",317,100,,,,19,15
+Uppsala University,UU.SE,General,,,,,,,,"3,5",320,100,,,,123,112
+Seoul National University,SNU,General,,,,,,,,0,0,0,,,,0,0
+Brown University,BROWN,General,,,,,,,,"3,8",326,106,,,,2082,1327
+Brown University,BROWN,School of Engineering,,,,,,,,"3,59",324,105,,,,97,84
+Brown University,BROWN,Department of Computer Science,,,,,,,,"3,84",326,108,,,,347,220
+Brown University,BROWN,School of Public Health,,,,,,,,"3,78",325,107,,,,56,45
+Brown University,BROWN,Graduate School,,,,,,,,"3,9",329,108,,,,85,48
+Brown University,BROWN,Department of Physics,,,,,,,,"3,56",324,99,,,,6,5
+Brown University,BROWN,Department of Sociology,,,,,,,,0,0,0,,,,2,1
+UT Southwestern Medical Center,UTSOUTHWESTERN,General,,,,,,,,"3,8",325,104,,,,21,11
+University of Sheffield,SHEFFIELD,General,,,,,,,,"3,43",319,97,,,,591,516
+University of Alberta,UALBERTA,General,,,,,,,,"3,7",323,100,,,,436,315
+University of Alberta,UALBERTA,Faculty of Science,,,,,,,,"3,7",327,105,,,,37,21
+University of Alberta,UALBERTA,Alberta School of Business,,,,,,,,0,0,0,,,,0,0
+University of Alberta,UALBERTA,Faculty of Engineering,,,,,,,,"3,5",331,109,,,,5,5
+McMaster University,MCMASTER,General,,,,,,,,"3,6",320,100,,,,320,211
+McMaster University,MCMASTER,Faculty of Engineering,,,,,,,,"3,5",320,100,,,,20,15
+McMaster University,MCMASTER,Faculty of Science,,,,,,,,0,0,0,,,,3,1
+McMaster University,MCMASTER,DeGroote School of Business,,,,,,,,"3,72",318,100,,,,7,7
+University of Bonn,UNI-BONN.DE,General,,,,,,,,"3,79",326,100,,,,14,7
+University of Leeds,LEEDS,General,,,,,,,,"3,4",320,100,,,,475,412
+"Purdue University, West Lafayette",PURDUE,General,,,,,,,,"3,76",324,103,,,,2110,1404
+"Purdue University, West Lafayette",PURDUE,College of Science,,,,,,,,"3,8",325,104,,,,157,111
+"Purdue University, West Lafayette",PURDUE,Polytechnic Institute,,,,,,,,"3,69",322,105,,,,38,31
+"Purdue University, West Lafayette",PURDUE,College of Engineering,,,,,,,,"3,76",325,103,,,,126,105
+"Purdue University, West Lafayette",PURDUE,The Graduate School,,,,,,,,"3,82",325,106,,,,2,2
+"Purdue University, West Lafayette",PURDUE,College of Education,,,,,,,,0,0,0,,,,0,0
+"Purdue University, West Lafayette",PURDUE,College of Liberal Arts,,,,,,,,"3,91",315,92,,,,3,3
+"Purdue University, West Lafayette",PURDUE,Krannert School of Management,,,,,,,,"3,52",324,104,,,,14,11
+"Purdue University, West Lafayette",PURDUE,College of Health and Human Sciences,,,,,,,,0,0,0,,,,0,0
+Kyoto University,KYOTO-U.JP,General,,,,,,,,"3,5",320,100,,,,25,18
+Universitat Autonoma de Barcelona,UAB.ES,General,,,,,,,,"3,61",325,100,,,,13,12
+Rutgers University,RUTGERS,General,,,,,,,,"3,54",322,102,,,,1621,1380
+Rutgers University,RUTGERS,School of Arts and Sciences,,,,,,,,"3,6",322,101,,,,129,96
+Rutgers University,RUTGERS,School of Engineering,,,,,,,,"3,42",320,99,,,,34,34
+Rutgers University,RUTGERS,School of Graduate Studies,,,,,,,,"3,27",320,101,,,,14,13
+Rutgers University,RUTGERS,Rutgers Business School–Newark and New Brunswick,,,,,,,,"3,6",322,102,,,,24,24
+Rutgers University,RUTGERS,School of Public Health,,,,,,,,"3,57",323,100,,,,9,9
+Rutgers University,RUTGERS,Edward J. Bloustein School of Planning and Public Policy,,,,,,,,0,0,0,,,,0,0
+Rutgers University,RUTGERS,School of Communication and Information,,,,,,,,0,0,0,,,,0,0
+University of Nottingham,NOTTINGHAM,General,,,,,,,,"3,39",314,90,,,,154,143
+University of Gothenburg,GU.SE,General,,,,,,,,"3,2",334,104,,,,7,3
+University of Liverpool,LIVERPOOL,General,,,,,,,,"3,52",310,90,,,,36,34
+"Texas A&M University, College Station",TAMU,General,,,,,,,,"3,66",323,102,,,,2325,1750
+"Texas A&M University, College Station",TAMU,College of Engineering,,,,,,,,"3,65",323,103,,,,293,217
+"Texas A&M University, College Station",TAMU,Mays Business School,,,,,,,,"3,49",321,100,,,,10,9
+"Texas A&M University, College Station",TAMU,College of Science,,,,,,,,"3,83",323,102,,,,13,8
+"Texas A&M University, College Station",TAMU,College of Geosciences,,,,,,,,"3,7",319,114,,,,1,1
+"Texas A&M University, College Station",TAMU,College of Architecture,,,,,,,,"3,24",319,100,,,,1,1
+University of Hamburg,UNI-HAMBURG.DE,General,,,,,,,,0,0,0,,,,0,0
+University of Basel,UNIBAS. CH,General,,,,,,,,0,0,0,,,,0,0
+"Indiana University, Bloomington",IUB,General,,,,,,,,"3,6",323,104,,,,408,353
+"Indiana University, Bloomington",IUB,"Luddy School of Informatics, Computing, and Engineering",,,,,,,,"3,57",322,104,,,,45,42
+"Indiana University, Bloomington",IUB,COLLEGE OF ARTS & SCIENCES,,,,,,,,"3,68",319,94,,,,2,2
+"Indiana University, Bloomington",IUB,School of Education,,,,,,,,0,0,0,,,,0,0
+"Indiana University, Bloomington",IUB,KELLEY SCHOOL OF BUSINESS,,,,,,,,0,0,0,,,,1,1
+"Indiana University, Bloomington",IUB,School of Public Health,,,,,,,,0,0,0,,,,1,1
+Case Western Reserve University,CASE,General,,,,,,,,"3,4",320,100,,,,499,419
+Case Western Reserve University,CASE,College of Arts and Sciences,,,,,,,,"3,93",0,0,,,,1,1
+Case Western Reserve University,CASE,Case School of Engineering,,,,,,,,"3,29",321,101,,,,63,56
+Case Western Reserve University,CASE,School of Management,,,,,,,,"3,37",320,101,,,,15,15
+Case Western Reserve University,CASE,School of Medicine,,,,,,,,"3,2",324,93,,,,1,1
+Case Western Reserve University,CASE,Frances Payne Bolton School of Nursing,,,,,,,,"3,65",328,104,,,,1,1
+University of Exeter,EXETER.UK,General,,,,,,,,"3,23",312,94,,,,60,56
+Cardiff University,CARDIFF.UK,General,,,,,,,,"3,4",319,90,,,,137,133
+Arizona State University,ASU,General,,,,,,,,"3,51",321,100,,,,1005,886
+Arizona State University,ASU,Ira A. Fulton Schools of Engineering,,,,,,,,"3,53",321,101,,,,153,140
+Arizona State University,ASU,W. P. Carey School of Business,,,,,,,,"3,38",315,99,,,,15,14
+Arizona State University,ASU,The College of Liberal Arts and Sciences,,,,,,,,"3,33",323,107,,,,7,5
+Newcastle University,NCL,General,,,,,,,,"3,39",316,93,,,,105,103
+University of Milan,UNIMI.IT,General,,,,,,,,0,0,0,,,,0,0
+University of Montreal,UMONTREAL.CA,General,,,,,,,,"3,67",328,105,,,,9,9
+"University of Massachusetts, Amherst",UMASS,General,,,,,,,,"3,64",323,103,,,,836,539
+"University of Massachusetts, Amherst",UMASS,College of Natural Sciences,,,,,,,,"3,39",321,98,,,,12,10
+"University of Massachusetts, Amherst",UMASS,College of Engineering,,,,,,,,"3,58",319,99,,,,30,24
+"University of Massachusetts, Amherst",UMASS,College of Information & Computer Sciences,,,,,,,,"3,64",324,104,,,,130,85
+"University of Massachusetts, Amherst",UMASS,School of Public Health & Health Sciences,,,,,,,,"3,38",323,105,,,,12,8
+"University of Massachusetts, Amherst",UMASS,College of Education,,,,,,,,0,0,0,,,,0,0
+Curtin University,CURTIN. AU,General,,,,,,,,0,0,0,,,,0,0
+University of Warwick,WARWICK.UK,General,,,,,,,,"3,55",321,100,,,,403,306
+University of Gottingen,UNI-GOETTINGEN.DE,General,,,,,,,,0,0,0,,,,0,0
+Oregon Health and Science University,OHSU,General,,,,,,,,"3,5",,90,,,,2,2
+Technical university of denmark,DTU. DK,General,,,,,,,,"3,5",320,100,,,,263,235
+University of Utah,UTAH,General,,,,,,,,"3,5",322,102,,,,405,321
+University of Utah,UTAH,School of Computing,,,,,,,,"3,45",321,103,,,,73,64
+University of Utah,UTAH,College of Engineering,,,,,,,,"3,62",322,104,,,,16,15
+University of Utah,UTAH,COLLEGE OF MINES AND EARTH SCIENCES,,,,,,,,0,0,0,,,,0,0
+University of Utah,UTAH,School of Business,,,,,,,,"3,29",315,95,,,,4,3
+Delft University of Technology,TUDELFT,General,,,,,,,,"3,68",323,100,,,,767,631
+Delft University of Technology,TUDELFT,"Faculty of Electrical Engineering, Mathematics and Computer Science",,,,,,,,"3,8",324,104,,,,85,61
+Delft University of Technology,TUDELFT,Faculty of Civil Engineering and Geosciences.,,,,,,,,"3,36",0,0,,,,1,1
+Delft University of Technology,TUDELFT,Faculty of Applied Sciences,,,,,,,,"3,55",331,110,,,,3,2
+Delft University of Technology,TUDELFT,"Faculty of Mechanical, Maritime and Materials Engineering",,,,,,,,"3,75",319,101,,,,5,4
+Delft University of Technology,TUDELFT,Faculty of Architecture and the Built Environment,,,,,,,,0,0,0,,,,2,2
+Delft University of Technology,TUDELFT,"Technology, Policy and Management",,,,,,,,"3,65",328,106,,,,1,1
+University of Rochester,ROCHESTER,General,,,,,,,,"3,6",324,103,,,,1359,1077
+University of Rochester,ROCHESTER,Department of Computer Science,,,,,,,,"3,62",324,103,,,,83,49
+University of Rochester,ROCHESTER,Department of Electrical and Computer Engineering,,,,,,,,"3,47",321,103,,,,33,30
+University of Rochester,ROCHESTER,School of Medicine & Dentistry,,,,,,,,"3,7",328,108,,,,9,7
+University of Rochester,ROCHESTER,Simon Business School,,,,,,,,"3,6",324,105,,,,86,83
+University of Rochester,ROCHESTER,HAJIM SCHOOL OF ENGINEERING & APPLIED SCIENCES,,,,,,,,"3,7",323,103,,,,28,23
+University of Rochester,ROCHESTER,SCHOOL OF ARTS & SCIENCES,,,,,,,,"3,68",324,105,,,,68,59
+Queensland University of Technology,QUT. AU,General,,,,,,,,0,0,0,,,,1,1
+Tel Aviv University,TAU. IL,General,,,,,,,,0,0,0,,,,0,0
+University of Calgary,UCALGARY,General,,,,,,,,"3,5",321,100,,,,139,105
+University of Sussex,SUSSEX.UK,General,,,,,,,,0,0,0,,,,0,0
+University of Freiburg,UNI-FREIBURG.DE,General,,,,,,,,0,0,0,,,,0,0
+Rice University,RICE,General,,,,,,,,"3,78",325,104,,,,3220,2077
+Rice University,RICE,George R. Brown School of Engineering,,,,,,,,"3,79",325,105,,,,998,675
+Rice University,RICE,Electrical and Computer Engineering,,,,,,,,0,0,0,,,,0,0
+Rice University,RICE,Department of Statistics,,,,,,,,0,0,0,,,,0,0
+Rice University,RICE,Materials Science and NanoEngineering,,,,,,,,0,0,0,,,,1,1
+Rice University,RICE,Mechanical Engineering,,,,,,,,0,0,0,,,,0,0
+Rice University,RICE,Wiess School of Natural Sciences,,,,,,,,"3,78",320,100,,,,8,6
+University of Iowa,UIOWA,General,,,,,,,,"3,65",321,103,,,,126,90
+University of Lausanne,UNIL. CH,General,,,,,,,,0,0,0,,,,0,0
+Lancaster University,LANCASTER.UK,General,,,,,,,,"3,5",320,100,,,,105,98
+Eberhard Karls University of Tubingen,UNI-TUEBINGEN.DE,General,,,,,,,,0,0,0,,,,0,0
+University of California--Riverside,UCR,General,,,,,,,,"3,5",321,100,,,,510,434
+University of California--Riverside,UCR,Marlan and Rosemary Bourns College of Engineering,,,,,,,,"3,4",318,100,,,,97,86
+University of California--Riverside,UCR,College of Natural and Agricultural Sciences,,,,,,,,"3,65",318,101,,,,13,12
+University of California--Riverside,UCR,School of Business,,,,,,,,0,0,0,,,,0,0
+University of Wollongong,UOW. AU,General,,,,,,,,0,0,0,,,,0,0
+Dresden University of Technology,TU-DRESDEN.DE,General,,,,,,,,0,0,0,,,,0,0
+University of Grenoble,UNIV-GRENOBLE-ALPES.FR,General,,,,,,,,0,0,0,,,,0,0
+Maastricht University,MAASTRICHTUNIVERSITY.NL,General,,,,,,,,"3,49",315,100,,,,80,74
+University of Waterloo,UWATERLOO,General,,,,,,,,"3,73",324,103,,,,1088,775
+University of Waterloo,UWATERLOO,David R. Cheriton School of Computer Science,,,,,,,,0,0,0,,,,0,0
+University of Waterloo,UWATERLOO,Faculty of Mathematics,,,,,,,,"3,87",325,107,,,,128,76
+University of Waterloo,UWATERLOO,Faculty of Engineering,,,,,,,,"3,7",324,103,,,,171,125
+Macquarie University,MQ. AU,General,,,,,,,,0,0,0,,,,0,0
+Northeastern University,NEU,General,,,,,,,,"3,56",322,102,,,,6916,5674
+Northeastern University,NEU,Khoury College of Computer Sciences,,,,,,,,"3,65",324,105,,,,1341,1022
+Northeastern University,NEU,College of Engineering,,,,,,,,"3,4",321,100,,,,784,740
+Northeastern University,NEU,College of Science,,,,,,,,"3,25",321,98,,,,15,15
+Northeastern University,NEU,D'Amore-McKim School of Business,,,,,,,,"3,6",321,107,,,,18,18
+Northeastern University,NEU,"College of Arts, Media and Design",,,,,,,,"3,48",321,107,,,,21,20
+Northeastern University,NEU,College of Professional Studies,,,,,,,,"3,3",320,100,,,,20,19
+Northeastern University,NEU,College of Social Sciences and Humanities,,,,,,,,0,0,0,,,,1,0
+Pompeu Fabra University,UPF,General,,,,,,,,"3,46",,90,,,,2,1
+RWTH Aachen University,RWTH,General,,,,,,,,"3,68",320,100,,,,68,41
+University of Bergen,UIB.NO,General,,,,,,,,0,0,0,,,,0,0
+University of Lisbon,ULISBOA.PT,General,,,,,,,,0,0,0,,,,0,0
+National Taiwan University,NTU. TW,General,,,,,,,,0,0,0,,,,0,0
+University of Cincinnati,CINCINNATI,General,,,,,,,,"3,5",324,101,,,,43,39
+Griffith University,GRIFFITHCOLLEGE. AU,General,,,,,,,,0,0,0,,,,0,0
+"State University of New York, Stony Brook",STONYBROOK,General,,,,,,,,"3,54",322,101,,,,870,671
+"State University of New York, Stony Brook",STONYBROOK,College of  Engineering and Applied Sciences,,,,,,,,"3,6",322,103,,,,128,97
+"State University of New York, Stony Brook",STONYBROOK,Renaissance School of Medicine,,,,,,,,0,0,0,,,,0,0
+"State University of New York, Stony Brook",STONYBROOK,College of Arts and Sciences,,,,,,,,"3,39",319,101,,,,3,3
+University of Vienna,UNIVIE. AT,General,,,,,,,,0,0,0,,,,0,0
+Chicago State University,CSU,General,,,,,,,,0,0,0,,,,0,0
+RMIT University,RMIT. AU,General,,,,,,,,"3,45",308,90,,,,33,32
+King Saud University,KSU.SA,General,,,,,,,,0,0,0,,,,0,0
+University of Ottawa,OTTAWA,General,,,,,,,,"3,6",323,100,,,,489,364
+"Trinity College Dublin, University of Dublin",TCD. IE,General,,,,,,,,"3,65",322,100,,,,5,5
+Trinity College,TRINCOLL,General,,,,,,,,"3,5",317,100,,,,47,44
+University of Leicester,LE.UK,General,,,,,,,,"3,29",316,90,,,,25,24
+Deakin University,DEAKIN. AU,General,,,,,,,,0,0,0,,,,0,0
+University of Munster,UNI-MUENSTER.DE,General,,,,,,,,0,0,0,,,,0,0
+University of Antwerp,UANTWERPEN.BE,General,,,,,,,,0,0,0,,,,0,0
+University of Tennessee,UTK,General,,,,,,,,"3,67",320,100,,,,74,56
+Karlsruhe Institute of Technology,KIT,General,,,,,,,,"3,15",,90,,,,5,4
+Universiti Malaya,UM. MY,General,,,,,,,,0,0,0,,,,1,1
+North Carolina State University,NCSU,General,,,,,,,,"3,6",322,102,,,,1514,1165
+North Carolina State University,NCSU,Department of Electrical and Computer Engineering,,,,,,,,"3,5",320,102,,,,38,37
+North Carolina State University,NCSU,College of Engineering,,,,,,,,"3,57",323,102,,,,116,97
+North Carolina State University,NCSU,Department of Mechanical and Aerospace Engineering,,,,,,,,0,0,0,,,,0,0
+North Carolina State University,NCSU,The Graduate School,,,,,,,,"3,7",331,103,,,,10,6
+North Carolina State University,NCSU,Department of Mathematics,,,,,,,,"3,62",326,104,,,,14,13
+North Carolina State University,NCSU,Department of Statistics,,,,,,,,"3,77",324,103,,,,29,20
+North Carolina State University,NCSU,"Department of Civil, Construction, and Environmental Engineering",,,,,,,,"3,24",319,100,,,,1,1
+North Carolina State University,NCSU,Bioinformatics Research Center,,,,,,,,"3,7",321,101,,,,2,1
+North Carolina State University,NCSU,Poole College of Management,,,,,,,,"3,53",320,104,,,,1,1
+Autonomous University of Madrid,UAM.ES,General,,,,,,,,0,0,0,,,,0,0
+"University of Newcastle, Australia",NEWCASTLE. AU,General,,,,,,,,0,0,0,,,,0,0
+London School of Economics and Political Science,LSE,General,,,,,,,,"3,8",327,108,,,,769,516
+London School of Economics and Political Science,LSE,Department of Statistics,,,,,,,,"3,77",325,109,,,,13,11
+London School of Economics and Political Science,LSE,Department of Economics,,,,,,,,"3,8",0,0,,,,2,1
+London School of Economics and Political Science,LSE,Department of Finance,,,,,,,,"3,9",330,113,,,,23,18
+London School of Economics and Political Science,LSE,Department of Management,,,,,,,,"3,78",328,114,,,,3,2
+London School of Economics and Political Science,LSE,Department of Mathematics,,,,,,,,"3,87",327,105,,,,20,12
+London School of Economics and Political Science,LSE,Department of Accounting,,,,,,,,"3,74",315,99,,,,1,1
+London School of Economics and Political Science,LSE,Department of Methodology,,,,,,,,0,0,0,,,,0,0
+University College Dublin,UCD. IE,General,,,,,,,,"3,45",323,100,,,,72,67
+Goethe University Frankfurt,UNI-FRANKFURT.DE,General,,,,,,,,0,0,0,,,,0,0
+Tufts University,TUFTS,General,,,,,,,,"3,53",323,102,,,,785,629
+Tufts University,TUFTS,School of Engineering,,,,,,,,"3,5",322,102,,,,166,141
+Tufts University,TUFTS,School of Arts and Sciences,,,,,,,,"3,6",324,109,,,,6,6
+Tufts University,TUFTS,Graduate School of Arts and Sciences,,,,,,,,"3,57",325,102,,,,47,44
+Tufts University,TUFTS,Friedman School of Nutrition Science and Policy,,,,,,,,0,0,0,,,,1,1
+KTH Royal Institute of Technology,KTH.SE,General,,,,,,,,"3,6",321,100,,,,427,401
+Florida State University,FSU,General,,,,,,,,"3,55",321,102,,,,226,205
+Florida State University,FSU,College of Arts and Sciences,,,,,,,,"3,57",322,103,,,,18,17
+Florida State University,FSU,College of Communication and Information,,,,,,,,"3,1",319,93,,,,2,1
+Hebrew University of Jerusalem,HUJI. IL,General,,,,,,,,0,0,0,,,,0,0
+Johannes Gutenberg University of Mainz,UNI-MAINZ.DE,General,,,,,,,,0,0,0,,,,0,0
+Ecole Normale Superieure de Cachan,ENS.FR,General,,,,,,,,0,0,0,,,,0,0
+University of Cologn,UNI-KOELN.DE,General,,,,,,,,"3,77",0,0,,,,1,1
+University of Porto,UP.PT,General,,,,,,,,0,0,0,,,,0,0
+University of Otago,OTAGO. NZ,General,,,,,,,,0,0,0,,,,0,0
+University of Illinois at Chicago,UIC,General,,,,,,,,"3,54",322,100,,,,130,111
+University of Illinois at Chicago,UIC,College of Engineering,,,,,,,,"3,27",322,99,,,,10,10
+University of Illinois at Chicago,UIC,College of Business Administration,,,,,,,,"3,9",310,87,,,,2,2
+University of Illinois at Chicago,UIC,College of Liberal Arts and Sciences,,,,,,,,0,0,0,,,,0,0
+University of Miami,MIAMI,General,,,,,,,,"3,5",320,102,,,,132,123
+University of Miami,MIAMI,College of Engineering,,,,,,,,0,0,105,,,,2,2
+University of Miami,MIAMI,College of Arts and Sciences,,,,,,,,"3,21",322,104,,,,3,3
+University of Miami,MIAMI,Miami Herbert Business School,,,,,,,,"3,52",321,102,,,,14,14
+University of Miami,MIAMI,School of Communication,,,,,,,,0,0,0,,,,0,0
+University of Oregon,UOREGON,General,,,,,,,,"3,6",321,104,,,,33,24
+University of Trento,UNITN.IT,General,,,,,,,,"3,55",329,100,,,,12,9
+University of Southern Denmark,SDU. DK,General,,,,,,,,0,0,0,,,,0,0
+Dartmouth College,DARTMOUTH,General,,,,,,,,"3,79",326,105,,,,712,449
+Dartmouth College,DARTMOUTH,Thayer School of Engineering,,,,,,,,"3,85",327,102,,,,10,7
+Dartmouth College,DARTMOUTH,Faculty of Arts & Sciences,,,,,,,,"3,82",327,105,,,,111,73
+Dartmouth College,DARTMOUTH,Geisel School of Medicine,,,,,,,,"3,92",323,96,,,,13,11
+Sungkyunkwan University,SKKU,General,,,,,,,,0,0,0,,,,0,0
+Iowa State University,IOWASTATE,General,,,,,,,,"3,7",322,101,,,,291,238
+Virginia Tech,VIRGINIATECH,General,,,,,,,,"3,57",322,101,,,,795,625
+Virginia Tech,VIRGINIATECH,College of Engineering,,,,,,,,"3,56",322,101,,,,117,98
+Virginia Tech,VIRGINIATECH,College of Science,,,,,,,,"3,81",324,103,,,,12,8
+Virginia Tech,VIRGINIATECH,College of Natural Resources and Environment,,,,,,,,0,0,0,,,,0,0
+Virginia Tech,VIRGINIATECH,Pamplin College of Business,,,,,,,,"3,35",318,95,,,,7,7
+Aalborg University,AAU. DK,General,,,,,,,,"3,21",,99,,,,12,12
+Norwegian University of Science And Technology,NTNU.NO,General,,,,,,,,"3,55",317,94,,,,42,24
+George Washington University,GWU,General,,,,,,,,"3,48",321,100,,,,1798,1665
+George Washington University,GWU,SCHOOL OF BUSINESS,,,,,,,,"3,54",323,100,,,,21,20
+George Washington University,GWU,School of Engineering & Applied Science,,,,,,,,"3,4",320,100,,,,188,180
+George Washington University,GWU,Columbian College of Arts and Sciences,,,,,,,,"3,5",320,100,,,,56,49
+George Washington University,GWU,Milken Institute School of Public Health,,,,,,,,"3,66",327,103,,,,3,3
+George Washington University,GWU,Elliott School of International Affairs,,,,,,,,"3,53",0,0,,,,2,2
+University of Tasmania,UTAS. AU,General,,,,,,,,0,0,0,,,,0,0
+Aalto University,AALTO.FI,General,,,,,,,,"3,6",321,100,,,,298,215
+KAIST - Korea Advanced Institute of Science & Technology,KAIST. KR,General,,,,,,,,"3,76",328,107,,,,1,1
+Colorado State University,COLORADOSTATE,General,,,,,,,,"3,62",322,100,,,,60,45
+Durham University,DURHAM,General,,,,,,,,"3,55",315,100,,,,226,193
+University of Aberdeen,ABDN.UK,General,,,,,,,,0,0,0,,,,0,0
+Strasbourg University,UNISTRA.FR,General,,,,,,,,0,0,0,,,,0,0
+University of York,YORK.UK,General,,,,,,,,"3,56",323,100,,,,239,204
+"State University of New York, Buffalo",BUFFALO,General,,,,,,,,"3,4",320,100,,,,664,601
+"State University of New York, Buffalo",BUFFALO,School of Engineering and Applied Sciences,,,,,,,,"3,4",322,96,,,,67,57
+"State University of New York, Buffalo",BUFFALO,School of Management,,,,,,,,"3,46",318,96,,,,3,3
+"State University of New York, Buffalo",BUFFALO,College of Arts and Sciences,,,,,,,,0,0,0,,,,0,0
+"State University of New York, Buffalo",BUFFALO,The Graduate School,,,,,,,,"3,32",317,100,,,,5,4
+"State University of New York, Buffalo",BUFFALO,School of Public Health and Health Professions,,,,,,,,"3,2",324,98,,,,2,2
+"State University of New York, Buffalo",BUFFALO,Jacobs School of Medicine and Biomedical Sciences,,,,,,,,0,0,0,,,,0,0
+"State University of New York, Buffalo",BUFFALO,Institute for Computational and Data Sciences,,,,,,,,"3,2",0,106,,,,4,3
+Tohoku University,TOHOKU. JP,General,,,,,,,,"3,58",318,101,,,,12,9
+Osaka University,OSAKA-U.JP,General,,,,,,,,0,0,0,,,,0,0
+Korea University,KOREA. KR,General,,,,,,,,0,0,0,,,,0,0
+Vrije Universiteit Brussel,ULB.BE,General,,,,,,,,"3,52",315,100,,,,14,13
+Yonsei University,YONSEI. KR,General,,,,,,,,0,0,0,,,,0,0
+Queen's University Belfast,QUB.UK,General,,,,,,,,0,0,0,,,,0,0
+Politecnico di Milano,POLIMI.IT,General,,,,,,,,"3,5",320,95,,,,352,257
+Oregon State University,OREGONSTATE,General,,,,,,,,"3,5",321,101,,,,170,113
+University of Western Ontario,UWO,General,,,,,,,,"3,5",323,100,,,,327,227
+Santa Clara University,SCU,General,,,,,,,,"3,45",321,101,,,,495,433
+Santa Clara University,SCU,SCHOOL OF ENGINEERING,,,,,,,,"3,5",321,100,,,,151,131
+Santa Clara University,SCU,LEAVEY SCHOOL OF BUSINESS,,,,,,,,"3,02",318,102,,,,26,25
+University of Kansas,KANSAS,General,,,,,,,,"3,52",321,100,,,,45,37
+La Trobe University,LATROBE. AU,General,,,,,,,,0,0,0,,,,0,0
+Berlin Institute of Technology,TU-BERLIN.DE,General,,,,,,,,0,0,0,,,,0,0
+University of Connecticut,UCONN,General,,,,,,,,"3,54",320,101,,,,504,405
+University of Connecticut,UCONN,College of Liberal Arts and Sciences,,,,,,,,"3,6",320,100,,,,16,14
+University of Connecticut,UCONN,School of Engineering,,,,,,,,"3,73",320,103,,,,5,5
+University of Connecticut,UCONN,The Graduate School,,,,,,,,0,0,0,,,,0,0
+University of Connecticut,UCONN,School of Business,,,,,,,,"3,54",321,100,,,,7,7
+Temple University,TEMPLE,General,,,,,,,,"3,56",319,100,,,,62,58
+University of New Mexico,UNM,General,,,,,,,,"3,2",315,88,,,,3,3
+Soochow University,SCU. TW,General,,,,,,,,0,0,0,,,,0,0
+Dalhousie University,DALHOUSIE,General,,,,,,,,"3,41",320,100,,,,70,50
+University of South Florida,USF,General,,,,,,,,"3,54",323,102,,,,114,107
+Simon Fraser University,SIMONFRASER,General,,,,,,,,"3,7",325,104,,,,428,332
+Simon Fraser University,SIMONFRASER,Faculty of Applied Sciences,,,,,,,,"3,66",325,106,,,,53,44
+Simon Fraser University,SIMONFRASER,Faculty of Arts and Social Sciences,,,,,,,,0,0,0,,,,0,0
+Simon Fraser University,SIMONFRASER,Centre for Digital Media,,,,,,,,"3,64",0,114,,,,1,1
+Simon Fraser University,SIMONFRASER,Faculty of Science,,,,,,,,"3,8",324,105,,,,9,5
+Simon Fraser University,SIMONFRASER,Beedie School of Business,,,,,,,,0,0,0,,,,0,0
+Simon Fraser University,SIMONFRASER,"Faculty of Communication, Art and Technology",,,,,,,,"3,8",330,103,,,,1,1
+Israel Institute of Technology,TECHNION. IL,General,,,,,,,,0,0,0,,,,0,0
+University of Notre Dame,NOTREDAME,General,,,,,,,,"3,67",324,104,,,,222,181
+University of Notre Dame,NOTREDAME,College of Engineering,,,,,,,,"3,68",323,103,,,,24,20
+University of Notre Dame,NOTREDAME,College of Science,,,,,,,,"3,6",325,107,,,,5,5
+University of Notre Dame,NOTREDAME,Mendoza College of Business,,,,,,,,"3,7",332,106,,,,7,7
+University of Notre Dame,NOTREDAME,College of Arts and Letters,,,,,,,,0,0,0,,,,1,0
+University Ulm,UNI-ULM.DE,General,,,,,,,,0,0,0,,,,0,0
+University of Georgia,UGA,General,,,,,,,,"3,56",321,100,,,,256,222
+University of Victoria,UVIC.CA,General,,,,,,,,"3,5",325,101,,,,174,123
+University of Victoria,UVIC.CA,Faculty of Human and Social Development,,,,,,,,0,0,0,,,,0,0
+University of Victoria,UVIC.CA,Peter B. Gustavson School of Business,,,,,,,,0,0,0,,,,0,0
+University of Victoria,UVIC.CA,Faculty of Education,,,,,,,,0,0,0,,,,0,0
+University of Victoria,UVIC.CA,Faculty of Engineering,,,,,,,,"3,3",0,100,,,,8,5
+University of Victoria,UVIC.CA,Faculty of Social Sciences,,,,,,,,0,0,0,,,,0,0
+University of Victoria,UVIC.CA,Faculty of Humanities,,,,,,,,0,0,0,,,,0,0
+University of Victoria,UVIC.CA,Faculty of Science,,,,,,,,"3,74",332,109,,,,1,1
+University of Victoria,UVIC.CA,Faculty of Law,,,,,,,,0,0,0,,,,0,0
+University of Victoria,UVIC.CA,Faculty of Fine Arts,,,,,,,,0,0,0,,,,0,0
+University of Victoria,UVIC.CA,Faculty of Engineering and Computer Science,,,,,,,,"3,66",325,101,,,,11,9
+University of Victoria,UVIC.CA,Faculty of Graduate Studies,,,,,,,,0,0,0,,,,0,0
+Georgetown University,GEORGETOWN,General,,,,,,,,"3,68",324,106,,,,1336,1208
+Georgetown University,GEORGETOWN,Georgetown University Medical Center,,,,,,,,"3,55",324,102,,,,20,18
+Georgetown University,GEORGETOWN,Graduate School of Arts and Sciences,,,,,,,,"3,7",326,105,,,,117,114
+Georgetown University,GEORGETOWN,Department of Computer Science,,,,,,,,"3,65",323,103,,,,61,54
+Georgetown University,GEORGETOWN,Department of Economics,,,,,,,,"3,73",324,105,,,,11,9
+Georgetown University,GEORGETOWN,Department of Mathematics and Statistics,,,,,,,,"3,7",325,103,,,,9,9
+Georgetown University,GEORGETOWN,Biomedical Graduate Education,,,,,,,,"3,2",324,93,,,,1,1
+Georgetown University,GEORGETOWN,McCourt School of Public Policy,,,,,,,,"3,77",323,105,,,,7,7
+Georgetown University,GEORGETOWN,School of Continuing Studies,,,,,,,,"3,45",335,111,,,,1,1
+Georgetown University,GEORGETOWN,Department of Linguistics,,,,,,,,"3,52",322,108,,,,1,1
+Washington State University,WSU,General,,,,,,,,"3,6",323,103,,,,70,54
+Linkoping University,LIU.SE,General,,,,,,,,0,0,0,,,,0,0
+University of East Anglia,UEA.UK,General,,,,,,,,0,0,0,,,,0,0
+Nagoya University,EN. JP,General,,,,,,,,"3,48",317,98,,,,21,20
+University of Reading,READING.UK,General,,,,,,,,"3,25",319,90,,,,20,20
+University Complutense Madrid,UCM.ES,General,,,,,,,,0,0,0,,,,0,0
+Chalmers University of Technology,CHALMERS.SE,General,,,,,,,,"3,51",321,100,,,,217,197
+Vienna University of Technology,TUWIEN. AT,General,,,,,,,,0,0,0,,,,0,0
+University of Dundee,DUNDEE.UK,General,,,,,,,,0,0,0,,,,0,0
+Eindhoven University of Technology,TUE,General,,,,,,,,"3,51",322,100,,,,343,309
+University of South Carolina,SOUTHCAROLINA,General,,,,,,,,"3,6",320,102,,,,55,52
+University of Texas - Dallas,UTD,General,,,,,,,,"3,46",321,100,,,,1434,1334
+University of Texas - Dallas,UTD,Naveen Jindal School of Management,,,,,,,,"3,3",320,100,,,,12,9
+University of Texas - Dallas,UTD,Erik Jonsson School of Engineering and Computer Science,,,,,,,,"3,42",321,100,,,,196,174
+Kyushu University,KYUSHU-U.JP,General,,,,,,,,0,0,0,,,,0,0
+University of Delaware,UDEL,General,,,,,,,,"3,54",322,101,,,,319,262
+Drexel University,DREXEL,General,,,,,,,,"3,38",320,100,,,,159,140
+University of St Andrews,ST-ANDREWS.UK,General,,,,,,,,"3,51",323,100,,,,88,79
+Lomonosov Moscow State University,MSU.RU,General,,,,,,,,0,0,0,,,,0,0
+University of Kentucky,UKY,General,,,,,,,,"3,5",320,99,,,,48,39
+"University of Colorado, Denver",UCDENVER,General,,,,,,,,"3,81",331,106,,,,8,7
+Tokyo Institute of Technology,TITECH,General,,,,,,,,"3,62",322,96,,,,15,11
+University of South Australia,UNISA. AU,General,,,,,,,,0,0,0,,,,0,0
+Umea University,UMU.SE,General,,,,,,,,,,104,,,,1,
+University of Surrey,SURREY.UK,General,,,,,,,,0,0,0,,,,0,0
+Baylor University,BAYLOR,General,,,,,,,,"3,46",320,97,,,,44,34
+Syracuse University,SYRACUSE,General,,,,,,,,"3,46",320,100,,,,1699,1438
+Syracuse University,SYRACUSE,School of Information Studies,,,,,,,,"3,3",320,100,,,,30,29
+Syracuse University,SYRACUSE,College of Engineering and Computer Science,,,,,,,,"3,48",320,101,,,,226,183
+Syracuse University,SYRACUSE,College of Art & Sciences,,,,,,,,"3,07",315,94,,,,1,1
+Syracuse University,SYRACUSE,Whitman School of Management,,,,,,,,"3,38",310,99,,,,2,2
+Syracuse University,SYRACUSE,S.I. Newhouse School of Public Communications,,,,,,,,0,0,0,,,,0,0
+University of Manitoba,MANITOBA.CA,General,,,,,,,,"3,43",318,100,,,,50,24
+University of Macau,UMACAU,General,,,,,,,,"3,58",321,100,,,,45,36
+Universiti Teknologi Malaysia,UTM. MY,General,,,,,,,,0,0,0,,,,0,0
+University of Strathclyde,STRATH.UK,General,,,,,,,,"3,25",315,94,,,,12,12
+Polytechnic University of Catalonia,UPC,General,,,,,,,,0,0,0,,,,0,0
+Wayne State University,WAYNE,General,,,,,,,,"3,45",101,,,,,1,1
+Louisiana State University and A&M College,LSU,General,,,,,,,,"3,6",100,317,,,,54,50
+University of Navarra,UNAV,General,,,,,,,,0,0,0,,,,0,0
+University of Mississippi,OLEMISS,General,,,,,,,,"3,53",316,100,,,,1,1
+"University of Hawaii, Manoa",HAWAII,General,,,,,,,,"3,8",321,100,,,,5,5
+National Tsing Hua University,NTHU. TW,General,,,,,,,,"3,74",340,,,,,2,2
+University College Cork,UCC. IE,General,,,,,,,,"3,58",,,,,,1,1
+Laval University,ULAVAL.CA,General,,,,,,,,0,0,0,,,,0,0
+King Fahd University of Petroleum & Minerals,KFUPM.SA,General,,,,,,,,0,0,0,,,,0,0
+University of Chile,UCHILE. CL,General,,,,,,,,0,0,0,,,,0,0
+University of Twente,UTWENTE.NL,General,,,,,,,,"3,52",321,100,,,,217,185
+"State University of New York, Albany",ALBANY,General,,,,,,,,"3,71",318,100,,,,36,31
+"State University of New York, Albany",ALBANY,College of Engineering and Applied Sciences,,,,,,,,"3,72",317,95,,,,2,1
+"University of Nebraska, Lincoln ",UNL,General,,,,,,,,"3,6",314,102,,,,44,38
+University of Bath,BATH.UK,General,,,,,,,,"3,44",317,100,,,,98,91
+Brandeis University,BRANDEIS,General,,,,,,,,"3,6",324,104,,,,775,613
+Brandeis University,BRANDEIS,Graduate School of Arts and Sciences,,,,,,,,"3,59",325,104,,,,145,128
+Brandeis University,BRANDEIS,Graduate Professional Studies,,,,,,,,0,0,0,,,,0,0
+Brandeis University,BRANDEIS,International Business School,,,,,,,,"3,5",323,104,,,,34,34
+Pohang University of Science And Technology,POSTECH. KR,General,,,,,,,,0,0,0,,,,0,0
+University of Central Florida,UCF,General,,,,,,,,"3,51",321,100,,,,204,185
+Universidade Federal do Rio de Janeiro,UFRJ.BR,General,,,,,,,,0,0,0,,,,0,0
+Scuola Normale Superiore di Pisa,SNS.IT,General,,,,,,,,0,0,0,,,,0,0
+Universidad de Buenos Aires,UBA.AR,General,,,,,,,,0,0,0,,,,0,0
+York University,YORK.CA,General,,,,,,,,"3,7",320,100,,,,14,13
+Queen's University,QUEENS,General,,,,,,,,"3,57",323,100,,,,119,77
+Queen's University at Kingston,QUEENSU.CA,General,,,,,,,,,,,,,,3,2
+Singapore University of Technology and Design,SUTD,General,,,,,,,,"3,5",318,90,,,,10,10
+University of Houston,HOUSTON,General,,,,,,,,"3,63",320,99,,,,99,90
+Hokkaido University,HOKUDAI. JP,General,,,,,,,,"3,1",93,,,,,1,1
+University of Tsukuba,TSUKUBA. JP,General,,,,,,,,0,0,0,,,,0,0
+Virginia Commonwealth University,VCU,General,,,,,,,,"3,35",323,0,,,,3,3
+University of Saskatchewan,USASK.CA,General,,,,,,,,"3,29",320,100,,,,26,24
+Hanyang University,HANYANG. KR,General,,,,,,,,0,0,0,,,,0,0
+Tulane University,TULANE,General,,,,,,,,"3,5",321,100,,,,161,148
+"University of Missouri, Columbia",MISSOURI,General,,,,,,,,"3,3",321,108,,,,6,6
+University of Oklahoma,OKLAHOMA,General,,,,,,,,"3,64",320,102,,,,30,27
+Wake Forest University,WFU,General,,,,,,,,"3,66",323,103,,,,125,109
+Wake Forest University,WFU,School of Business,,,,,,,,"3,75",323,104,,,,34,32
+Wake Forest University,WFU,School of Medicine,,,,,,,,"3,73",324,0,,,,1,1
+University of Canterbury,CANTERBURY. NZ,General,,,,,,,,0,0,0,,,,0,0
+Florida International University,FIU,General,,,,,,,,"3,55",311,,,,,2,1
+Texas Tech University,TTU,General,,,,,,,,"3,23",314,100,,,,15,14
+American University of Beirut,AUB.LB,General,,,,,,,,0,0,0,,,,0,0
+Moscow Institute of Physics and Technology,MIPT.RU,General,,,,,,,,0,0,0,,,,0,0
+George Mason University,GEORGEMASON,General,,,,,,,,"3,36",322,100,,,,78,69
+Brunel University London,BRUNEL.UK,General,,,,,,,,"3,3",,90,,,,13,13
+"University of Massachusetts, Boston",UMB,General,,,,,,,,,,,,,,1,1
+Victoria University of Wellington,VICTORIA. NZ,General,,,,,,,,0,0,0,,,,0,0
+University of Guelph,UOGUELPH.CA,General,,,,,,,,"3,5",318,100,,,,29,19
+Indiana Univ - Purdue Univ Indianapolis,IUPUI,General,,,,,,,,"3,48",320,101,,,,60,60
+Politecnico di Torino,TORINO,General,,,,,,,,"3,27",,90,,,,46,39
+Georgia State University,GEORGIASTATE,General,,,,,,,,"3,54",324,101,,,,35,31
+Kansas State University,KANSASSTATE,General,,,,,,,,"3,54",318,100,,,,20,20
+University of Vermont,UVM,General,,,,,,,,"3,53",311,94,,,,10,6
+University of Alabama,UA,General,,,,,,,,"3,5",322,100,,,,92,81
+Keio University,KEIO. JP,General,,,,,,,,0,0,0,,,,0,0
+Kyung Hee University,KHU. KR,General,,,,,,,,0,0,0,,,,0,0
+Loughborough University,LBORO.UK,General,,,,,,,,"3,5",321,90,,,,75,70
+Tilburg University,TILBURGUNIVERSITY,General,,,,,,,,"3,5",324,100,,,,64,54
+Boston College,BC,General,,,,,,,,"3,7",325,105,,,,130,119
+College of William & Mary,WILLIAMMARY,General,,,,,,,,"3,5",322,100,,,,108,99
+University of Stuttgart,UNI-STUTTGART.DE,General,,,,,,,,"3,61",322,100,,,,37,26
+Oklahoma State University,OKSTATE,General,,,,,,,,"3,5",322,100,,,,26,22
+Rochester Institute of Technology,RIT,General,,,,,,,,"3,43",319,100,,,,162,154
+Rochester Institute of Technology,RIT,Golisano College of Computing and Information Sciences,,,,,,,,"3,41",320,102,,,,44,43
+Rochester Institute of Technology,RIT,College of Science,,,,,,,,0,0,0,,,,0,0
+Rochester Institute of Technology,RIT,College of Art and Design,,,,,,,,"3,6",318,100,,,,10,10
+Rochester Institute of Technology,RIT,Saunders College of BUSINESS,,,,,,,,0,0,0,,,,1,1
+National Cheng Kung University,NCKU. TW,General,,,,,,,,0,0,0,,,,0,0
+Saint Petersburg State University,SPBU.RU,General,,,,,,,,0,0,0,,,,0,0
+Concordia University,CONCORDIA,General,,,,,,,,"3,45",324,100,,,,166,141
+Hiroshima University,HIROSHIMA-U.JP,General,,,,,,,,0,0,0,,,,0,0
+University of California--Merced,MERCED,General,,,,,,,,"3,51",322,102,,,,16,15
+"University of North Carolina, Charlotte",UNCC,General,,,,,,,,"3,15",317,102,,,,4,4
+University of North Texas,UNT,General,,,,,,,,"3,27",328,103,,,,1,1
+United Arab Emirates University,UAEU. AE,General,,,,,,,,0,0,0,,,,0,0
+City University of New York,CUNY,General,,,,,,,,"3,44",323,100,,,,38,34
+Ohio University,OHIO,General,,,,,,,,"3,55",323,100,,,,60,52
+Copenhagen Business School,CBS. DK,General,,,,,,,,"3,77",315,100,,,,16,12
+Clemson University,CLEMSON,General,,,,,,,,"3,5",320,100,,,,329,256
+Rensselaer Polytechnic Institute,RPI,General,,,,,,,,"3,6",323,102,,,,603,361
+Rensselaer Polytechnic Institute,RPI,School of Engineering,,,,,,,,"3,62",322,100,,,,15,13
+Rensselaer Polytechnic Institute,RPI,School of Science,,,,,,,,"3,5",320,100,,,,30,22
+Rensselaer Polytechnic Institute,RPI,Lally School of Management and Technology,,,,,,,,"3,56",323,104,,,,13,12
+Memorial University of Newfoundland,MUN.CA,General,,,,,,,,"3,4",323,100,,,,42,35
+University of Rhode Island,URI,General,,,,,,,,"3,32",315,102,,,,4,4
+"University of Missouri, Kansas City",UMKC,General,,,,,,,,"3,6",321,101,,,,113,102
+Scuola Superiore SantAnna,SANTANNAPISA.IT,General,,,,,,,,0,0,0,,,,0,0
+Brigham Young University,BYU,General,,,,,,,,"3,84",325,106,,,,7,7
+Cranfield University,CRANFIELD.UK,General,,,,,,,,"3,6",321,100,,,,25,24
+Aston University,ASTON.UK,General,,,,,,,,0,0,0,,,,0,0
+Utah State University,USU,General,,,,,,,,"3,54",319,103,,,,3,2
+Heriot-Watt University,HW.UK,General,,,,,,,,0,0,0,,,,0,0
+Singapore Management University,SMU. SG,General,,,,,,,,"3,5",320,100,,,,123,119
+Southern Methodist University,SMU ,General,,,,,,,,"3,38",320,99,,,,431,395
+Illinois Institute of Technology,IIT,General,,,,,,,,"3,25",316,98,,,,370,351
+Illinois Institute of Technology,IIT,College of Computing,,,,,,,,"3,02",318,94,,,,25,22
+Illinois Institute of Technology,IIT,Institute of Design,,,,,,,,"3,7",324,105,,,,5,4
+University of Waikato,WAIKATO. NZ,General,,,,,,,,0,0,0,,,,0,0
+National Chiao Tung University,NCTU. TW,General,,,,,,,,0,0,0,,,,0,0
+University of Arkansas,ARKANSAS,General,,,,,,,,"3,5",325,100,,,,8,8
+"University of Maryland, Baltimore County",UMBC,General,,,,,,,,"3,6",317,100,,,,34,31
+"University of Alaska, Fairbanks",UAF,General,,,,,,,,0,0,0,,,,0,0
+Howard University,HOWARD,General,,,,,,,,0,0,0,,,,0,0
+"California State University, Fullerton",FULLERTON,General,,,,,,,,"3,44",322,91,,,,4,3
+Louisiana Tech University,LATECH,General,,,,,,,,0,0,0,,,,0,0
+Michigan Technological University,MTU,General,,,,,,,,"3,49",320,101,,,,45,44
+New York University Tandon School of Engineering,NYU. TANDON,General,,,,,,,,"3,65",323,103,,,,3895,3032
+New York University Tandon School of Engineering,NYU. TANDON,Tandon School of Engineering,,,,,,,,"3,67",324,103,,,,1443,1070
+"City, University of London",CITY.UK,General,,,,,,,,"3,56",320,100,,,,21,21
+California Polytechnic State University,CALPOLY,General,,,,,,,,"3,88",321,97,,,,3,1
+University Carlos III de Madrid: Getafe Campus,UC3M.ES,General,,,,,,,,"3,58",325,100,,,,16,12
+University of Denver,DU,General,,,,,,,,"3,6",320,100,,,,14,8
+Education University of Hong Kong,EDUHK,General,,,,,,,,"3,2",0,97,,,,110,110
+Missouri University of Science and Technology,MST,General,,,,,,,,"3,6",324,103,,,,22,22
+New Jersey Institute of Technology,NJIT,General,,,,,,,,"3,02",316,97,,,,188,181
+New Jersey Institute of Technology,NJIT,Ying Wu College of Computing,,,,,,,,"2,94",319,94,,,,18,17
+New Jersey Institute of Technology,NJIT,Newark College of Engineering,,,,,,,,0,0,0,,,,0,0
+Florida Institute of Technology,FIT,General,,,,,,,,"3,69",312,98,,,,3,2
+Dublin City University,DCU. IE,General,,,,,,,,"2,96",335,110,,,,1,1
+"Birkbeck, University of London",BBK.UK,General,,,,,,,,0,0,0,,,,0,0
+Lehigh University,LEHIGH,General,,,,,,,,"3,4",320,100,,,,422,346
+Lehigh University,LEHIGH,P.C. ROSSIN College of Engineering & Applied Science,,,,,,,,"3,37",321,100,,,,31,30
+Lehigh University,LEHIGH,College of Business,,,,,,,,"3,36",326,105,,,,4,4
+Mississippi State University,MSSTATE,General,,,,,,,,,318,82,,,,2,1
+Ryerson University,RYERSON.CA,General,,,,,,,,"3,3",321,100,,,,44,25
+"State University of New York, Binghamton",BINGHAMTON,General,,,,,,,,"3,3",317,97,,,,151,140
+Old Dominion University,ODU,General,,,,,,,,"3,4",320,87,,,,3,3
+Macau University of Science and Technology,MUST,General,,,,,,,,"3,53",314,90,,,,4,4
+Portland State University,PDX,General,,,,,,,,"3,69",0,90,,,,6,5
+Hofstra University,HOFSTRA,General,,,,,,,,"3,5",317,97,,,,6,6
+Fordham University,FORDHAM,General,,,,,,,,"3,5",323,103,,,,307,299
+Fordham University,FORDHAM,Gabelli School of Business,,,,,,,,"3,5",324,103,,,,49,49
+Fordham University,FORDHAM,Graduate School of Arts and Sciences,,,,,,,,"3,17",320,103,,,,16,16
+San Francisco State University,SFSU,General,,,,,,,,"3,5",317,101,,,,9,7
+University of Windsor,UWINDSOR.CA,General,,,,,,,,"3,4",317,94,,,,89,64
+Worcester Polytechnic Institute,WPI,General,,,,,,,,"3,44",321,100,,,,1209,933
+Worcester Polytechnic Institute,WPI,The Business School,,,,,,,,"3,4",319,98,,,,8,8
+Worcester Polytechnic Institute,WPI,School of Arts & Sciences,,,,,,,,"3,4",320,101,,,,109,96
+Worcester Polytechnic Institute,WPI,School of Engineering,,,,,,,,"3,6",317,99,,,,21,18
+Miami University,MIAMIOH,General,,,,,,,,"3,44",318,98,,,,12,12
+"University of Massachusetts, Lowell",UML,General,,,,,,,,"2,97",315,91,,,,3,3
+Clarkson University,CLARKSON,General,,,,,,,,"3,54",323,112,,,,17,15
+Marquette University,MARQUETTE,General,,,,,,,,"3,77",315,97,,,,12,11
+"Goldsmiths, University of London",GOLD.UK,General,,,,,,,,"3,38",328,95,,,,38,30
+Brock University,BROCKU.CA,General,,,,,,,,"3,4",315,100,,,,20,17
+University of Westminster,WESTMINSTER.UK,General,,,,,,,,"3,5",300,100,,,,21,21
+Stevens Institute of Technology,STEVENS,General,,,,,,,,"3,27",319,100,,,,1033,975
+Stevens Institute of Technology,STEVENS,SCHOOL OF BUSINESS,,,,,,,,"3,04",320,98,,,,15,15
+Stevens Institute of Technology,STEVENS,SCHAEFER SCHOOL OF ENGINEERING & SCIENCE,,,,,,,,"3,2",320,99,,,,162,162
+Stevens Institute of Technology,STEVENS,SCHOOL OF SYSTEMS & ENTERPRISES,,,,,,,,"3,2",329,101,,,,2,2
+California College of the Arts,CCA,General,,,,,,,,"3,66",322,100,,,,15,15
+"California State Polytechnic University, Pomona",CPP,General,,,,,,,,"3,13",315,89,,,,4,3
+Duke Kunshan University,DKU,General,,,,,,,,"3,76",325,103,,,,54,45
+Northwestern Polytechnic University,NPU,General,,,,,,,,"3,35",320,93,,,,5,5
+Saint Louis University,,General,,,,,,,,"2,73",,92,,,,1,1
+School of Visual Arts,SVA,General,,,,,,,,"3,82",324,108,,,,9,8
+Bard College,BARD,General,,,,,,,,"3,63",310,110,,,,1,1
+Lingnan University,HKLU,General,,,,,,,,"3,2",314,90,,,,43,43
+New York Institute of Technology,NYIT,General,,,,,,,,"3,25",319,100,,,,41,39
+University of San Francisco,USFCA,General,,,,,,,,"3,66",323,104,,,,144,139
+University of San Francisco,USFCA,College of Arts and Sciences,,,,,,,,"3,7",323,105,,,,87,84
+University of San Francisco,USFCA,School of Management,,,,,,,,"3,29",316,0,,,,4,4
+"University of Wisconsin, La Crosse",UWLAX,General,,,,,,,,"3,66",321,,,,,2,2
+DePaul University,DEPAUL,General,,,,,,,,"3,19",318,92,,,,29,29
+Bentley University,BENTLEY,General,,,,,,,,"3,6",322,103,,,,53,49
+Parsons School of Art and Design,PARSONS,General,,,,,,,,"3,72",329,107,,,,20,20
+University of Texas health center at houston,UTHSC-H,General,,,,,,,,"3,55",323,103,,,,50,48
+"University of Washington, Tacoma",UW. TACOMA,General,,,,,,,,"3,45",323,100,,,,39,36
+"University of Washington, Tacoma",UW. TACOMA,School of Engineering & Technology,,,,,,,,"3,4",320,100,,,,34,32
+"University of Washington, Tacoma",UW. TACOMA,Milgard School of Business,,,,,,,,0,0,0,,,,0,0
+"University of Washington, Tacoma",UW. TACOMA,School of Urban Studies,,,,,,,,0,0,0,,,,0,0
+EIT InnoEnergy,INNOENERGY,General,,,,,,,,"3,54",326,100,,,,33,30
+Pepperdine University,PEPPERDINE,General,,,,,,,,"3,5",316,100,,,,53,51
+"University of Washington, Bothell",UW. BOTHELL,General,,,,,,,,"3,5",323,102,,,,28,25
+"University of Washington, Bothell",UW. BOTHELL,"School of Science, Technology, Engineering & Mathematics",,,,,,,,"3,5",323,102,,,,23,21
+Cornell Tech,CORNELL. TECH,General,,,,,,,,"3,81",327,107,,,,533,383
+Cornell Tech,CORNELL. TECH,Cornell Tech,,,,,,,,"3,81",327,107,,,,553,376
+Erasmus Mundus,ERASMUSMUNDUS,General,,,,,,,,"3,67",321,100,,,,75,58
+Penn State Harrisburg,PSU. HARRISBURG,General,,,,,,,,"3,85",323,105,,,,21,18
+Graduate Institute Geneva,GRADUATEINSTITUTE. CH,General,,,,,,,,"3,79",325,109,,,,27,24
+Paris School of Economics,PARISSCHOOLOFECONOMICS.FR,General,,,,,,,,"3,95",325,105,,,,15,4

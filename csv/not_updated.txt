@@ -1,0 +1,1197 @@
+ETH Zurich - Swiss Federal Institute of Technology
+UCL
+"University of California
+The University of Melbourne
+"Nanyang Technological University
+The University of Sydney
+The University of New South Wales
+Universit� PSL
+EPFL
+The University of Edinburgh
+The Australian National University
+The University of Tokyo
+The Chinese University of Hong Kong
+The University of Queensland
+"University of California
+University of Michigan-Ann Arbor
+Institut Polytechnique de Paris
+The London School of Economics and Political Science
+Ludwig-Maximilians-Universit�t M�nchen
+Sorbonne University
+The University of Auckland
+The University of Warwick
+"University of California
+Universit� Paris-Saclay
+The University of Western Australia
+The University of Adelaide
+Ruprecht-Karls-Universit�t Heidelberg
+"Trinity College Dublin
+Universidade de S�o Paulo
+Pontificia Universidad Cat�lica de Chile
+Universidad Nacional Aut�noma de M�xico
+"KIT
+The University of Sheffield
+University of Wisconsin-Madison
+Indian Institute of Technology Bombay
+Qatar University
+Sungkyunkwan University(SKKU)
+Humboldt-Universit�t zu Berlin
+"University of California
+Alma Mater Studiorum - University of Bologna
+University of Science and Technology of China
+Universiti Kebangsaan Malaysia
+Universidad de Chile
+Nanjing University
+Universiti Sains Malaysia
+Technische Universit�t Berlin
+Universiti Putra Malaysia
+King Abdulaziz University
+Indian Institute of Technology Delhi
+"University of North Carolina
+Wageningen University & Research
+Universit� de Montr�al
+Al-Farabi Kazakh National University
+Complutense University of Madrid
+Universitat de Barcelona
+The University of Exeter
+Universitat Aut�noma de Barcelona
+"University of California
+"The University of Newcastle
+Universidad de los Andes
+Hamad Bin Khalifa University
+Tecnol�gico de Monterrey
+�cole Normale Sup�rieure de Lyon
+Technische Universit�t Wien
+Universit�t Hamburg
+Universidad Aut�noma de Madrid
+American University of Sharjah
+Universit� catholique de Louvain
+University of Minnesota Twin Cities
+Ecole des Ponts ParisTech
+Universitas Indonesia
+The Ohio State University
+Indian Institute of Science
+Albert-Ludwigs-Universitaet Freiburg
+"University of Maryland
+National Yang Ming Chiao Tung University
+Universidad Nacional de Colombia
+Vrije Universiteit Amsterdam
+Eberhard Karls Universit�t T�bingen
+Indian Institute of Technology Kharagpur
+Friedrich-Alexander-Universit�t Erlangen-N�rnberg
+Indian Institute of Technology Madras
+Rheinische Friedrich-Wilhelms-Universit�t Bonn
+Chulalongkorn University
+Universite libre de Bruxelles
+Universidade Estadual de Campinas
+Technische Universit�t Dresden
+Universit��di Padova
+Gadjah Mada University
+Massey University
+Technical University of Darmstadt
+Charles University
+Taylor's University
+Harbin Institute of Technology
+University of G�ttingen
+Bandung Institute of Technology
+University of Warsaw
+Canadian University Dubai
+University of Canterbury | Te Whare Wananga o Waitaha
+Indian Institute of Technology Kanpur
+UCSI University
+Universitat Pompeu Fabra
+University of Witwatersrand
+Universiti Teknologi PETRONAS
+Beijing Normal University
+Radboud University
+University of Galway
+Ulsan National Institute of Science and Technology
+The Hebrew University of Jerusalem
+Universit� Paris 1 Panth�on-Sorbonne
+Southern University of Science and Technology
+Middle East Technical University
+Universidad Carlos III de Madrid
+Swinburne University of Technology
+The University of Arizona
+Xi�an Jiaotong University
+Stellenbosch University
+Bauman Moscow State Technical University
+Swansea University
+Huazhong University of Science and Technology
+Beijing Institute of Technology
+Universit� Paris Cit�
+Link�ping University
+"University of California
+Airlangga University
+Goethe-University Frankfurt am Main
+Universit�t Innsbruck
+Jagiellonian University
+University of Johannesburg
+Universit�t Stuttgart
+Quaid-i-Azam University
+RUDN University
+Shandong University
+L.N. Gumilyov Eurasian National University
+National Technical University of Athens
+Universidad Polit�cnica de Madrid
+Daegu Gyeongbuk Institute of Science and Technology
+Istanbul Technical University
+Rutgers University�New Brunswick
+University of Delhi
+Abu Dhabi University
+Universit� Grenoble Alpes
+Indian Institute of Technology Roorkee
+Flinders University
+Lappeenranta-Lahti University of Technology LUT
+Sichuan University
+University of the Philippines
+Sharif University of Technology
+Indian Institute of Technology Guwahati
+University of Oulu
+University of Naples - Federico II
+Cairo University
+Sciences Po
+"City
+National University of Sciences And Technology
+University of Pretoria
+Indiana University Bloomington
+University of Coimbra
+University of Luxembourg
+University of Tartu
+Gwangju Institute of Science and Technology
+Pontificia Universidad Cat�lica del Per�
+University of Aveiro
+Sultan Qaboos University
+Westf�lische Wilhelms-Universit�t M�nster
+Mahidol University
+University of Jordan
+University of Tehran
+Lincoln University
+Universitat Polit�cnica de Catalunya � BarcelonaTech
+University of Turin
+University of Florence
+University of Turku
+Nankai University
+Pontificia Universidad Javeriana
+Technische Universit�t Bergakademie Freiberg
+University of Kent
+University of Pisa
+Anna University
+Western Sydney University
+South China University of Technology
+Universiti Brunei Darussalam
+Belarusian State University
+Universidade Nova de Lisboa
+Universit� Vita-Salute San Raffaele
+University of Cyprus
+Virginia Polytechnic Institute and State University
+National Taiwan University of Science and Technology
+National and Kapodistrian University of Athens
+"University of California
+"University of Rome ""Tor Vergata"""
+Ruhr-Universit�t Bochum
+Sejong University
+Universit� de Li�ge
+University of Southern Queensland
+Kazan
+Ko� University
+Amirkabir University of Technology
+University of Canberra
+Institut National des Sciences Appliqu�es de Lyon
+Satbayev University
+USI - Universit� della Svizzera italiana
+"Birkbeck
+Masaryk University
+HSE University
+The American University in Cairo
+Auckland University of Technology
+Graz University of Technology
+Yeshiva University
+Oxford Brookes University
+Technion - Israel Institute of Technology
+Bogazi�i University
+Czech Technical University in Prague
+University of Limerick
+Universit� Laval
+National Taipei University of Technology
+IPB University
+Leibniz University Hannover
+Julius-Maximilians-Universit�t W�rzburg
+Southeast University
+University of Science and Technology Beijing
+Tomsk State University
+University of Granada
+Ajman University
+Iran University of Science and Technology
+Murdoch University
+Universitat Polit�cnica de Val�ncia
+Vilnius University
+Universit� degli Studi di Pavia
+Novosibirsk State University
+Universit��Cattolica del Sacro Cuore
+James Cook University
+Justus-Liebig-University Giessen
+Universitat de Valencia
+Dalian University of Technology
+Hunan University
+Universit� de Montpellier
+University of Electronic Science and Technology of China
+Beihang University
+National Taiwan Normal University
+University of Stirling
+Umea University
+Universit� de Strasbourg
+"Stony Brook University
+Universidad de Santiago de Chile
+Tampere University
+Universidad de Sevilla
+Kobe University
+Universit�t Konstanz
+Universitat Ramon Llull
+University at Buffalo SUNY
+Ben-Gurion University of The Negev
+"Essex
+Johannes Kepler University Linz
+Bangor University
+Universit�t Potsdam
+University of Sharjah
+Bilkent University
+Indian Institute of Technology Indore
+Royal Holloway University of London
+Aix-Marseille University
+Pontificia Universidad Cat�lica Argentina
+"The University of Tennessee
+American University of Ras Al Khaimah
+National Sun Yat-sen University
+Universit�t Mannheim
+University of Hawai?i at Manoa
+Chongqing University
+Chung-Ang University
+Isfahan University of Technology
+Shanghai University
+UNESP
+University of Jyv�skyl�
+Central Queensland University
+Duy Tan University
+Jilin University
+National Research Nuclear University MEPhI
+Universidad de Costa Rica
+"University of California
+Khalifa University of Science and Technology
+Colorado School of Mines
+East China Normal University
+Johannes Gutenberg Universit�t Mainz
+University of Huddersfield
+Aristotle University of Thessaloniki
+Shenzhen University
+SOAS University of London
+Ewha Womans University
+Zhengzhou University
+Imam Abdulrahman Bin Faisal University
+Prince Mohammad Bin Fahd university
+University of Milano-Bicocca
+Ateneo de Manila University
+Edith Cowan University
+INTI International University
+Kyungpook National University
+Sabanci University
+University of Hull
+Ural Federal University - UrFU
+Zayed University
+Pusan National University
+Universidad Austral
+Universit�t Jena
+Universit�t Leipzig
+University of Bayreuth
+Warsaw University of Technology
+Coventry University
+Indian Institute of Technology
+University of Bradford
+Universidad Nacional de La Plata
+Lahore University of Management Sciences
+Northumbria University at Newcastle
+University of Bordeaux
+University of Eastern Finland
+Applied Science University - Bahrain
+Hitotsubashi University
+Sunway University
+Universit� de Fribourg
+University of Salamanca
+Universidad de Zaragoza
+Universidad Pontificia Comillas
+Northwestern Polytechnical University
+Tashkent Institute of Irrigation and Agricultural Mechanization Engineers - National Research University
+University of Genoa
+University of Iceland
+University of Tabriz
+Hasselt University
+Jordan University of Science & Technology
+Universiti Utara Malaysia
+University of Dhaka
+Peter the Great St. Petersburg Polytechnic University
+Ulster University
+Umm Al-Qura University
+Universit� Claude Bernard Lyon 1
+Universiti Teknologi Brunei
+E�tv�s Lor�nd University
+Nanjing University of Science and Technology
+Chiang Mai University
+Lebanese University
+MGIMO University
+"University of Chemistry and Technology
+University of Szeged
+University of the Punjab
+National Research Tomsk Polytechnic University
+Sogang University
+Southern Cross University
+Universidad Adolfo Ib��ez
+Jawaharlal Nehru University
+Management and Science University
+Politecnico di Bari
+Universit� Paul Sabatier Toulouse III
+Institut Teknologi Sepuluh Nopember
+Bond University
+Shoolini University of Biotechnology and Management Sciences
+The University of Georgia
+Universiti Teknologi MARA - UiTM
+University of Kwazulu-Natal
+Ain Shams University
+Nottingham Trent University
+Universit�t Bremen
+ITMO University
+Thammasat University
+Universitas Padjadjaran
+University of Ljubljana
+University of Texas Dallas
+Ca' Foscari University of Venice
+King Khalid University
+"Kingston University
+Manchester Metropolitan University
+National Chengchi University
+Paris Lodron University of Salzburg
+Universit�t des Saarlandes
+University of Crete
+University of Hohenheim
+American University of the Middle East
+Asia Pacific University of Technology and Innovation
+Brno University of Technology
+Christian-Albrechts-University zu Kiel
+Eastern Mediterranean University
+Pontif�cia Universidade Cat�lica do Rio de Janeiro
+Taipei Medical University
+University of Klagenfurt
+University of Minho
+Abo Akademi University
+American University in Dubai
+Auezov South Kazakhstan University
+Charles Darwin University
+Istanbul University
+Renmin
+Tallinn University of Technology
+Universidad de Alcal�
+Universidad de Palermo
+University of Troms� The Arctic University of Norway
+Al Ain University
+Ajou University
+Chang Gung University
+Far Eastern Federal University
+Inha University
+Savitribai Phule Pune University
+Universidad de Concepci�n
+University of Portsmouth
+Beirut Arab University
+De La Salle University
+East China University of Science and Technology
+Hacettepe University
+National Central University
+Ritsumeikan University
+Symbiosis International
+Universiti Tenaga Nasional
+"University of Missouri
+University of the Basque Country
+HUFS - Hankuk
+Palack_ University Olomouc
+Universidade de Santiago de Compostela
+University of Zagreb
+Aberystwyth University
+Comenius University Bratislava
+Free University of Bozen-Bolzano
+International Islamic University Malaysia
+ISCTE - Instituto Universitario de Lisboa
+National Chung Hsing University
+"Sofia University ""St. Kliment Ohridski"""
+Tokyo Medical and Dental University
+Universidad de la Rep�blica
+University of Plymouth
+Abai Kazakh National Pedagogical University
+Bar-Ilan University
+Karl-Franzens-Universitaet Graz
+Kazakh National Agrarian University KazNAU
+Martin-Luther-Universit�t Halle-Wittenberg
+Universidade Federal de Minas Gerais
+University of Haifa
+China University of Mining and Technology
+"Goldsmiths
+Indian Institute of Technology Hyderabad
+Jeonbuk National University
+Prince Sultan University
+Princess Nourah bint Abdulrahman University
+"University of Agriculture
+University of New Brunswick
+Chandigarh University
+Norwegian University of Life Sciences
+Pakistan Institute of Engineering and Applied Sciences
+Shiraz University
+Universidad Central de Venezuela
+Universidad de La Habana
+Universidad Panamericana
+Universidade Federal de S�o Paulo
+Universidade Federal do Rio Grande Do Sul
+University of Brescia
+University of Greenwich
+University of Siena
+Beijing University of Chemical Technology
+Dongguk University
+Lebanese American University
+National Institute of Technology Tiruchirappalli
+Taras Shevchenko National University of Kyiv
+University of Nebraska - Lincoln
+Ahlia University
+American University
+COMSATS University Islamabad
+Czech University of Life Sciences in Prague
+De Montfort University
+"Lingnan University
+Nanjing Agricultural University
+Plekhanov Russian University of Economics
+Saint Joseph University of Beirut
+The National University of Science and Technology MISIS
+Ton Duc Thang University
+Universit� de Franche-Comt�
+University of Mumbai
+Budapest University of Technology and Economics
+Diponegoro University
+Effat University
+Jadavpur University
+Konkuk University
+Lanzhou University
+Middlesex University
+Riga Technical University
+Universit� de Lille
+Universit� de Rennes 1
+University of Modena and Reggio Emilia
+University of Trieste
+Universitat Rovira i Virgili
+Universit� C�te d\'Azur
+University of Belgrade
+Altai State University
+Universidad Cat�lica Andres Bello
+Universidad de Montevideo
+Universit�t Regensburg
+Universiti Malaysia Pahang
+University of the West of England
+V. N. Karazin Kharkiv National University
+Victoria University
+Vytautas Magnus University
+Instituto Tecnol�gico Aut�nomo de M�xico
+Kaunas University of Technology
+Technische Universit�t Braunschweig
+Tokyo University of Science
+Universidade de Bras�lia
+Universita' Politecnica delle Marche
+University of Calcutta
+University of Engineering & Technology
+University of Malta
+University of Messina
+"Adam Mickiewicz University
+Bangladesh University of Engineering and Technology
+King Faisal University
+Nanjing University of Aeronautics and Astronautics
+"University of Colorado
+University of Patras
+Addis Ababa University
+Bournemouth University
+Chiba University
+China University of Geosciences
+Colegio de M�xico
+Holy Spirit University of Kaslik
+Universidad del Rosario
+Universit� de Tunis El Manar
+"University of Maryland
+University of Pecs
+Verona University
+Babes-Bolyai University
+Kasetsart University
+National University of Uzbekistan
+Qassim University
+The New School
+Universidad de Belgrano
+Universidade Federal de Santa Catarina
+University of Latvia
+University of Mons
+Z�rcher Hochschule Winterthur
+Alfaisal University
+Ivane Javakhishvili Tbilisi State University
+Keele University
+Sechenov University
+Universidad de Antioquia
+Vellore Institute of Technology
+Al-Ahliyya Amman University
+Alexandria University
+Ankara �niversitesi
+Asia University Taiwan
+Beijing University of Technology
+Belarusian National Technical University
+"Birla Institute of Technology and Science
+Edinburgh Napier University
+Gdansk University of Technology
+Huazhong Agricultural University
+Immanuel Kant Baltic Federal University
+Instituto Polit�cnico Nacional
+Jouf University
+Khoja Akhmet Yassawi International Kazakh-Turkish University
+Kuwait University
+Liverpool John Moores University
+London South Bank University
+Maynooth University
+"National Technical University of Ukraine ""Igor Sikorsky Kyiv Polytechnic Institute"""
+Ocean University of China
+Philipps-Universit�t Marburg
+Pontificia Universidad Cat�lica de Valpara�so
+Rutgers University�Newark
+The Catholic University of Korea
+Toronto Metropolitan University
+TU Dortmund University
+Universidad An�huac M�xico
+Universidad Iberoamericana IBERO
+Universidad San Francisco de Quito
+Universit� degli Studi di Perugia
+Universitas Brawijaya
+Universit�t Duisburg-Essen
+Universit�t Rostock
+Universit� de Lorraine
+Universiti Tunku Abdul Rahman
+University of Alaska Fairbanks
+University of Alicante
+University of Baghdad
+University of Bari
+University of Brighton
+University of Bucharest
+University of Hyderabad
+University of Petroleum and Energy Studies
+University of Salerno
+University of Stavanger
+University of Ulsan
+Wuhan University of Technology
+AGH University of Science and Technology
+Al-Quds University
+Applied Science Private University - Jordan
+Charles Sturt University
+Chonnam National University
+Chungnam National University
+CY Cergy Paris University
+Donghua University
+Gulf University for Science and Technology
+Jamia Millia Islamia
+Karaganda State Technical University
+Kyrgyz Russian Slavic University
+Mendel University in Brno
+Nagasaki University
+Northwest Agriculture and Forestry University
+North-West University
+Okayama University
+Pavol Jozef _af�rik University in Ko_ice
+Poznan University of Life Sciences
+Shahid Beheshti University
+Swarthmore College
+Technological University Dublin
+Thapar Institute of Engineering & Technology
+Tokyo University of Agriculture and Technology
+Universidad de Valladolid
+Universidad ORT Uruguay
+Universita' degli Studi di Ferrara
+Universit� de Nantes
+Universit� de Sherbrooke
+Universit� du Qu�bec
+University at Albany SUNY
+University Duesseldorf
+University of Dubai
+UNIVERSITY OF GDANSK
+University of Ghana
+University of Hertfordshire
+University of Lincoln
+University of Palermo
+University of Santo Tomas
+University of South Africa
+University of Wroclaw
+"Vietnam National University
+Vilnius Gediminas Technical University
+Yildiz Technical University
+Australian Catholic University
+Beijing Jiaotong University
+Beijing University of Posts and Telecommunications
+Catania University
+Future University in Egypt
+Gazi �niversitesi
+Georgian Technical University
+German Jordanian University
+Imam Mohammad Ibn Saud Islamic University � IMSIU
+Kanazawa University
+Karaganda Buketov University
+Kyrgyz-Turkish Manas University
+Makerere University
+"Manipal Academy of Higher Education
+National Research Saratov State University
+Nicolaus Copernicus University
+North South University
+Osaka Metropolitan University
+Princess Sumaya University for Technology
+Ritsumeikan Asia Pacific University
+Robert Gordon University
+South Ural State University
+Universidad Cat�lica del Uruguay
+"Universidad Central ""Marta Abreu"" de Las Villas"
+Universidad EAFIT
+Universidad Externado de Colombia
+Universidad Nacional de C�rdoba - UNC
+Universidad Nacional Mayor de San Marcos
+Universidad Pontificia Bolivariana
+Universidade Cat�lica Portuguesa - UCP
+Universidade de Vigo
+Universit� degli Studi della Tuscia
+Universit� degli studi Roma Tre
+"University of Alabama
+University of Calabria
+University of East London
+University of Hail
+University of Lodz
+University of Maribor
+University of Murcia
+University of Nairobi
+University of Peshawar
+University of Salford
+University Paris 2 Panth�on-Assas
+Viet Nam National University Ho Chi Minh City
+Wroclaw University of Science and Technology
+Yerevan State University
+Yokohama City University
+Almaty Technological University
+Athens University of Economics and Business
+Baku State University
+Bina Nusantara University
+Clark University
+D. Serikbayev East Kazakhstan state technical university
+Ferdowsi University of Mashhad
+Financial University under the Government of the Russian Federation
+Hallym University
+Indian Institute of Technology Bhubaneswar
+Instituto Tecnol�gico de Buenos Aires
+Khon Kaen University
+King Mongkut's University of Technology Thonburi
+Kumamoto University
+Mansoura University
+Niigata University
+Northern Borders University
+Pontificia Universidad Cat�lica del Ecuador
+Prince of Songkla University
+"Queen Margaret University
+Rhodes University
+Riga Stradins University
+S.D. Asfendiyarov Kazakh National Medical University
+Saveetha Institute of Medical and Technical Sciences
+Sophia University
+Southern Federal University
+St. Louis University
+The University of Alabama
+The University of Lahore
+Universidad Aut�noma Metropolitana
+Universidad de C�rdoba - Espa�a
+Universidad de La Sabana
+Universidad de Le�n
+Universidad de los Andes - Chile
+Universidad de San Andr�s - UdeSA
+Universidad Nacional de Rosario
+Universidad T�cnica Federico Santa Mar�a
+Universidad Torcuato Di Tella
+Universit� Sorbonne Paris Nord
+Universit� Toulouse 1 Capitole
+Universiti Pendidikan Sultan Idris
+University of Bahrain
+University of Central Lancashire
+University of Colombo
+University of Parma
+University of Regina
+University of South Bohemia
+University of the Western Cape
+Yarmouk University
+Yeungnam University
+Al-Azhar University
+Aligarh Muslim University
+Amity University
+Amrita Vishwa Vidyapeetham
+An-Najah National University
+"Arab Academy for Science
+Assiut University
+Azerbaijan State Oil and Industry University
+Azerbaijan State University of Economics
+Banaras Hindu University
+Bielefeld University
+Binghamton University SUNY
+Birmingham City University
+BRAC University
+Canterbury Christ Church University
+Chang Jung Christian University
+Chung Yuan Christian University
+Chungbuk National University
+College of William and Mary
+Corvinus University of Budapest
+Cracow University of Technology
+Dankook University
+EGE UNIVERSITY
+Escuela Superior Polit�cnica del Litoral
+Gebze Technical University
+Gifu University
+Glasgow Caledonian University
+Gunma University
+Guru Gobind Singh Indraprastha University
+Harbin Engineering University
+Hohai University
+Hungarian University of Agriculture and Life Sciences
+Indiana University�Purdue University Indianapolis
+International Christian University
+International Islamic University Islamabad
+Islamic University of Madinah
+"ITESO
+Jiangnan University
+Kagoshima University
+Kangwon National University
+Kazakh-British Technical University
+Kent State University
+Kyushu Institute of Technology
+Leeds Beckett University
+Lobachevsky University
+Lodz University of Technology
+London Metropolitan University
+Loyola University Chicago
+Lviv Polytechnic National University
+Marmara University
+Multimedia University
+Mustansiriyah University
+Mutah University
+Mykolas Romeris University
+Nanjing Normal University
+Narxoz University
+National Chung Cheng University
+"National Technical University ""Kharkiv Polytechnic Institute"""
+National University of Kyiv-Mohyla Academy
+NJSC KIMEP University
+Northern Arizona University
+Northwest University
+O.P. Jindal Global University
+Panjab University
+Paul Val�ry University Montpellier
+Pontif�cia Universidade Cat�lica de S�o Paulo
+Poznan University of Technology
+Russian Presidential Academy of National Economy and Public Administration
+Saint Petersburg Electrotechnical University ETU-LETI
+Saint-Petersburg Mining University
+Samara National Research University
+San Diego State University
+Sheffield Hallam University
+Shinshu University
+"Siberian Federal University
+Silesian University of Technology
+Slovak University of Agriculture in Nitra
+Slovak University of Technology in Bratislava
+Sohar University
+Soonchunhyang University
+Southwest University
+SRM INSTITUTE OF SCIENCE AND TECHNOLOGY
+Sumy State University
+Sungshin Women's University
+Sz�chenyi Istv�n University
+Taibah University
+Tallinn University
+Technical University of Kosice
+Tecnol�gico de Costa Rica -TEC
+Telkom University
+The Hashemite University
+The University of Northampton
+The University of Texas at Arlington
+Tokushima University
+Tokyo Metropolitan University
+Universidad Andr�s Bello
+Universidad Austral de Chile
+Universidad Aut�noma Chapingo
+Universidad Aut�noma de Nuevo Le�n
+Universidad Aut�noma del Estado de M�xico
+Universidad de Castilla-La Mancha
+Universidad de Guadalajara
+Universidad de La Frontera
+Universidad de las Am�ricas Puebla
+Universidad de Lima
+Universidad de Los Andes -
+Universidad de Oviedo
+Universidad de Puerto Rico
+Universidad de Talca
+Universidad del Norte
+Universidad del Pac�fico
+Universidad del Valle
+Universidad Diego Portales
+Universidad ICESI
+Universidad Nacional de Cuyo
+Universidad Nacional de la Asunci�n
+Universidad Nacional de San Luis
+Universidad Nacional del Centro de la Provincia de Buenos Aires
+Universidad Peruana Cayetano Heredia
+Universidad Rey Juan Carlos
+Universidad Sim�n Bol�var
+Universidad Tecnol�gica de Panam�
+Universidad Tecnol�gica Nacional
+Universidade da Coru�a
+Universidade Federal de Pernambuco
+Universidade Federal de S�o Carlos
+Universidade Federal do Paran� - UFPR
+Universidade Federal Fluminense
+"Universita' degli Studi ""G. d'Annunzio"" Chieti Pescara"
+Universit� degli Studi di Udine
+Universit� del Salento
+Universitas Hasanuddin
+Universitas Sebelas Maret
+Universitat de Lleida
+Universit�t Siegen
+Universit� de Caen Normandie
+Universit� de Poitiers
+Universit� de Sfax
+Universit� de Sousse
+Universit� de Toulouse II-Le Mirail
+Universit� de Tunis
+Universit� Lumi�re Lyon 2
+Universit� Mohammed V de Rabat
+Universit� Paris-Nanterre
+Universiti Malaysia Sabah
+Universiti Malaysia Sarawak
+Universiti Malaysia Terengganu
+Universiti Tun Hussein Onn University of Malaysia
+University of Arkansas Fayetteville
+University of Derby
+University of Deusto
+University of Hradec Kralove
+University of Ibadan
+University of Idaho
+University of Ioannina
+University of Karachi
+University of Khartoum
+University of Lagos
+University of Louisville
+University of Massachusetts Boston
+"University of Missouri
+University of Naples Parthenope
+University of New England Australia
+University of New Hampshire
+University of North Carolina at Charlotte
+University of Novi Sad
+University of Sarajevo
+University of Seoul
+University of Tabuk
+University of Texas El Paso
+University of the Free State
+University of the Sunshine Coast
+University of Toledo
+University of Warmia and Mazury in Olsztyn
+University of Wolverhampton
+University of Wyoming
+University of _ilina
+VSB - Technical University of Ostrava
+Warsaw University of Life Sciences � SGGW
+Xi'an Jiaotong Liverpool University
+Yokohama National University
+Al-Balqa Applied University
+Alexandru Ioan Cuza University
+Anadolu University
+Aoyama Gakuin University
+Ataturk University
+Atma Jaya Catholic University Jakarta
+Bahauddin Zakariya University
+Beijing Foreign Studies University
+Beijing University of Chinese Medicine
+Belarusian State University of Informatics and Radioelectronics
+Benem�rita Universidad Aut�noma de Puebla
+Birzeit university
+British University in Egypt
+Central Michigan University
+Chaoyang University of Technology
+China University of Political Science and Law
+Chitkara University
+Chittagong University of Engineering and Technology
+Cleveland State University
+Cukurova University
+CUNY The City College of New York
+Daffodil International University
+Damascus University
+Dokuz Eyl�l �niversitesi
+Doshisha University
+Erciyes �niversitesi
+Escuela Polit�cnica Nacional
+Feng Chia University
+Florida Atlantic University - Boca Raton
+Fu Jen Catholic University
+Fundaci�n CEU San Pablo
+German University in Cairo
+Hanoi University of Science and Technology
+Harper Adams University
+Helwan University
+Hongik University
+Hue University
+Instituto Tecnol�gico de Santo Domingo
+Istanbul Aydin University
+Istanbul Bilgi �niversitesi
+Ivan Franko National University of Lviv
+Izmir Institute of Technology
+Jahangirnagar University
+Jamia Hamdard
+Jeju National University
+Kazakh Ablai Khan University of International Relations and World Languages
+Kazan National Research Technological University
+Kenyatta University
+Kharkiv National University of Radio Electronics
+Khulna University
+Khulna University of Engineering and Technology
+Kindai University
+King Mongkut\'s Institute of Technology Ladkrabang
+King Mongkut's University of Technology North Bangkok
+Kookmin University
+Kwame Nkrumah University of Science and Technology
+Kyoto Institute of Technology
+Kyrgyz State Technical University
+Meiji University
+Mendeleev University of Chemical Technology
+Moscow Pedagogical State University
+Nagoya Institute of Technology
+National Dong Hwa University
+National Research University Moscow Power Engineering Institute
+National Taipei University
+National Taiwan Ocean University
+Novosibirsk State Technical University
+�buda University
+Odessa I.I. Mechnikov National University
+OSMANIA UNIVERSITY
+Perm State National Research University
+Pondicherry University
+Pontificia Universidad Catolica Madre y Maestra
+Pontif�cia Universidade Cat�lica do Rio Grande do Sul
+Pukyong National University
+Rajshahi University
+Rikkyo University
+Saitama University
+Saken Seifullin Kazakh Agrotechnical University
+Sathyabama Institute of Science and Technology
+Seattle University
+Seoul National University of Science and Technology
+Shahjalal University of Science and Technology
+Siksha 'O' Anusandhan
+Sookmyung Women's University
+Suez Canal University
+Suleyman Demirel University
+"Suleyman Demirel University
+Suranaree University of Technology
+Tamkang University
+Tanta University
+Technical University of Cluj-Napoca
+Technical University of Liberec
+Technical University of Lublin
+Technische Universit�t Kaiserslautern
+"The ""Gheorghe Asachi"" Technical University of Iasi"
+The Herzen State Pedagogical University of Russia
+The Josip Juraj Strossmayer University of Osijek
+"The National Research University ""Belgorod State University"""
+Tokai University
+Tomas Bata University in Zlin
+Toraighyrov University
+Transilvania University of Brasov
+Tunghai University
+Universidad Aut�noma de Guadalajara
+Universidad Aut�noma del Estado de Hidalgo
+Universidad Cat�lica del Norte
+Universidad Central del Ecuador
+Universidad de Las Am�ricas
+Universidad de Monterrey
+Universidad de Oriente Santiago de Cuba
+Universidad de Panama
+Universidad de Piura
+Universidad de San Carlos de Guatemala - USAC
+Universidad de Tarapaca
+Universidad de Valpara�so
+Universidad del B�o-B�o
+Universidad del Desarrollo
+Universidad del Salvador
+Universidad del Zulia
+Universidad Industrial de Santander - UIS
+Universidad La Salle
+Universidad Latinoamericana de Ciencia y Tecnolog�a Costa Rica
+Universidad Mayor de San Andr�s
+Universidad Metropolitana
+Universidad Nacional Agraria la Molina
+Universidad Nacional Aut�noma de Honduras
+Universidad Nacional de Ingenier�a Peru
+Universidad Nacional de Mar del Plata
+Universidad Nacional de R�o Cuarto - UNRC
+Universidad Nacional de San Mart�n
+Universidad Nacional del Litoral
+Universidad Nacional del Sur
+"Universidad Nacional
+Universidad Peruana de Ciencias Aplicadas
+Universidade do Estado do Rio de Janeiro
+Universidade Federal da Bahia
+Universidade Federal de Juiz de Fora-
+Universidade Federal de Pelotas
+Universidade Federal de Santa Maria
+Universidade Federal de Vi�osa
+Universidade Federal do Cear�
+Universidade Federal do Rio Grande Do Norte
+Universidade Presbiteriana Mackenzie
+Universit� degli studi di Bergamo
+Universitas Islam Indonesia
+Universitas Muhammadiyah Yogyakarta
+Universitas Pendidikan Indonesia
+Universitas Sumatera Utara
+Universitatea de Vest din Timisoara / West University of Timisoara
+Universit� de Limoges
+Universit� Jean Moulin Lyon 3
+Universiti Kuala Lumpur
+Universiti Malaysia Perlis
+Universiti Teknikal Malaysia Melaka
+University of Babylon
+University of Basrah
+University of Bialystok
+University of International Business and Economics
+University of Kragujevac
+University of Kufa
+University of Miskolc
+University of Missouri Saint Louis
+University of Ni_
+University of North Carolina at Greensboro
+University of Ostrava
+University of Pannonia
+University of Pardubice
+University of Peradeniya
+University of Primorska
+University of Rijeka
+University of Rzesz�w
+University of San Diego
+University of Silesia in Katowice
+University of South Alabama
+University of Split
+University of Sri Jayewardenepura
+University of the Pacific
+University of Tyumen
+University of West Bohemia
+University of Wisconsin Milwaukee
+University POLITEHNICA of Bucharest
+Vancouver Island University
+Voronezh State University
+Western Michigan University
+Yamaguchi University
+Yogyakarta State University
+Youngsan University
+Yuan Ze University
+Zagazig University
+Don State Technical University
+Akdeniz �niversitesi
+California State University - Los Angeles
+"California State University
+Cat�lica de C�rdoba
+East West University
+Fundaci�n Universidad De Bogot�-Jorge Tadeo Lozano
+Humboldt State University
+"Indian Institute of Information Technology
+Indiana State University
+International University of Business Agriculture and Technology
+Irkutsk State University
+Korkyt Ata Kyzylorda University
+Kwansei Gakuin University
+Lucian Blaga University of Sibiu
+M.Kh. Dulaty Taraz Regional University
+MIREA - Russian Technological University
+Moscow City University
+Naresuan University
+National University of Life and Environmental Sciences of Ukraine
+"National University of Modern Languages
+Nova Southeastern University
+Pontif�cia Universidade Cat�lica de Minas Gerais � PUC Minas
+Pontificia Universidade Cat�lica do Campinas - PUC Campinas
+Pontif�cia Universidade Cat�lica do Paran�
+Russian State Agrarian University - Moscow Timiryazev Agricultural Academy
+Russian State University for the Humanities
+Sakarya University
+Shanghai Normal University
+Shibaura Institute of Technology
+Silpakorn University
+Soongsil University
+Stamford University Bangladesh
+State University of Malang
+Stefan cel Mare University of Suceava
+"The University of Notre Dame
+Udayana University
+United International University
+Universidad Alberto Hurtado
+Universidad Aut�noma de Aguascalientes
+Universidad Aut�noma de Baja California
+Universidad Aut�noma de Chile
+Universidad Aut�noma de Quer�taro
+Universidad Aut�noma de San Luis de Potos�
+Universidad Autonoma de Yucatan
+Universidad Aut�noma del Estado de Morelos
+Universidad Bernardo O'Higgins
+"Universidad Cat�lica Boliviana ""San Pablo"""
+Universidad Cat�lica de Colombia
+Universidad Cat�lica de La Sant�sima Concepci�n - UCSC
+Universidad Cat�lica de Santiago de Guayaquil
+Universidad Cat�lica de Temuco
+Universidad Central de Chile
+Universidad de Caldas
+Universidad de Carabobo
+Universidad de Cartagena
+Universidad de C�rdoba - Colombia
+Universidad de Cuenca
+Universidad de Guanajuato
+Universidad de La Salle
+Universidad de La Serena
+Universidad de las Fuerzas Armadas ESPE
+Universidad de Medell�n
+Universidad de Santander - UDES
+Universidad de Sonora
+Universidad del Cauca
+Universidad del Valle de Mexico
+Universidad Michoacana de San Nicol�s de Hidalgo
+Universidad Nacional de Quilmes
+Universidad Nacional de Tucum�n
+Universidad Nacional del Comahue
+UNIVERSIDAD POLITECNICA SALESIANA
+Universidad Popular Aut�noma del Estado de Puebla
+Universidad San Ignacio de Loyola
+Universidad Tecnica Particular De Loja
+Universidad Tecnol�gica de Bol�var
+"Universidad Tecnol�gica de la Habana Jos� Antonio Echeverr�a
+Universidad Tecnol�gica de Pereira
+Universidad Veracruzana
+Universidade do Estado de Santa Catarina
+Universidade Estadual de Londrina
+Universidade Federal da Para�ba
+Universidade Federal de Goi�s
+Universidade Federal de Uberl�ndia
+Universidade Federal do Estado do Rio de Janeiro - UNIRIO
+Universidade Federal do Par� - UFPA
+Universitas Andalas
+Universitas Kristen Petra
+Universitas Muhammadiyah Surakarta
+Universiti Sains Islam Malaysia
+University of Central Oklahoma
+University of Craiova
+University of Lampung
+University of Mataram
+University of Montana Missoula
+University of Oradea
+University of San Carlos
+"University Politehnica of Timisoara
+Western Washington University

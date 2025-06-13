@@ -171,5 +171,5 @@ async function parseResult(inputFile: string) {
   );
 }
 
-// generateBatchRequests("./posts2.json", "./batch_requests2.jsonl");
-parseResult("./batch_results_tag.json");
+generateBatchRequests("./xxx/posts.json", "./batch_requests2.jsonl");
+// parseResult("./batch_results_tag.json");
